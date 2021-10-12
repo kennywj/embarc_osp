@@ -1,83 +1,76 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="ss__uart_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="ss__uart_8h" kind="file" language="C++">
     <compoundname>ss_uart.h</compoundname>
-    <includes refid="dev__uart_8h" local="yes">ip/ip_hal/inc/dev_uart.h</includes>
-    <includedby refid="emsdp_2drivers_2ip_2subsystem_2uart_2dfss__uart__obj_8c" local="yes">dfss_uart_obj.c</includedby>
-    <includedby refid="iotdk_2drivers_2ip_2subsystem_2uart_2dfss__uart__obj_8c" local="yes">dfss_uart_obj.c</includedby>
-    <includedby refid="ss__uart_8c" local="yes">ss_uart.c</includedby>
+    <includes refid="dev__uart_8h" local="yes">device/ip_hal/dev_uart.h</includes>
+    <includedby refid="emsdp_2drivers_2ip_2subsystem_2uart_2dfss__uart__obj_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/emsdp/drivers/ip/subsystem/uart/dfss_uart_obj.c</includedby>
+    <includedby refid="iotdk_2drivers_2ip_2subsystem_2uart_2dfss__uart__obj_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.c</includedby>
     <incdepgraph>
-      <node id="7931">
-        <label>ss_uart.h</label>
-        <link refid="ss_uart.h"/>
-        <childnode refid="7932" relation="include">
-        </childnode>
-      </node>
-      <node id="7934">
+      <node id="4">
         <label>stdint.h</label>
       </node>
-      <node id="7932">
-        <label>ip/ip_hal/inc/dev_uart.h</label>
+      <node id="2">
+        <label>device/ip_hal/dev_uart.h</label>
         <link refid="dev__uart_8h"/>
-        <childnode refid="7933" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="7933">
-        <label>dev_common.h</label>
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h</label>
+        <link refid="ss__uart_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>device/dev_common.h</label>
         <link refid="dev__common_8h"/>
-        <childnode refid="7934" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="7935">
-        <label>ss_uart.h</label>
-        <link refid="ss_uart.h"/>
-        <childnode refid="7936" relation="include">
+      <node id="3">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.c</label>
+        <link refid="iotdk_2drivers_2ip_2subsystem_2uart_2dfss__uart__obj_8c"/>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h</label>
+        <link refid="ss__uart_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="7937" relation="include">
-        </childnode>
-        <childnode refid="7938" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="7936">
-        <label>dfss_uart_obj.c</label>
-        <link refid="emsdp_2drivers_2ip_2subsystem_2uart_2dfss__uart__obj_8c_source"/>
-      </node>
-      <node id="7937">
-        <label>dfss_uart_obj.c</label>
-        <link refid="iotdk_2drivers_2ip_2subsystem_2uart_2dfss__uart__obj_8c_source"/>
-      </node>
-      <node id="7938">
-        <label>ss_uart.c</label>
-        <link refid="ss__uart_8c_source"/>
+      <node id="2">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/emsdp/drivers/ip/subsystem/uart/dfss_uart_obj.c</label>
+        <link refid="emsdp_2drivers_2ip_2subsystem_2uart_2dfss__uart__obj_8c"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structss__uart__dev__context" prot="public">ss_uart_dev_context</innerclass>
       <sectiondef kind="define">
-      <memberdef kind="define" id="ss__uart_8h_1a848c268888303787dcd23ebf3093011c" prot="public" static="no">
+      <memberdef kind="define" id="ss__uart_8h_a848c268888303787dcd23ebf3093011c_1a848c268888303787dcd23ebf3093011c" prot="public" static="no">
         <name>SS_UART_FLAG_TX</name>
-        <initializer>(1 &lt;&lt; 0) /* interrupt tx */</initializer>
+        <initializer>(1 &lt;&lt; 0)                /* interrupt tx */</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" line="36" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" bodystart="36" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" line="36" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" bodystart="36" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="ss__uart_8h_1a7cb08dcf885a6b4ba97d4ab95fa02872" prot="public" static="no">
+      <memberdef kind="define" id="ss__uart_8h_a7cb08dcf885a6b4ba97d4ab95fa02872_1a7cb08dcf885a6b4ba97d4ab95fa02872" prot="public" static="no">
         <name>SS_UART_FLAG_RX</name>
-        <initializer>(1 &lt;&lt; 1) /* interrupt rx */</initializer>
+        <initializer>(1 &lt;&lt; 1)                /* interrupt rx */</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" line="37" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" bodystart="37" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" line="37" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" bodystart="37" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="ss__uart_8h_1a1927b0fb2e428ae5e9359fe4d1cffc38" prot="public" static="no">
+      <memberdef kind="define" id="ss__uart_8h_a1927b0fb2e428ae5e9359fe4d1cffc38_1a1927b0fb2e428ae5e9359fe4d1cffc38" prot="public" static="no">
         <name>SS_UART_FLAG_BUSY</name>
         <initializer>(1 &lt;&lt; 2)</initializer>
         <briefdescription>
@@ -86,20 +79,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" line="38" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" line="38" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" bodystart="38" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="ss__uart_8h_1af4ae5cea4e250c2ebe0a5b3adc2ade38" prot="public" static="no">
+      <memberdef kind="define" id="ss__uart_8h_af4ae5cea4e250c2ebe0a5b3adc2ade38_1af4ae5cea4e250c2ebe0a5b3adc2ade38" prot="public" static="no">
         <name>SS_UART_FLAG_TX_RX</name>
-        <initializer>(1 &lt;&lt; 3) /* both tx and rx */</initializer>
+        <initializer>(1 &lt;&lt; 3)        /* both tx and rx */</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" line="39" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" line="39" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" bodystart="39" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="ss__uart_8h_1a265d4df333b0fd421d66f0a1c105141c" prot="public" static="no">
+      <memberdef kind="define" id="ss__uart_8h_a265d4df333b0fd421d66f0a1c105141c_1a265d4df333b0fd421d66f0a1c105141c" prot="public" static="no">
         <name>SS_UART_FLAG_ERROR</name>
         <initializer>(1 &lt;&lt; 4)</initializer>
         <briefdescription>
@@ -108,13 +101,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" line="40" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" bodystart="40" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" line="40" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="ss__uart_8h_1ad4b7a27864674a02e197a3a7a38f00a1" prot="public" static="no">
+      <memberdef kind="typedef" id="ss__uart_8h_a5bc322c05811e8a2dbe070e9385912dd_1a5bc322c05811e8a2dbe070e9385912dd" prot="public" static="no">
         <type>struct <ref refid="structss__uart__dev__context" kindref="compound">ss_uart_dev_context</ref></type>
-        <definition>typedef struct ss_uart_dev_context  SS_UART_DEV_CONTEXT</definition>
+        <definition>typedef struct ss_uart_dev_context SS_UART_DEV_CONTEXT</definition>
         <argsstring></argsstring>
         <name>SS_UART_DEV_CONTEXT</name>
         <briefdescription>
@@ -123,17 +116,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" line="58" column="1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" line="56" column="21"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
-      <memberdef kind="function" id="ss__uart_8h_1a0e895828c5db1a98d811bd88a43b9120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__uart_8h_a0e895828c5db1a98d811bd88a43b9120_1a0e895828c5db1a98d811bd88a43b9120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
         <definition>int32_t ss_uart_open</definition>
         <argsstring>(SS_UART_DEV_CONTEXT *ctx, uint32_t baud)</argsstring>
         <name>ss_uart_open</name>
         <param>
-          <type><ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__uart_8h_a5bc322c05811e8a2dbe070e9385912dd_1a5bc322c05811e8a2dbe070e9385912dd" kindref="member">SS_UART_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <param>
@@ -146,15 +139,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" line="60" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.c" bodystart="203" bodyend="249"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" line="58" column="16" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" declline="58" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="ss__uart_8h_1a17aa053769683f7058f32d304cf0c919" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__uart_8h_a17aa053769683f7058f32d304cf0c919_1a17aa053769683f7058f32d304cf0c919" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
         <definition>int32_t ss_uart_close</definition>
         <argsstring>(SS_UART_DEV_CONTEXT *ctx)</argsstring>
         <name>ss_uart_close</name>
         <param>
-          <type><ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__uart_8h_a5bc322c05811e8a2dbe070e9385912dd_1a5bc322c05811e8a2dbe070e9385912dd" kindref="member">SS_UART_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <briefdescription>
@@ -163,15 +156,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" line="61" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.c" bodystart="251" bodyend="263"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" line="59" column="16" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" declline="59" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="ss__uart_8h_1a3a5a86a3504641ee59dd665f232dda0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__uart_8h_a3a5a86a3504641ee59dd665f232dda0a_1a3a5a86a3504641ee59dd665f232dda0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
         <definition>int32_t ss_uart_control</definition>
         <argsstring>(SS_UART_DEV_CONTEXT *ctx, uint32_t ctrl_cmd, void *param)</argsstring>
         <name>ss_uart_control</name>
         <param>
-          <type><ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__uart_8h_a5bc322c05811e8a2dbe070e9385912dd_1a5bc322c05811e8a2dbe070e9385912dd" kindref="member">SS_UART_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <param>
@@ -188,15 +181,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" line="62" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.c" bodystart="265" bodyend="351"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" line="60" column="16" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" declline="60" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="ss__uart_8h_1af5adaadcd3b185671ae439df50b6a9d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__uart_8h_af5adaadcd3b185671ae439df50b6a9d0_1af5adaadcd3b185671ae439df50b6a9d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
         <definition>int32_t ss_uart_write</definition>
         <argsstring>(SS_UART_DEV_CONTEXT *ctx, const void *data, uint32_t len)</argsstring>
         <name>ss_uart_write</name>
         <param>
-          <type><ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__uart_8h_a5bc322c05811e8a2dbe070e9385912dd_1a5bc322c05811e8a2dbe070e9385912dd" kindref="member">SS_UART_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <param>
@@ -213,15 +206,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" line="63" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.c" bodystart="353" bodyend="375"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" line="61" column="16" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" declline="61" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="ss__uart_8h_1a9a0a44b9660a3fccb0534e19231ed3d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__uart_8h_a9a0a44b9660a3fccb0534e19231ed3d8_1a9a0a44b9660a3fccb0534e19231ed3d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
         <definition>int32_t ss_uart_read</definition>
         <argsstring>(SS_UART_DEV_CONTEXT *ctx, void *data, uint32_t len)</argsstring>
         <name>ss_uart_read</name>
         <param>
-          <type><ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__uart_8h_a5bc322c05811e8a2dbe070e9385912dd_1a5bc322c05811e8a2dbe070e9385912dd" kindref="member">SS_UART_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <param>
@@ -238,15 +231,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" line="64" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.c" bodystart="377" bodyend="400"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" line="62" column="16" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" declline="62" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="ss__uart_8h_1a96d59653ffa6e7cfa08cc2effa59732c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__uart_8h_a96d59653ffa6e7cfa08cc2effa59732c_1a96d59653ffa6e7cfa08cc2effa59732c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void ss_uart_tx_cb</definition>
         <argsstring>(SS_UART_DEV_CONTEXT *ctx, void *param)</argsstring>
         <name>ss_uart_tx_cb</name>
         <param>
-          <type><ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__uart_8h_a5bc322c05811e8a2dbe070e9385912dd_1a5bc322c05811e8a2dbe070e9385912dd" kindref="member">SS_UART_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <param>
@@ -259,15 +252,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" line="65" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.c" bodystart="402" bodyend="411"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" line="63" column="13" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" declline="63" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="ss__uart_8h_1aada82f9ba88cddc2007622e3dc4bfd30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__uart_8h_aada82f9ba88cddc2007622e3dc4bfd30_1aada82f9ba88cddc2007622e3dc4bfd30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void ss_uart_rx_cb</definition>
         <argsstring>(SS_UART_DEV_CONTEXT *ctx, void *param)</argsstring>
         <name>ss_uart_rx_cb</name>
         <param>
-          <type><ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__uart_8h_a5bc322c05811e8a2dbe070e9385912dd_1a5bc322c05811e8a2dbe070e9385912dd" kindref="member">SS_UART_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <param>
@@ -280,15 +273,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" line="66" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.c" bodystart="413" bodyend="422"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" line="64" column="13" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" declline="64" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="ss__uart_8h_1aa4714a0d9680d2887651752e327bf3ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__uart_8h_aa4714a0d9680d2887651752e327bf3ea_1aa4714a0d9680d2887651752e327bf3ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void ss_uart_err_cb</definition>
         <argsstring>(SS_UART_DEV_CONTEXT *ctx, void *param)</argsstring>
         <name>ss_uart_err_cb</name>
         <param>
-          <type><ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__uart_8h_a5bc322c05811e8a2dbe070e9385912dd_1a5bc322c05811e8a2dbe070e9385912dd" kindref="member">SS_UART_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <param>
@@ -301,7 +294,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h" line="67" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.c" bodystart="424" bodyend="433"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" line="65" column="13" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h" declline="65" declcolumn="13"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -337,48 +330,46 @@
 <codeline lineno="26"><highlight class="comment"><sp/>*<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS</highlight></codeline>
 <codeline lineno="27"><highlight class="comment"><sp/>*<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
 <codeline lineno="28"><highlight class="comment"><sp/>*</highlight></codeline>
-<codeline lineno="29"><highlight class="comment">---------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_SS_UART_H_</highlight></codeline>
-<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_SS_UART_H_</highlight></codeline>
-<codeline lineno="32"><highlight class="preprocessor"></highlight><highlight class="comment">/*<sp/>the<sp/>wrapper<sp/>of<sp/>subsystem<sp/>uart<sp/>driver<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/>---------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_SS_UART_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_SS_UART_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>the<sp/>wrapper<sp/>of<sp/>subsystem<sp/>uart<sp/>driver<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dev__uart_8h" kindref="compound">ip/ip_hal/inc/dev_uart.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dev__uart_8h" kindref="compound">device/ip_hal/dev_uart.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SS_UART_FLAG_TX<sp/>(1<sp/>&lt;&lt;<sp/>0)<sp/></highlight><highlight class="comment">/*<sp/>interrupt<sp/>tx<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="37"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SS_UART_FLAG_RX<sp/>(1<sp/>&lt;&lt;<sp/>1)<sp/></highlight><highlight class="comment">/*<sp/>interrupt<sp/>rx<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="38"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SS_UART_FLAG_BUSY<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>2)</highlight></codeline>
-<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SS_UART_FLAG_TX_RX<sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>3)<sp/></highlight><highlight class="comment">/*<sp/>both<sp/>tx<sp/>and<sp/>rx<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="40"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SS_UART_FLAG_ERROR<sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>4)</highlight></codeline>
-<codeline lineno="41"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="structss__uart__dev__context" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structss__uart__dev__context" kindref="compound">ss_uart_dev_context</ref></highlight></codeline>
-<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>reg_base;</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="group___d_e_v_i_c_e___h_a_l___c_o_m_m_o_n___d_e_v_i_d_1gae2dabafacb4a0fa4c5d6b7176b542e72" kindref="member">dev_id</ref>;</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>intno;</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>uint16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/>flags;</highlight></codeline>
+<codeline lineno="36" refid="ss__uart_8h_a848c268888303787dcd23ebf3093011c_1a848c268888303787dcd23ebf3093011c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SS_UART_FLAG_TX<sp/>(1<sp/>&lt;&lt;<sp/>0)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>interrupt<sp/>tx<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="ss__uart_8h_a7cb08dcf885a6b4ba97d4ab95fa02872_1a7cb08dcf885a6b4ba97d4ab95fa02872" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SS_UART_FLAG_RX<sp/>(1<sp/>&lt;&lt;<sp/>1)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>interrupt<sp/>rx<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="ss__uart_8h_a1927b0fb2e428ae5e9359fe4d1cffc38_1a1927b0fb2e428ae5e9359fe4d1cffc38" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SS_UART_FLAG_BUSY<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="ss__uart_8h_af4ae5cea4e250c2ebe0a5b3adc2ade38_1af4ae5cea4e250c2ebe0a5b3adc2ade38" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SS_UART_FLAG_TX_RX<sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>3)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>both<sp/>tx<sp/>and<sp/>rx<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="ss__uart_8h_a265d4df333b0fd421d66f0a1c105141c_1a265d4df333b0fd421d66f0a1c105141c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SS_UART_FLAG_ERROR<sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>4)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="structss__uart__dev__context" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structss__uart__dev__context" kindref="compound">ss_uart_dev_context</ref><sp/>{</highlight></codeline>
+<codeline lineno="43" refid="structss__uart__dev__context_1add53e20c205f1377eede5bf8f3cbf466" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structss__uart__dev__context_1add53e20c205f1377eede5bf8f3cbf466" kindref="member">reg_base</ref>;</highlight></codeline>
+<codeline lineno="44" refid="structss__uart__dev__context_1a7102e42de7fe0c04eb3a7abc2d711653" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structss__uart__dev__context_1a7102e42de7fe0c04eb3a7abc2d711653" kindref="member">dev_id</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="structss__uart__dev__context_1a7411da101421f483499b8f5936ba4881" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structss__uart__dev__context_1a7411da101421f483499b8f5936ba4881" kindref="member">intno</ref>;</highlight></codeline>
+<codeline lineno="47" refid="structss__uart__dev__context_1a2d02536de067eaaad4598006ff9a7785" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>uint16_t<sp/><ref refid="structss__uart__dev__context_1a2d02536de067eaaad4598006ff9a7785" kindref="member">flags</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="structss__uart__dev__context_1a237650a29e3d01950cca3817cb64d689" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structss__uart__dev__context_1a237650a29e3d01950cca3817cb64d689" kindref="member">bus_freq</ref>;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>bus_freq;</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___d_e_v_i_c_e___h_a_l___c_o_m_m_o_n_1ga91091c2a8f895b2d00ae61e6b607335e" kindref="member">DEV_CALLBACK</ref><sp/>tx_cb;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___d_e_v_i_c_e___h_a_l___c_o_m_m_o_n_1ga91091c2a8f895b2d00ae61e6b607335e" kindref="member">DEV_CALLBACK</ref><sp/>rx_cb;</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___d_e_v_i_c_e___h_a_l___c_o_m_m_o_n_1ga91091c2a8f895b2d00ae61e6b607335e" kindref="member">DEV_CALLBACK</ref><sp/>err_cb;</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structdev__uart__info" kindref="compound">DEV_UART_INFO</ref><sp/>*info;</highlight></codeline>
-<codeline lineno="58"><highlight class="normal">}<sp/><ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref>;</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/>ss_uart_open(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx,<sp/>uint32_t<sp/>baud);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/>ss_uart_close(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx);</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/>ss_uart_control(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx,<sp/>uint32_t<sp/>ctrl_cmd,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/>ss_uart_write(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data,<sp/>uint32_t<sp/>len);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/>ss_uart_read(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data,<sp/>uint32_t<sp/>len);</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ss_uart_tx_cb(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ss_uart_rx_cb(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ss_uart_err_cb(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_SS_UART_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="51" refid="structss__uart__dev__context_1a4908a8b891ffd450f9d111d04f7472ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DEVICE__HAL__COMMON_gad799b59590746b2af9531e870ae176c8_1gad799b59590746b2af9531e870ae176c8" kindref="member">DEV_CALLBACK</ref><sp/><ref refid="structss__uart__dev__context_1a4908a8b891ffd450f9d111d04f7472ef" kindref="member">tx_cb</ref>;</highlight></codeline>
+<codeline lineno="52" refid="structss__uart__dev__context_1a74d635b42cfaff5656aa166b8f753fd9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DEVICE__HAL__COMMON_gad799b59590746b2af9531e870ae176c8_1gad799b59590746b2af9531e870ae176c8" kindref="member">DEV_CALLBACK</ref><sp/><ref refid="structss__uart__dev__context_1a74d635b42cfaff5656aa166b8f753fd9" kindref="member">rx_cb</ref>;</highlight></codeline>
+<codeline lineno="53" refid="structss__uart__dev__context_1adedb1df28108ad1ce85b6261d9bbdf5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DEVICE__HAL__COMMON_gad799b59590746b2af9531e870ae176c8_1gad799b59590746b2af9531e870ae176c8" kindref="member">DEV_CALLBACK</ref><sp/><ref refid="structss__uart__dev__context_1adedb1df28108ad1ce85b6261d9bbdf5b" kindref="member">err_cb</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="structss__uart__dev__context_1a02d7370d774d7d3bc770f294ad9c1c8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdev__uart__info" kindref="compound">DEV_UART_INFO</ref><sp/>*<ref refid="structss__uart__dev__context_1a02d7370d774d7d3bc770f294ad9c1c8d" kindref="member">info</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}<sp/><ref refid="ss__uart_8h_a5bc322c05811e8a2dbe070e9385912dd_1a5bc322c05811e8a2dbe070e9385912dd" kindref="member">SS_UART_DEV_CONTEXT</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="ss__uart_8h_a0e895828c5db1a98d811bd88a43b9120_1a0e895828c5db1a98d811bd88a43b9120" kindref="member">ss_uart_open</ref>(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx,<sp/>uint32_t<sp/>baud);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="ss__uart_8h_a17aa053769683f7058f32d304cf0c919_1a17aa053769683f7058f32d304cf0c919" kindref="member">ss_uart_close</ref>(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="ss__uart_8h_a3a5a86a3504641ee59dd665f232dda0a_1a3a5a86a3504641ee59dd665f232dda0a" kindref="member">ss_uart_control</ref>(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx,<sp/>uint32_t<sp/>ctrl_cmd,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="ss__uart_8h_af5adaadcd3b185671ae439df50b6a9d0_1af5adaadcd3b185671ae439df50b6a9d0" kindref="member">ss_uart_write</ref>(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data,<sp/>uint32_t<sp/>len);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="ss__uart_8h_a9a0a44b9660a3fccb0534e19231ed3d8_1a9a0a44b9660a3fccb0534e19231ed3d8" kindref="member">ss_uart_read</ref>(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data,<sp/>uint32_t<sp/>len);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="ss__uart_8h_a96d59653ffa6e7cfa08cc2effa59732c_1a96d59653ffa6e7cfa08cc2effa59732c" kindref="member">ss_uart_tx_cb</ref>(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="ss__uart_8h_aada82f9ba88cddc2007622e3dc4bfd30_1aada82f9ba88cddc2007622e3dc4bfd30" kindref="member">ss_uart_rx_cb</ref>(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="ss__uart_8h_aa4714a0d9680d2887651752e327bf3ea_1aa4714a0d9680d2887651752e327bf3ea" kindref="member">ss_uart_err_cb</ref>(<ref refid="structss__uart__dev__context" kindref="compound">SS_UART_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_SS_UART_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/uart/ss_uart.h"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_uart.h"/>
   </compounddef>
 </doxygen>

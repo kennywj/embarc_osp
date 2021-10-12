@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structboot__swap__state" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structboot__swap__state" kind="struct" language="C++" prot="public">
     <compoundname>boot_swap_state</compoundname>
+    <includes refid="bootutil__priv_8h" local="no">bootutil_priv.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structboot__swap__state_1a35e293beeeabecb91a381dd793ba61d3" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -14,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" line="81" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" bodystart="81" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" line="81" column="13" bodyfile="/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" bodystart="81" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboot__swap__state_1a135c47ae5a43d336d5ab62b5e72417bb" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -27,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" line="82" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" bodystart="82" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" line="82" column="13" bodyfile="/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboot__swap__state_1af9fdb9362834412b79bf710a1abafef5" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -40,20 +41,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" line="83" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" bodystart="83" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" line="83" column="13" bodyfile="/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" bodystart="83" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="54">
-        <label>boot_swap_state</label>
-        <link refid="structboot__swap__state"/>
-      </node>
-    </collaborationgraph>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" line="80" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" bodystart="80" bodyend="84"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" line="80" column="22" bodyfile="/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/src/bootutil_priv.h" bodystart="80" bodyend="84"/>
     <listofallmembers>
       <member refid="structboot__swap__state_1a135c47ae5a43d336d5ab62b5e72417bb" prot="public" virt="non-virtual"><scope>boot_swap_state</scope><name>copy_done</name></member>
       <member refid="structboot__swap__state_1af9fdb9362834412b79bf710a1abafef5" prot="public" virt="non-virtual"><scope>boot_swap_state</scope><name>image_ok</name></member>

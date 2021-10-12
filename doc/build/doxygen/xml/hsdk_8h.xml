@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="hsdk_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="hsdk_8h" kind="file" language="C++">
     <compoundname>hsdk.h</compoundname>
-    <includes refid="arc__hs_8h" local="yes">arc_hs.h</includes>
+    <includes refid="arc__hs_8h" local="yes">arc/arc_hs.h</includes>
     <includes refid="hsdk_2drivers_2ip_2designware_2iic_2dw__iic__obj_8h" local="yes">drivers/ip/designware/iic/dw_iic_obj.h</includes>
     <includes refid="hsdk_2drivers_2ip_2designware_2spi_2dw__spi__obj_8h" local="yes">drivers/ip/designware/spi/dw_spi_obj.h</includes>
     <includes refid="hsdk_2drivers_2ip_2designware_2uart_2dw__uart__obj_8h" local="yes">drivers/ip/designware/uart/dw_uart_obj.h</includes>
@@ -13,450 +13,377 @@
     <includes refid="hsdk_2drivers_2sdcard_2sdcard_8h" local="yes">drivers/sdcard/sdcard.h</includes>
     <includes refid="creg__hsdc_8h" local="yes">drivers/creg/creg_hsdc.h</includes>
     <includes refid="cgu__hsdc_8h" local="yes">drivers/cgu/cgu_hsdc.h</includes>
-    <includes refid="hsdk__timer_8h" local="yes">common/hsdk_timer.h</includes>
     <includes refid="hsdk__io_8h" local="yes">common/hsdk_io.h</includes>
-    <includes refid="dev__pinmux_8h" local="yes">dev_pinmux.h</includes>
-    <includes refid="hsdk__hardware_8h" local="yes">hsdk_hardware.h</includes>
-    <includedby refid="hsdk__io_8c" local="yes">hsdk_io.c</includedby>
-    <includedby refid="hsdk_2drivers_2ip_2designware_2gpio_2dw__gpio__obj_8c" local="yes">dw_gpio_obj.c</includedby>
-    <includedby refid="hsdk_2drivers_2ip_2designware_2iic_2dw__iic__obj_8c" local="yes">dw_iic_obj.c</includedby>
-    <includedby refid="hsdk_2drivers_2ip_2designware_2sdio_2dw__sdio__obj_8c" local="yes">dw_sdio_obj.c</includedby>
-    <includedby refid="hsdk_2drivers_2ip_2designware_2spi_2dw__spi__obj_8c" local="yes">dw_spi_obj.c</includedby>
-    <includedby refid="hsdk_2drivers_2ip_2designware_2uart_2dw__uart__obj_8c" local="yes">dw_uart_obj.c</includedby>
-    <includedby refid="hsdk_2drivers_2mux_2mux_8c" local="yes">mux.c</includedby>
-    <includedby refid="hsdk_2drivers_2ntshell_2ntshell__io__uart_8c" local="yes">ntshell_io_uart.c</includedby>
-    <includedby refid="hsdk_2drivers_2pmwifi_2pmwifi_8c" local="yes">pmwifi.c</includedby>
+    <includes refid="dev__pinmux_8h" local="yes">device/dev_pinmux.h</includes>
+    <includes local="yes">hsdk_hardware.h</includes>
+    <includedby refid="hsdk_2drivers_2ip_2designware_2gpio_2dw__gpio__obj_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/ip/designware/gpio/dw_gpio_obj.c</includedby>
+    <includedby refid="hsdk_2drivers_2ip_2designware_2iic_2dw__iic__obj_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/ip/designware/iic/dw_iic_obj.c</includedby>
+    <includedby refid="hsdk_2drivers_2ip_2designware_2sdio_2dw__sdio__obj_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/ip/designware/sdio/dw_sdio_obj.c</includedby>
+    <includedby refid="hsdk_2drivers_2ip_2designware_2spi_2dw__spi__obj_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/ip/designware/spi/dw_spi_obj.c</includedby>
+    <includedby refid="hsdk_2drivers_2ip_2designware_2uart_2dw__uart__obj_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/ip/designware/uart/dw_uart_obj.c</includedby>
+    <includedby refid="hsdk_2drivers_2mux_2mux_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/mux/mux.c</includedby>
     <incdepgraph>
-      <node id="5152">
+      <node id="20">
         <label>stdbool.h</label>
       </node>
-      <node id="5159">
-        <label>ntshell_task.h</label>
+      <node id="25">
+        <label>drivers/sdcard/sdcard.h</label>
+        <link refid="hsdk_2drivers_2sdcard_2sdcard_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
-      <node id="5154">
-        <label>drivers/ip/designware/sdio/dw_sdio_obj.h</label>
-        <link refid="hsdk_2drivers_2ip_2designware_2sdio_2dw__sdio__obj_8h_source"/>
+      <node id="31">
+        <label>cgu_hsdc_reg_map.h</label>
+        <link refid="cgu__hsdc__reg__map_8h"/>
       </node>
-      <node id="5140">
+      <node id="9">
+        <label>drivers/ip/designware/spi/dw_spi_obj.h</label>
+        <link refid="hsdk_2drivers_2ip_2designware_2spi_2dw__spi__obj_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
         <label>stdint.h</label>
       </node>
-      <node id="5168">
+      <node id="6">
+        <label>device/ip_hal/dev_iic.h</label>
+        <link refid="dev__iic_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>dw_gpio.h</label>
+        <link refid="dw__gpio_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>arc/arc.h</label>
+        <link refid="arc_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
         <label>cgu_hsdc_reg.h</label>
-        <link refid="cgu__hsdc__reg_8h_source"/>
-        <childnode refid="5169" relation="include">
+        <link refid="cgu__hsdc__reg_8h"/>
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
-      <node id="5169">
-        <label>cgu_hsdc_reg_map.h</label>
-        <link refid="cgu__hsdc__reg__map_8h_source"/>
-      </node>
-      <node id="5170">
-        <label>common/hsdk_timer.h</label>
-        <link refid="hsdk__timer_8h_source"/>
-        <childnode refid="5149" relation="include">
-        </childnode>
-      </node>
-      <node id="5141">
-        <label>drivers/ip/designware/spi/dw_spi_obj.h</label>
-        <link refid="hsdk_2drivers_2ip_2designware_2spi_2dw__spi__obj_8h_source"/>
-        <childnode refid="5142" relation="include">
-        </childnode>
-      </node>
-      <node id="5144">
-        <label>dev_uart.h</label>
-        <link refid="dev__uart_8h"/>
-        <childnode refid="5139" relation="include">
-        </childnode>
-      </node>
-      <node id="5156">
-        <label>dev_wnic.h</label>
-        <link refid="dev__wnic_8h"/>
-        <childnode refid="5139" relation="include">
-        </childnode>
-      </node>
-      <node id="5157">
-        <label>drivers/ntshell/ntshell_io.h</label>
-        <link refid="hsdk_2drivers_2ntshell_2ntshell__io_8h_source"/>
-        <childnode refid="5158" relation="include">
-        </childnode>
-        <childnode refid="5160" relation="include">
-        </childnode>
-      </node>
-      <node id="5173">
-        <label>hsdk_hardware.h</label>
-        <link refid="hsdk__hardware_8h_source"/>
-        <childnode refid="5136" relation="include">
-        </childnode>
-      </node>
-      <node id="5151">
+      <node id="19">
         <label>stddef.h</label>
       </node>
-      <node id="5165">
-        <label>creg_hsdc_reg.h</label>
-        <link refid="creg__hsdc__reg_8h_source"/>
-        <childnode refid="5166" relation="include">
+      <node id="10">
+        <label>device/ip_hal/dev_spi.h</label>
+        <link refid="dev__spi_8h"/>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="5139">
-        <label>dev_common.h</label>
-        <link refid="dev__common_8h"/>
-        <childnode refid="5140" relation="include">
-        </childnode>
+      <node id="34">
+        <label>hsdk_hardware.h</label>
       </node>
-      <node id="5153">
-        <label>arc_builtin.h</label>
+      <node id="21">
+        <label>arc/arc_builtin.h</label>
         <link refid="arc__builtin_8h"/>
-        <childnode refid="5149" relation="include">
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="5150">
+      <node id="18">
         <label>limits.h</label>
       </node>
-      <node id="5137">
-        <label>drivers/ip/designware/iic/dw_iic_obj.h</label>
-        <link refid="hsdk_2drivers_2ip_2designware_2iic_2dw__iic__obj_8h_source"/>
-        <childnode refid="5138" relation="include">
-        </childnode>
-      </node>
-      <node id="5172">
-        <label>dev_pinmux.h</label>
-        <link refid="dev__pinmux_8h_source"/>
-        <childnode refid="5149" relation="include">
-        </childnode>
-      </node>
-      <node id="5147">
-        <label>dev_gpio.h</label>
-        <link refid="dev__gpio_8h"/>
-        <childnode refid="5139" relation="include">
-        </childnode>
-      </node>
-      <node id="5135">
-        <label>arc.h</label>
-        <link refid="arc_8h"/>
-        <childnode refid="5136" relation="include">
-        </childnode>
-      </node>
-      <node id="5161">
-        <label>drivers/sdcard/sdcard.h</label>
-        <link refid="hsdk_2drivers_2sdcard_2sdcard_8h_source"/>
-        <childnode refid="5149" relation="include">
-        </childnode>
-        <childnode refid="5162" relation="include">
-        </childnode>
-      </node>
-      <node id="5146">
-        <label>dw_gpio.h</label>
-        <link refid="dw__gpio_8h_source"/>
-        <childnode refid="5147" relation="include">
-        </childnode>
-        <childnode refid="5148" relation="include">
-        </childnode>
-      </node>
-      <node id="5163">
-        <label>ff_diskio.h</label>
-      </node>
-      <node id="5164">
-        <label>drivers/creg/creg_hsdc.h</label>
-        <link refid="creg__hsdc_8h_source"/>
-        <childnode refid="5165" relation="include">
-        </childnode>
-      </node>
-      <node id="5145">
-        <label>drivers/ip/designware/gpio/dw_gpio_obj.h</label>
-        <link refid="hsdk_2drivers_2ip_2designware_2gpio_2dw__gpio__obj_8h_source"/>
-        <childnode refid="5146" relation="include">
-        </childnode>
-      </node>
-      <node id="5134">
-        <label>arc_hs.h</label>
-        <link refid="arc__hs_8h"/>
-        <childnode refid="5135" relation="include">
-        </childnode>
-      </node>
-      <node id="5167">
-        <label>drivers/cgu/cgu_hsdc.h</label>
-        <link refid="cgu__hsdc_8h_source"/>
-        <childnode refid="5168" relation="include">
-        </childnode>
-      </node>
-      <node id="5136">
-        <label>arc_feature_config.h</label>
+      <node id="4">
+        <label>arc/arc_feature_config.h</label>
         <link refid="arc__feature__config_8h"/>
       </node>
-      <node id="5133">
-        <label>hsdk.h</label>
-        <link refid="hsdk.h"/>
-        <childnode refid="5134" relation="include">
-        </childnode>
-        <childnode refid="5137" relation="include">
-        </childnode>
-        <childnode refid="5141" relation="include">
-        </childnode>
-        <childnode refid="5143" relation="include">
-        </childnode>
-        <childnode refid="5145" relation="include">
-        </childnode>
-        <childnode refid="5154" relation="include">
-        </childnode>
-        <childnode refid="5155" relation="include">
-        </childnode>
-        <childnode refid="5157" relation="include">
-        </childnode>
-        <childnode refid="5161" relation="include">
-        </childnode>
-        <childnode refid="5164" relation="include">
-        </childnode>
-        <childnode refid="5167" relation="include">
-        </childnode>
-        <childnode refid="5170" relation="include">
-        </childnode>
-        <childnode refid="5171" relation="include">
-        </childnode>
-        <childnode refid="5172" relation="include">
-        </childnode>
-        <childnode refid="5173" relation="include">
+      <node id="13">
+        <label>drivers/ip/designware/gpio/dw_gpio_obj.h</label>
+        <link refid="hsdk_2drivers_2ip_2designware_2gpio_2dw__gpio__obj_8h"/>
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="5162">
-        <label>sdcard_sdio.h</label>
-        <link refid="hsdk_2drivers_2sdcard_2sdcard__sdio_8h_source"/>
-        <childnode refid="5163" relation="include">
-        </childnode>
-      </node>
-      <node id="5158">
-        <label>ntshell_io_uart.h</label>
-        <link refid="hsdk_2drivers_2ntshell_2ntshell__io__uart_8h_source"/>
-        <childnode refid="5149" relation="include">
-        </childnode>
-        <childnode refid="5159" relation="include">
-        </childnode>
-      </node>
-      <node id="5155">
-        <label>drivers/pmwifi/pmwifi.h</label>
-        <link refid="hsdk_2drivers_2pmwifi_2pmwifi_8h_source"/>
-        <childnode refid="5156" relation="include">
-        </childnode>
-      </node>
-      <node id="5149">
+      <node id="17">
         <label>embARC_toolchain.h</label>
-        <link refid="emb_a_r_c__toolchain_8h"/>
-        <childnode refid="5140" relation="include">
+        <link refid="embARC__toolchain_8h"/>
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="5150" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="5151" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="5152" relation="include">
-        </childnode>
-      </node>
-      <node id="5160">
-        <label>ntshell_io_netconn.h</label>
-        <link refid="hsdk_2drivers_2ntshell_2ntshell__io__netconn_8h_source"/>
-        <childnode refid="5149" relation="include">
-        </childnode>
-        <childnode refid="5159" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="5166">
-        <label>creg_hsdc_reg_map.h</label>
-        <link refid="creg__hsdc__reg__map_8h_source"/>
-      </node>
-      <node id="5142">
-        <label>dev_spi.h</label>
-        <link refid="dev__spi_8h"/>
-        <childnode refid="5139" relation="include">
-        </childnode>
-      </node>
-      <node id="5171">
+      <node id="32">
         <label>common/hsdk_io.h</label>
-        <link refid="hsdk__io_8h_source"/>
-        <childnode refid="5137" relation="include">
+        <link refid="hsdk__io_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="5138">
-        <label>dev_iic.h</label>
-        <link refid="dev__iic_8h"/>
-        <childnode refid="5139" relation="include">
+      <node id="33">
+        <label>device/dev_pinmux.h</label>
+        <link refid="dev__pinmux_8h"/>
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="5143">
-        <label>drivers/ip/designware/uart/dw_uart_obj.h</label>
-        <link refid="hsdk_2drivers_2ip_2designware_2uart_2dw__uart__obj_8h_source"/>
-        <childnode refid="5144" relation="include">
-        </childnode>
-      </node>
-      <node id="5148">
-        <label>arc_exception.h</label>
+      <node id="16">
+        <label>arc/arc_exception.h</label>
         <link refid="arc__exception_8h"/>
-        <childnode refid="5149" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="5135" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="5153" relation="include">
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>arc/arc_hs.h</label>
+        <link refid="arc__hs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>creg_hsdc_reg_map.h</label>
+        <link refid="creg__hsdc__reg__map_8h"/>
+      </node>
+      <node id="12">
+        <label>device/ip_hal/dev_uart.h</label>
+        <link refid="dev__uart_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>device/ip_hal/dev_gpio.h</label>
+        <link refid="dev__gpio_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>drivers/ip/designware/sdio/dw_sdio_obj.h</label>
+        <link refid="hsdk_2drivers_2ip_2designware_2sdio_2dw__sdio__obj_8h"/>
+      </node>
+      <node id="27">
+        <label>creg_hsdc_reg.h</label>
+        <link refid="creg__hsdc__reg_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>drivers/pmwifi/pmwifi.h</label>
+        <link refid="hsdk_2drivers_2pmwifi_2pmwifi_8h"/>
+      </node>
+      <node id="5">
+        <label>drivers/ip/designware/iic/dw_iic_obj.h</label>
+        <link refid="hsdk_2drivers_2ip_2designware_2iic_2dw__iic__obj_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>drivers/ntshell/ntshell_io.h</label>
+        <link refid="hsdk_2drivers_2ntshell_2ntshell__io_8h"/>
+      </node>
+      <node id="26">
+        <label>drivers/creg/creg_hsdc.h</label>
+        <link refid="creg__hsdc_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>drivers/cgu/cgu_hsdc.h</label>
+        <link refid="cgu__hsdc_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h</label>
+        <link refid="hsdk_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>device/dev_common.h</label>
+        <link refid="dev__common_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>drivers/ip/designware/uart/dw_uart_obj.h</label>
+        <link refid="hsdk_2drivers_2ip_2designware_2uart_2dw__uart__obj_8h"/>
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5178">
-        <label>dw_sdio_obj.c</label>
-        <link refid="hsdk_2drivers_2ip_2designware_2sdio_2dw__sdio__obj_8c_source"/>
+      <node id="5">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/ip/designware/spi/dw_spi_obj.c</label>
+        <link refid="hsdk_2drivers_2ip_2designware_2spi_2dw__spi__obj_8c"/>
       </node>
-      <node id="5179">
-        <label>dw_spi_obj.c</label>
-        <link refid="hsdk_2drivers_2ip_2designware_2spi_2dw__spi__obj_8c_source"/>
+      <node id="2">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/ip/designware/gpio/dw_gpio_obj.c</label>
+        <link refid="hsdk_2drivers_2ip_2designware_2gpio_2dw__gpio__obj_8c"/>
       </node>
-      <node id="5181">
-        <label>mux.c</label>
-        <link refid="hsdk_2drivers_2mux_2mux_8c_source"/>
+      <node id="7">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/mux/mux.c</label>
+        <link refid="hsdk_2drivers_2mux_2mux_8c"/>
       </node>
-      <node id="5177">
-        <label>dw_iic_obj.c</label>
-        <link refid="hsdk_2drivers_2ip_2designware_2iic_2dw__iic__obj_8c_source"/>
+      <node id="4">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/ip/designware/sdio/dw_sdio_obj.c</label>
+        <link refid="hsdk_2drivers_2ip_2designware_2sdio_2dw__sdio__obj_8c"/>
       </node>
-      <node id="5176">
-        <label>dw_gpio_obj.c</label>
-        <link refid="hsdk_2drivers_2ip_2designware_2gpio_2dw__gpio__obj_8c_source"/>
+      <node id="3">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/ip/designware/iic/dw_iic_obj.c</label>
+        <link refid="hsdk_2drivers_2ip_2designware_2iic_2dw__iic__obj_8c"/>
       </node>
-      <node id="5174">
-        <label>hsdk.h</label>
-        <link refid="hsdk.h"/>
-        <childnode refid="5175" relation="include">
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h</label>
+        <link refid="hsdk_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="5176" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="5177" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5178" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="5179" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="5180" relation="include">
-        </childnode>
-        <childnode refid="5181" relation="include">
-        </childnode>
-        <childnode refid="5182" relation="include">
-        </childnode>
-        <childnode refid="5183" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="5182">
-        <label>ntshell_io_uart.c</label>
-        <link refid="hsdk_2drivers_2ntshell_2ntshell__io__uart_8c_source"/>
-      </node>
-      <node id="5183">
-        <label>pmwifi.c</label>
-        <link refid="hsdk_2drivers_2pmwifi_2pmwifi_8c_source"/>
-      </node>
-      <node id="5175">
-        <label>hsdk_io.c</label>
-        <link refid="hsdk__io_8c_source"/>
-      </node>
-      <node id="5180">
-        <label>dw_uart_obj.c</label>
-        <link refid="hsdk_2drivers_2ip_2designware_2uart_2dw__uart__obj_8c_source"/>
+      <node id="6">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/ip/designware/uart/dw_uart_obj.c</label>
+        <link refid="hsdk_2drivers_2ip_2designware_2uart_2dw__uart__obj_8c"/>
       </node>
     </invincdepgraph>
       <sectiondef kind="define">
-      <memberdef kind="define" id="hsdk_8h_1ad894fa48bdb6402ac026de449da74ffd" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_ad894fa48bdb6402ac026de449da74ffd_1ad894fa48bdb6402ac026de449da74ffd" prot="public" static="no">
         <name>BOARD_CONSOLE_UART_ID</name>
-        <initializer>DW_UART_3_ID</initializer>
+        <initializer><ref refid="hsdk_2drivers_2ip_2designware_2uart_2dw__uart__obj_8h_a1e1be0d0a7ac02789f891a86f89de56e_1a1e1be0d0a7ac02789f891a86f89de56e" kindref="member">DW_UART_3_ID</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="53" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="53" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="53" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="53" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1ab6a5428995eb87c161f554c44e6457ab" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_ab6a5428995eb87c161f554c44e6457ab_1ab6a5428995eb87c161f554c44e6457ab" prot="public" static="no">
         <name>BOARD_CONSOLE_UART_BAUD</name>
-        <initializer><ref refid="group___d_e_v_i_c_e___h_a_l___u_a_r_t___b_a_u_d_1ga7ba5033e1e1547d07d7683d0542c1f4a" kindref="member">UART_BAUDRATE_115200</ref></initializer>
+        <initializer><ref refid="group__DEVICE__HAL__UART__BAUD_ga7ba5033e1e1547d07d7683d0542c1f4a_1ga7ba5033e1e1547d07d7683d0542c1f4a" kindref="member">UART_BAUDRATE_115200</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="54" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="54" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="54" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="54" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a86280467d0f99572c4a332fa34e36b19" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a86280467d0f99572c4a332fa34e36b19_1a86280467d0f99572c4a332fa34e36b19" prot="public" static="no">
         <name>BOARD_ADC_IIC_ID</name>
-        <initializer><ref refid="group___b_o_a_r_d___e_m_s_k___d_r_v___d_w___i_i_c___o_b_j_1ga9dad39587e7f20b0e80aca04791dbb09" kindref="member">DW_IIC_0_ID</ref></initializer>
+        <initializer><ref refid="hsdk_2drivers_2ip_2designware_2iic_2dw__iic__obj_8h_a9dad39587e7f20b0e80aca04791dbb09_1a9dad39587e7f20b0e80aca04791dbb09" kindref="member">DW_IIC_0_ID</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="55" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="55" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="55" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="55" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1ab20582f7885e506d06e5e64363e68ddd" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_ab20582f7885e506d06e5e64363e68ddd_1ab20582f7885e506d06e5e64363e68ddd" prot="public" static="no">
         <name>BOARD_TEMP_SENSOR_IIC_ID</name>
-        <initializer><ref refid="group___b_o_a_r_d___e_m_s_k___d_r_v___d_w___i_i_c___o_b_j_1ga9dad39587e7f20b0e80aca04791dbb09" kindref="member">DW_IIC_0_ID</ref></initializer>
+        <initializer><ref refid="hsdk_2drivers_2ip_2designware_2iic_2dw__iic__obj_8h_a9dad39587e7f20b0e80aca04791dbb09_1a9dad39587e7f20b0e80aca04791dbb09" kindref="member">DW_IIC_0_ID</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="56" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="56" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="56" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="56" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a52bffcf56accef8e1ddbf74cc0145808" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a52bffcf56accef8e1ddbf74cc0145808_1a52bffcf56accef8e1ddbf74cc0145808" prot="public" static="no">
         <name>BOARD_SFLASH_SPI_ID</name>
-        <initializer><ref refid="group___b_o_a_r_d___e_m_s_k___d_r_v___d_w___s_p_i___o_b_j_1ga906ed6ea818fb3ea7b3b52f174751ec2" kindref="member">DW_SPI_0_ID</ref></initializer>
+        <initializer><ref refid="hsdk_2drivers_2ip_2designware_2spi_2dw__spi__obj_8h_a906ed6ea818fb3ea7b3b52f174751ec2_1a906ed6ea818fb3ea7b3b52f174751ec2" kindref="member">DW_SPI_0_ID</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="58" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="58" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="58" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="58" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1ae26f3d5348ab4a098b18b250adda5b8d" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_ae26f3d5348ab4a098b18b250adda5b8d_1ae26f3d5348ab4a098b18b250adda5b8d" prot="public" static="no">
         <name>BOARD_WIFI_SPI_ID</name>
-        <initializer>DW_SPI_2_ID</initializer>
+        <initializer><ref refid="hsdk_2drivers_2ip_2designware_2spi_2dw__spi__obj_8h_ae9301cce1d5838788b37903bbb616b45_1ae9301cce1d5838788b37903bbb616b45" kindref="member">DW_SPI_2_ID</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="59" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="59" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="59" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="59" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a18d726b68df14d3a5d5f3467a565c8db" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a18d726b68df14d3a5d5f3467a565c8db_1a18d726b68df14d3a5d5f3467a565c8db" prot="public" static="no">
         <name>BOARD_SDCARD_SPI_LINE</name>
-        <initializer>HSDC_SPI_CS_0</initializer>
+        <initializer><ref refid="20_2hsdk__hardware_8h_af91c3429a675e330305fa31ecc70d530_1af91c3429a675e330305fa31ecc70d530" kindref="member">HSDC_SPI_CS_0</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="61" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="61" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="61" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="61" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1ab6ec1fb5c5bec8858e2fc533515624f3" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_ab6ec1fb5c5bec8858e2fc533515624f3_1ab6ec1fb5c5bec8858e2fc533515624f3" prot="public" static="no">
         <name>BOARD_WIFI_SPI_LINE</name>
-        <initializer>HSDC_SPI_CS_1</initializer>
+        <initializer><ref refid="20_2hsdk__hardware_8h_ae999873a0f1c78682d32b329e1cbaaf0_1ae999873a0f1c78682d32b329e1cbaaf0" kindref="member">HSDC_SPI_CS_1</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="62" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="62" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="62" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="62" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1aa5b28dd2dde2020d6169f3a97ec08469" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_aa5b28dd2dde2020d6169f3a97ec08469_1aa5b28dd2dde2020d6169f3a97ec08469" prot="public" static="no">
         <name>BOARD_SFLASH_SPI_LINE</name>
-        <initializer>HSDC_SPI_CS_0</initializer>
+        <initializer><ref refid="20_2hsdk__hardware_8h_af91c3429a675e330305fa31ecc70d530_1af91c3429a675e330305fa31ecc70d530" kindref="member">HSDC_SPI_CS_0</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="63" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="63" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="63" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="63" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a3a84fcb550e72d6f56488f9c639054fa" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a3a84fcb550e72d6f56488f9c639054fa_1a3a84fcb550e72d6f56488f9c639054fa" prot="public" static="no">
         <name>BOARD_SPI_FREQ</name>
         <initializer>(15000000)</initializer>
         <briefdescription>
@@ -465,31 +392,31 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="66" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="66" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="66" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="66" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a375f6343d75692da616b44c4958e599f" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a375f6343d75692da616b44c4958e599f_1a375f6343d75692da616b44c4958e599f" prot="public" static="no">
         <name>BOARD_SYS_TIMER_ID</name>
-        <initializer><ref refid="group___a_r_c___h_a_l___m_i_s_c___t_i_m_e_r_1gacc9ff9df4a9674a1ce9ba08fc4a4679e" kindref="member">TIMER_0</ref></initializer>
+        <initializer><ref refid="group__ARC__HAL__MISC__TIMER_gacc9ff9df4a9674a1ce9ba08fc4a4679e_1gacc9ff9df4a9674a1ce9ba08fc4a4679e" kindref="member">TIMER_0</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="69" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="69" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="69" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="69" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a75c72f500916ce679ad4458d61fd3a3e" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a75c72f500916ce679ad4458d61fd3a3e_1a75c72f500916ce679ad4458d61fd3a3e" prot="public" static="no">
         <name>BOARD_SYS_TIMER_INTNO</name>
-        <initializer>INTNO_TIMER0</initializer>
+        <initializer><ref refid="group__ARC__HAL__MISC__TIMER_ga7b8512078a0c7ba91d2f2058ca8e66b6_1ga7b8512078a0c7ba91d2f2058ca8e66b6" kindref="member">INTNO_TIMER0</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="70" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="70" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="70" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="70" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a8c5105538fa26a5c3d6eff92454a8697" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a8c5105538fa26a5c3d6eff92454a8697_1a8c5105538fa26a5c3d6eff92454a8697" prot="public" static="no">
         <name>BOARD_SYS_TIMER_HZ</name>
         <initializer>(1000)</initializer>
         <briefdescription>
@@ -498,130 +425,110 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="71" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="71" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="71" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="71" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a4deac94773cab055391479766cd72cc6" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a4deac94773cab055391479766cd72cc6_1a4deac94773cab055391479766cd72cc6" prot="public" static="no">
         <name>BOARD_SYS_TIMER_MS_HZ</name>
         <initializer>(1000)</initializer>
         <briefdescription>
-<para>board timer count frequency (HZ) </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
+<para>board timer count frequency (HZ) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="74" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="74" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="74" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="74" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a219862b79fcaa501cea1b068ded35f25" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a219862b79fcaa501cea1b068ded35f25_1a219862b79fcaa501cea1b068ded35f25" prot="public" static="no">
         <name>BOARD_SYS_TIMER_MS_CONV</name>
-        <initializer>(<ref refid="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1ga4deac94773cab055391479766cd72cc6" kindref="member">BOARD_SYS_TIMER_MS_HZ</ref>/BOARD_SYS_TIMER_HZ)</initializer>
+        <initializer>(<ref refid="nsim_8h_a4deac94773cab055391479766cd72cc6_1a4deac94773cab055391479766cd72cc6" kindref="member">BOARD_SYS_TIMER_MS_HZ</ref> / <ref refid="nsim_8h_a8c5105538fa26a5c3d6eff92454a8697_1a8c5105538fa26a5c3d6eff92454a8697" kindref="member">BOARD_SYS_TIMER_HZ</ref>)</initializer>
         <briefdescription>
-<para>board timer count frequency convention based on the global timer counter </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
+<para>board timer count frequency convention based on the global timer counter </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="76" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="76" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="76" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="76" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a6c7035ed8c0a3208ed60d7dd4426fc9e" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a6c7035ed8c0a3208ed60d7dd4426fc9e_1a6c7035ed8c0a3208ed60d7dd4426fc9e" prot="public" static="no">
         <name>BOARD_OS_TIMER_ID</name>
-        <initializer><ref refid="group___a_r_c___h_a_l___m_i_s_c___t_i_m_e_r_1gacc9ff9df4a9674a1ce9ba08fc4a4679e" kindref="member">TIMER_0</ref></initializer>
+        <initializer><ref refid="group__ARC__HAL__MISC__TIMER_gacc9ff9df4a9674a1ce9ba08fc4a4679e_1gacc9ff9df4a9674a1ce9ba08fc4a4679e" kindref="member">TIMER_0</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="78" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="78" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="78" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="78" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1aff8db4f0fddc24033143761ea4a461df" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_aff8db4f0fddc24033143761ea4a461df_1aff8db4f0fddc24033143761ea4a461df" prot="public" static="no">
         <name>BOARD_OS_TIMER_INTNO</name>
-        <initializer>INTNO_TIMER0</initializer>
+        <initializer><ref refid="group__ARC__HAL__MISC__TIMER_ga7b8512078a0c7ba91d2f2058ca8e66b6_1ga7b8512078a0c7ba91d2f2058ca8e66b6" kindref="member">INTNO_TIMER0</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="79" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="79" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="79" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="79" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a5ce41facbc716678c95ac51a44e7a052" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a5ce41facbc716678c95ac51a44e7a052_1a5ce41facbc716678c95ac51a44e7a052" prot="public" static="no">
         <name>BOARD_CPU_CLOCK</name>
-        <initializer><ref refid="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1ga77ec960fb2992023cfa6b3e698b2aed8" kindref="member">CLK_CPU</ref></initializer>
+        <initializer><ref refid="nsim_8h_a77ec960fb2992023cfa6b3e698b2aed8_1a77ec960fb2992023cfa6b3e698b2aed8" kindref="member">CLK_CPU</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="81" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="81" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="81" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="81" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a56e6d6ec3d48ed1eb073e0ed5cec2258" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a56e6d6ec3d48ed1eb073e0ed5cec2258_1a56e6d6ec3d48ed1eb073e0ed5cec2258" prot="public" static="no">
         <name>BOARD_DEV_CLOCK</name>
-        <initializer><ref refid="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1ga834959d61bd62205d39308860373b374" kindref="member">CLK_BUS_APB</ref></initializer>
+        <initializer><ref refid="20_2hsdk__hardware_8h_a834959d61bd62205d39308860373b374_1a834959d61bd62205d39308860373b374" kindref="member">CLK_BUS_APB</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="82" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="82" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="82" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="82" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a10e936569e85faad73173595811cacd1" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a10e936569e85faad73173595811cacd1_1a10e936569e85faad73173595811cacd1" prot="public" static="no">
         <name>BOARD_ONBOARD_NTSHELL_ID</name>
-        <initializer>(HSDK_NTSHELL_0_ID)</initializer>
+        <initializer>(<ref refid="hsdk_2drivers_2ntshell_2ntshell__io_8h_a51a34e35ff407a88df0773caf7604e42_1a51a34e35ff407a88df0773caf7604e42" kindref="member">HSDK_NTSHELL_0_ID</ref>)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="84" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="84" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="84" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="84" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a779250835495bc58a48fda48115812a3" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a779250835495bc58a48fda48115812a3_1a779250835495bc58a48fda48115812a3" prot="public" static="no">
         <name>NTSHELL_CONSOLE_ID</name>
-        <initializer>(HSDK_NTSHELL_0_ID)</initializer>
+        <initializer>(<ref refid="hsdk_2drivers_2ntshell_2ntshell__io_8h_a51a34e35ff407a88df0773caf7604e42_1a51a34e35ff407a88df0773caf7604e42" kindref="member">HSDK_NTSHELL_0_ID</ref>)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="85" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="85" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="85" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="85" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a50c898f4db4f1bd2ef777180682a37c6" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a50c898f4db4f1bd2ef777180682a37c6_1a50c898f4db4f1bd2ef777180682a37c6" prot="public" static="no">
         <name>NTSHELL_NETWORK_ID</name>
-        <initializer>(HSDK_NTSHELL_1_ID)</initializer>
+        <initializer>(<ref refid="hsdk_2drivers_2ntshell_2ntshell__io_8h_ad4abc1b02934fa53904c796ec3acfae5_1ad4abc1b02934fa53904c796ec3acfae5" kindref="member">HSDK_NTSHELL_1_ID</ref>)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="86" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="86" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="86" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="86" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a0925d758144e37de4158bb2faadea9e9" prot="public" static="no">
-        <name>OSP_DELAY_OS_COMPAT_ENABLE</name>
-        <initializer>(1)</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="88" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="88" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a0a78908e297806f4ae43488e59f3e682" prot="public" static="no">
-        <name>OSP_DELAY_OS_COMPAT_DISABLE</name>
-        <initializer>(0)</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="89" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="89" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a7fdbbfa16209827cb230b7e28a92dd37" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a7fdbbfa16209827cb230b7e28a92dd37_1a7fdbbfa16209827cb230b7e28a92dd37" prot="public" static="no">
         <name>WF_IPADDR_1</name>
         <initializer>(192)</initializer>
         <briefdescription>
@@ -630,9 +537,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="91" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="91" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="88" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="88" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a3cb7f87be2010a35e47352bea797fbaf" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a3cb7f87be2010a35e47352bea797fbaf_1a3cb7f87be2010a35e47352bea797fbaf" prot="public" static="no">
         <name>WF_IPADDR_2</name>
         <initializer>(168)</initializer>
         <briefdescription>
@@ -641,9 +548,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="92" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="92" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="89" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="89" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a3227fa006b1245f5d7bdc553b823eae9" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a3227fa006b1245f5d7bdc553b823eae9_1a3227fa006b1245f5d7bdc553b823eae9" prot="public" static="no">
         <name>WF_IPADDR_3</name>
         <initializer>(43)</initializer>
         <briefdescription>
@@ -652,9 +559,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="93" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="93" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="90" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="90" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1ae4d8bd39ae83fd00725d1364e578cb26" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_ae4d8bd39ae83fd00725d1364e578cb26_1ae4d8bd39ae83fd00725d1364e578cb26" prot="public" static="no">
         <name>WF_IPADDR_4</name>
         <initializer>(102)</initializer>
         <briefdescription>
@@ -663,9 +570,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="94" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="94" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="91" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="91" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1ad8b38f7aeeffaad7469db86650d5e5b8" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_ad8b38f7aeeffaad7469db86650d5e5b8_1ad8b38f7aeeffaad7469db86650d5e5b8" prot="public" static="no">
         <name>WF_NETMASK_1</name>
         <initializer>(255)</initializer>
         <briefdescription>
@@ -674,9 +581,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="96" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="96" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="93" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="93" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1ac631f7d54c342a5971a2ce96b2a2fd5a" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_ac631f7d54c342a5971a2ce96b2a2fd5a_1ac631f7d54c342a5971a2ce96b2a2fd5a" prot="public" static="no">
         <name>WF_NETMASK_2</name>
         <initializer>(255)</initializer>
         <briefdescription>
@@ -685,9 +592,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="97" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="97" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="94" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="94" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a5ea450b203ccd1540cd13bb07ea8ab41" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a5ea450b203ccd1540cd13bb07ea8ab41_1a5ea450b203ccd1540cd13bb07ea8ab41" prot="public" static="no">
         <name>WF_NETMASK_3</name>
         <initializer>(255)</initializer>
         <briefdescription>
@@ -696,9 +603,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="98" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="98" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="95" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="95" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a97e54858c85428ec57acab5616152787" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a97e54858c85428ec57acab5616152787_1a97e54858c85428ec57acab5616152787" prot="public" static="no">
         <name>WF_NETMASK_4</name>
         <initializer>(0)</initializer>
         <briefdescription>
@@ -707,9 +614,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="99" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="99" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="96" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="96" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1afff963095feb18f21e06aa534921c0eb" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_afff963095feb18f21e06aa534921c0eb_1afff963095feb18f21e06aa534921c0eb" prot="public" static="no">
         <name>WF_GATEWAY_1</name>
         <initializer>(192)</initializer>
         <briefdescription>
@@ -718,9 +625,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="101" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="101" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="98" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="98" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a97071e2cee0ca3566d29c387b390e42e" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a97071e2cee0ca3566d29c387b390e42e_1a97071e2cee0ca3566d29c387b390e42e" prot="public" static="no">
         <name>WF_GATEWAY_2</name>
         <initializer>(168)</initializer>
         <briefdescription>
@@ -729,9 +636,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="102" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="102" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="99" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="99" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1aa0824841678ded03d1f00a43aea928b3" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_aa0824841678ded03d1f00a43aea928b3_1aa0824841678ded03d1f00a43aea928b3" prot="public" static="no">
         <name>WF_GATEWAY_3</name>
         <initializer>(43)</initializer>
         <briefdescription>
@@ -740,9 +647,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="103" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="103" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="100" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="100" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a32f5761c3bdc91e15062024633f3bfef" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a32f5761c3bdc91e15062024633f3bfef_1a32f5761c3bdc91e15062024633f3bfef" prot="public" static="no">
         <name>WF_GATEWAY_4</name>
         <initializer>(1)</initializer>
         <briefdescription>
@@ -751,9 +658,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="104" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="104" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="101" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="101" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a94364251911ea47e212ad79233ebb5e0" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a94364251911ea47e212ad79233ebb5e0_1a94364251911ea47e212ad79233ebb5e0" prot="public" static="no">
         <name>WF_HOTSPOT_IS_OPEN</name>
         <initializer>(0)</initializer>
         <briefdescription>
@@ -762,9 +669,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="106" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="106" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="103" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="103" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1af380b71a6f9a7188a40dfd92c925dc39" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_af380b71a6f9a7188a40dfd92c925dc39_1af380b71a6f9a7188a40dfd92c925dc39" prot="public" static="no">
         <name>WF_IPADDR_DHCP</name>
         <initializer>(1)</initializer>
         <briefdescription>
@@ -773,9 +680,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="108" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="108" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="105" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="105" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a5a633e260ba8bc86461e7665662911a3" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a5a633e260ba8bc86461e7665662911a3_1a5a633e260ba8bc86461e7665662911a3" prot="public" static="no">
         <name>WF_HOTSPOT_NAME</name>
         <initializer>&quot;embARC&quot;</initializer>
         <briefdescription>
@@ -784,9 +691,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="110" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="110" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="107" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="107" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a8ee6af55664839a23a804c21267cac97" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a8ee6af55664839a23a804c21267cac97_1a8ee6af55664839a23a804c21267cac97" prot="public" static="no">
         <name>WF_HOTSPOT_PASSWD</name>
         <initializer>&quot;qazwsxedc&quot;</initializer>
         <briefdescription>
@@ -795,9 +702,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="111" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="111" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="108" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="108" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a840e5288d289411b1992df0634dacb6e" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a840e5288d289411b1992df0634dacb6e_1a840e5288d289411b1992df0634dacb6e" prot="public" static="no">
         <name>WF_ENABLE_MANUAL_SET_MAC</name>
         <initializer>(0)</initializer>
         <briefdescription>
@@ -806,9 +713,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="113" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="113" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="110" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="110" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1abf7bf875fb08ed16a8d62a91a94a3958" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_abf7bf875fb08ed16a8d62a91a94a3958_1abf7bf875fb08ed16a8d62a91a94a3958" prot="public" static="no">
         <name>WF_MAC_ADDR0</name>
         <initializer>(HSDK_PMWIFI_0_MAC_ADDR0)</initializer>
         <briefdescription>
@@ -817,9 +724,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="115" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="115" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="112" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="112" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a609811ce42a95bb4236a084758194ee3" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a609811ce42a95bb4236a084758194ee3_1a609811ce42a95bb4236a084758194ee3" prot="public" static="no">
         <name>WF_MAC_ADDR1</name>
         <initializer>(HSDK_PMWIFI_0_MAC_ADDR1)</initializer>
         <briefdescription>
@@ -828,9 +735,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="116" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="116" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="113" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="113" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1ab38020a5bf8a6dc4d0a7c43c9bd36a6e" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_ab38020a5bf8a6dc4d0a7c43c9bd36a6e_1ab38020a5bf8a6dc4d0a7c43c9bd36a6e" prot="public" static="no">
         <name>WF_MAC_ADDR2</name>
         <initializer>(HSDK_PMWIFI_0_MAC_ADDR2)</initializer>
         <briefdescription>
@@ -839,9 +746,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="117" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="117" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="114" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="114" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a28285b357ef2a9df82488e8584fda806" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a28285b357ef2a9df82488e8584fda806_1a28285b357ef2a9df82488e8584fda806" prot="public" static="no">
         <name>WF_MAC_ADDR3</name>
         <initializer>(HSDK_PMWIFI_0_MAC_ADDR3)</initializer>
         <briefdescription>
@@ -850,9 +757,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="118" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="118" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="115" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="115" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1afd1e445be45818827b55ee83a2c880f0" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_afd1e445be45818827b55ee83a2c880f0_1afd1e445be45818827b55ee83a2c880f0" prot="public" static="no">
         <name>WF_MAC_ADDR4</name>
         <initializer>(HSDK_PMWIFI_0_MAC_ADDR4)</initializer>
         <briefdescription>
@@ -861,9 +768,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="119" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="119" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="116" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="116" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a0e666e3d4456ba928cb3e5c7cc85f170" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a0e666e3d4456ba928cb3e5c7cc85f170_1a0e666e3d4456ba928cb3e5c7cc85f170" prot="public" static="no">
         <name>WF_MAC_ADDR5</name>
         <initializer>(HSDK_PMWIFI_0_MAC_ADDR5)</initializer>
         <briefdescription>
@@ -872,9 +779,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="120" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="120" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="117" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="117" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a5f610d765d2b1871d8776a6a393d2e87" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a5f610d765d2b1871d8776a6a393d2e87_1a5f610d765d2b1871d8776a6a393d2e87" prot="public" static="no">
         <name>BOARD_PMWIFI_0_ID</name>
         <initializer>HSDK_PMWIFI_0_ID</initializer>
         <briefdescription>
@@ -883,9 +790,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="122" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="122" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="119" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="119" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1afbbcb0babc48b4a4e6598b80c03a583d" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_afbbcb0babc48b4a4e6598b80c03a583d_1afbbcb0babc48b4a4e6598b80c03a583d" prot="public" static="no">
         <name>BOARD_PMWIFI_ID_MAX</name>
         <initializer>HSDK_PMWIFI_0_ID</initializer>
         <briefdescription>
@@ -894,57 +801,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="123" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="123" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="120" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="120" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1abd10baafda4f7905848d2a6741be5888" prot="public" static="no">
-        <name>OSP_GET_CUR_SYSHZ</name>
-        <param></param>
-        <initializer>(gl_hsdk_sys_hz_cnt)</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="125" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="125" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a1aeaa7e8387adcad735b59293caa0078" prot="public" static="no">
-        <name>OSP_GET_CUR_MS</name>
-        <param></param>
-        <initializer>(gl_hsdk_ms_cnt)</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="126" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="126" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1abfd80da126409074c73a5a633f2909bf" prot="public" static="no">
-        <name>OSP_GET_CUR_US</name>
-        <param></param>
-        <initializer><ref refid="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1gac804f2adaefaef9ae3d123dbe4abb123" kindref="member">board_get_cur_us</ref>()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="127" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="127" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1ad5344be95b93a72c0901d34027240b9c" prot="public" static="no">
-        <name>OSP_GET_CUR_HWTICKS</name>
-        <param></param>
-        <initializer><ref refid="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1gac019f96ffa35670f7013ab1e3c91b230" kindref="member">board_get_hwticks</ref>()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="128" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="128" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a410e1e3163d011941a32f1e6553e2bc3" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a410e1e3163d011941a32f1e6553e2bc3_1a410e1e3163d011941a32f1e6553e2bc3" prot="public" static="no">
         <name>BOARD_LED_MASK</name>
         <initializer>(0xff)</initializer>
         <briefdescription>
@@ -953,9 +812,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="130" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="130" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="122" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="122" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a018041af3d60889cd644e597794f5eb8" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a018041af3d60889cd644e597794f5eb8_1a018041af3d60889cd644e597794f5eb8" prot="public" static="no">
         <name>BOARD_LED_CNT</name>
         <initializer>(4)</initializer>
         <briefdescription>
@@ -964,9 +823,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="131" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="131" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="123" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="123" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1aa505814603a7771eaa2ad9391d14c37e" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_aa505814603a7771eaa2ad9391d14c37e_1aa505814603a7771eaa2ad9391d14c37e" prot="public" static="no">
         <name>BOARD_BTN_MASK</name>
         <initializer>(0x0)</initializer>
         <briefdescription>
@@ -975,9 +834,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="134" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="134" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="126" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="126" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a57560179839c4f117c91714da34376f0" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a57560179839c4f117c91714da34376f0_1a57560179839c4f117c91714da34376f0" prot="public" static="no">
         <name>BOARD_BTN_CNT</name>
         <initializer>(0)</initializer>
         <briefdescription>
@@ -986,9 +845,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="135" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="135" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="127" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="127" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1aa6ae795724a84ab21fa3daee084ab0b8" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_aa6ae795724a84ab21fa3daee084ab0b8_1aa6ae795724a84ab21fa3daee084ab0b8" prot="public" static="no">
         <name>BOARD_SWT_MASK</name>
         <initializer>(0x0)</initializer>
         <briefdescription>
@@ -997,9 +856,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="136" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="136" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="128" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="128" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a5b8a96b97e9cbc4fdacd2404887028bf" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a5b8a96b97e9cbc4fdacd2404887028bf_1a5b8a96b97e9cbc4fdacd2404887028bf" prot="public" static="no">
         <name>BOARD_SWT_CNT</name>
         <initializer>(0)</initializer>
         <briefdescription>
@@ -1008,9 +867,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="137" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="137" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="129" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="129" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a8dc91b6750ae7da9696d5575c9c82917" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a8dc91b6750ae7da9696d5575c9c82917_1a8dc91b6750ae7da9696d5575c9c82917" prot="public" static="no">
         <name>switch_read</name>
         <param><defname>mask</defname></param>
         <initializer>(0x0)</initializer>
@@ -1020,9 +879,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="139" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="139" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="131" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="131" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="hsdk_8h_1a06fce7f491694b0fe2f2b7ac3c5a1b00" prot="public" static="no">
+      <memberdef kind="define" id="hsdk_8h_a06fce7f491694b0fe2f2b7ac3c5a1b00_1a06fce7f491694b0fe2f2b7ac3c5a1b00" prot="public" static="no">
         <name>button_read</name>
         <param><defname>mask</defname></param>
         <initializer>(0x0)</initializer>
@@ -1032,149 +891,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="140" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" bodystart="140" bodyend="-1"/>
-      </memberdef>
-      </sectiondef>
-      <sectiondef kind="func">
-      <memberdef kind="function" id="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1ga916f2adc2080b4fe88034086d107a8dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void board_init</definition>
-        <argsstring>(void)</argsstring>
-        <name>board_init</name>
-        <param>
-          <type>void</type>
-        </param>
-        <briefdescription>
-<para>Board init routine MUST be called in each application. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="note"><para>It is better to disable interrupts when calling this function remember to enable interrupt when you want to use them </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="146" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/axs/common/axs_init.c" bodystart="43" bodyend="48"/>
-      </memberdef>
-      <memberdef kind="function" id="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1ga2d400eb191882aeb5b35143ffe7ea9ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void board_timer_update</definition>
-        <argsstring>(uint32_t precision)</argsstring>
-        <name>board_timer_update</name>
-        <param>
-          <type>uint32_t</type>
-          <declname>precision</declname>
-        </param>
-        <briefdescription>
-<para>Update timer counter and other MS period operation in cycling interrupt and must be called periodically. </para>        </briefdescription>
-        <detaileddescription>
-<para>When the OS timer interrupt is in conflict with the bare-metal timer interrupt, put this function into the OS timer interrupt <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">precision</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>interrupt-period precision in Hz </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="147" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/axs/common/axs_timer.c" bodystart="64" bodyend="85"/>
-      </memberdef>
-      <memberdef kind="function" id="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1gadf80b95e6ceb5c1014e3e1a6f243fe8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void board_delay_ms</definition>
-        <argsstring>(uint32_t ms, uint8_t os_compat)</argsstring>
-        <name>board_delay_ms</name>
-        <param>
-          <type>uint32_t</type>
-          <declname>ms</declname>
-        </param>
-        <param>
-          <type>uint8_t</type>
-          <declname>os_compat</declname>
-        </param>
-        <briefdescription>
-<para>provide MS delay function </para>        </briefdescription>
-        <detaileddescription>
-<para>this function needs a 1-MS timer interrupt to work. For bare-metal, it is implemented in this file. For OS, you must call <ref refid="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1ga2d400eb191882aeb5b35143ffe7ea9ef" kindref="member">board_timer_update</ref> in the OS 1-MS timer interrupt when the bare-metal timer interrupt is not ready <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">ms</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>MS to delay </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">os_compat</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Enable or disable When this delay is enabled, use the OS delay function, if one is provided. See OSP_DELAY_OS_COMPAT_ENABLE and OSP_DELAY_OS_COMPAT_DISABLE </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="148" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/axs/common/axs_timer.c" bodystart="161" bodyend="177"/>
-      </memberdef>
-      <memberdef kind="function" id="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1gac019f96ffa35670f7013ab1e3c91b230" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>uint64_t</type>
-        <definition>uint64_t board_get_hwticks</definition>
-        <argsstring>(void)</argsstring>
-        <name>board_get_hwticks</name>
-        <param>
-          <type>void</type>
-        </param>
-        <briefdescription>
-<para>get current cpu hardware ticks </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="retval"><parameteritem>
-<parameternamelist>
-<parametername>hardware</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>ticks count in 64 bit format</para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>hardware</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>ticks count in 64bit format </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="149" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/axs/common/axs_timer.c" bodystart="119" bodyend="129"/>
-      </memberdef>
-      <memberdef kind="function" id="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1gac804f2adaefaef9ae3d123dbe4abb123" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>uint64_t</type>
-        <definition>uint64_t board_get_cur_us</definition>
-        <argsstring>(void)</argsstring>
-        <name>board_get_cur_us</name>
-        <param>
-          <type>void</type>
-        </param>
-        <briefdescription>
-<para>get current passed us since timer init </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="retval"><parameteritem>
-<parameternamelist>
-<parametername>us</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>count in 64 bit format</para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>us</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>count in 64bit format </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h" line="150" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/axs/common/axs_timer.c" bodystart="135" bodyend="145"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" line="132" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h" bodystart="132" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -1210,11 +927,11 @@
 <codeline lineno="26"><highlight class="comment"><sp/>*<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS</highlight></codeline>
 <codeline lineno="27"><highlight class="comment"><sp/>*<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
 <codeline lineno="28"><highlight class="comment"><sp/>*</highlight></codeline>
-<codeline lineno="29"><highlight class="comment">---------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_HSDK_H_</highlight></codeline>
-<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_HSDK_H_</highlight></codeline>
-<codeline lineno="32"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="arc__hs_8h" kindref="compound">arc_hs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/>---------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_HSDK_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_HSDK_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="arc__hs_8h" kindref="compound">arc/arc_hs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;drivers/ip/designware/iic/dw_iic_obj.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;drivers/ip/designware/spi/dw_spi_obj.h&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -1224,120 +941,98 @@
 <codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;drivers/pmwifi/pmwifi.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;drivers/ntshell/ntshell_io.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;drivers/sdcard/sdcard.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;drivers/creg/creg_hsdc.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;drivers/cgu/cgu_hsdc.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;common/hsdk_timer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;common/hsdk_io.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;dev_pinmux.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="creg__hsdc_8h" kindref="compound">drivers/creg/creg_hsdc.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cgu__hsdc_8h" kindref="compound">drivers/cgu/cgu_hsdc.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="hsdk__io_8h" kindref="compound">common/hsdk_io.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dev__pinmux_8h" kindref="compound">device/dev_pinmux.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;hsdk_hardware.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>common<sp/>macros<sp/>must<sp/>be<sp/>defined<sp/>by<sp/>all<sp/>boards<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_CONSOLE_UART_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DW_UART_3_ID</highlight></codeline>
-<codeline lineno="54"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_CONSOLE_UART_BAUD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UART_BAUDRATE_115200</highlight></codeline>
-<codeline lineno="55"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_ADC_IIC_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DW_IIC_0_ID</highlight></codeline>
-<codeline lineno="56"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_TEMP_SENSOR_IIC_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DW_IIC_0_ID</highlight></codeline>
-<codeline lineno="57"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SFLASH_SPI_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DW_SPI_0_ID</highlight></codeline>
-<codeline lineno="59"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_WIFI_SPI_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DW_SPI_2_ID</highlight></codeline>
-<codeline lineno="60"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SDCARD_SPI_LINE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HSDC_SPI_CS_0</highlight></codeline>
-<codeline lineno="62"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_WIFI_SPI_LINE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HSDC_SPI_CS_1</highlight></codeline>
-<codeline lineno="63"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SFLASH_SPI_LINE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HSDC_SPI_CS_0</highlight></codeline>
-<codeline lineno="64"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>BOARD_SPI_FREQ</highlight></codeline>
-<codeline lineno="66"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SPI_FREQ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(15000000)</highlight></codeline>
-<codeline lineno="67"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="68"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SYS_TIMER_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TIMER_0</highlight></codeline>
-<codeline lineno="70"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SYS_TIMER_INTNO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INTNO_TIMER0</highlight></codeline>
-<codeline lineno="71"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SYS_TIMER_HZ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1000)</highlight></codeline>
-<codeline lineno="72"><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="74"><highlight class="preprocessor">#define<sp/>BOARD_SYS_TIMER_MS_HZ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1000)</highlight></codeline>
-<codeline lineno="75"><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="76"><highlight class="preprocessor">#define<sp/>BOARD_SYS_TIMER_MS_CONV<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(BOARD_SYS_TIMER_MS_HZ/BOARD_SYS_TIMER_HZ)</highlight></codeline>
-<codeline lineno="77"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_OS_TIMER_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TIMER_0</highlight></codeline>
-<codeline lineno="79"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_OS_TIMER_INTNO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INTNO_TIMER0</highlight></codeline>
-<codeline lineno="80"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_CPU_CLOCK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CLK_CPU</highlight></codeline>
-<codeline lineno="82"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_DEV_CLOCK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CLK_BUS_APB</highlight></codeline>
-<codeline lineno="83"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_ONBOARD_NTSHELL_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_NTSHELL_0_ID)</highlight></codeline>
-<codeline lineno="85"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NTSHELL_CONSOLE_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_NTSHELL_0_ID)</highlight></codeline>
-<codeline lineno="86"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NTSHELL_NETWORK_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_NTSHELL_1_ID)</highlight></codeline>
-<codeline lineno="87"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSP_DELAY_OS_COMPAT_ENABLE<sp/><sp/><sp/><sp/><sp/><sp/>(1)</highlight></codeline>
-<codeline lineno="89"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>OSP_DELAY_OS_COMPAT_DISABLE<sp/><sp/><sp/><sp/><sp/>(0)</highlight></codeline>
-<codeline lineno="90"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_IPADDR_1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(192)</highlight></codeline>
-<codeline lineno="92"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_IPADDR_2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(168)</highlight></codeline>
-<codeline lineno="93"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_IPADDR_3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(43)</highlight></codeline>
-<codeline lineno="94"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_IPADDR_4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(102)</highlight></codeline>
-<codeline lineno="95"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_NETMASK_1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(255)</highlight></codeline>
-<codeline lineno="97"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_NETMASK_2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(255)</highlight></codeline>
-<codeline lineno="98"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_NETMASK_3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(255)</highlight></codeline>
-<codeline lineno="99"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_NETMASK_4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0)</highlight></codeline>
-<codeline lineno="100"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_GATEWAY_1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(192)</highlight></codeline>
-<codeline lineno="102"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_GATEWAY_2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(168)</highlight></codeline>
-<codeline lineno="103"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_GATEWAY_3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(43)</highlight></codeline>
-<codeline lineno="104"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_GATEWAY_4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1)</highlight></codeline>
-<codeline lineno="105"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_HOTSPOT_IS_OPEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0)</highlight></codeline>
-<codeline lineno="107"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_IPADDR_DHCP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1)</highlight></codeline>
-<codeline lineno="109"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_HOTSPOT_NAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;embARC&quot;</highlight></codeline>
-<codeline lineno="111"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_HOTSPOT_PASSWD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;qazwsxedc&quot;</highlight></codeline>
-<codeline lineno="112"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_ENABLE_MANUAL_SET_MAC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0)</highlight></codeline>
-<codeline lineno="114"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_MAC_ADDR0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_PMWIFI_0_MAC_ADDR0)</highlight></codeline>
-<codeline lineno="116"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_MAC_ADDR1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_PMWIFI_0_MAC_ADDR1)</highlight></codeline>
-<codeline lineno="117"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_MAC_ADDR2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_PMWIFI_0_MAC_ADDR2)</highlight></codeline>
-<codeline lineno="118"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_MAC_ADDR3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_PMWIFI_0_MAC_ADDR3)</highlight></codeline>
-<codeline lineno="119"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_MAC_ADDR4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_PMWIFI_0_MAC_ADDR4)</highlight></codeline>
-<codeline lineno="120"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WF_MAC_ADDR5<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_PMWIFI_0_MAC_ADDR5)</highlight></codeline>
-<codeline lineno="121"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_PMWIFI_0_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HSDK_PMWIFI_0_ID</highlight></codeline>
-<codeline lineno="123"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_PMWIFI_ID_MAX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HSDK_PMWIFI_0_ID</highlight></codeline>
-<codeline lineno="124"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSP_GET_CUR_SYSHZ()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(gl_hsdk_sys_hz_cnt)</highlight></codeline>
-<codeline lineno="126"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>OSP_GET_CUR_MS()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(gl_hsdk_ms_cnt)</highlight></codeline>
-<codeline lineno="127"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>OSP_GET_CUR_US()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>board_get_cur_us()</highlight></codeline>
-<codeline lineno="128"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>OSP_GET_CUR_HWTICKS()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>board_get_hwticks()</highlight></codeline>
-<codeline lineno="129"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_LED_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0xff)</highlight></codeline>
-<codeline lineno="131"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_LED_CNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(4)</highlight></codeline>
-<codeline lineno="132"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="133"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Un-implemented<sp/>Switch/Button<sp/>functions<sp/>and<sp/>macros</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_BTN_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0)</highlight></codeline>
-<codeline lineno="135"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_BTN_CNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0)</highlight></codeline>
-<codeline lineno="136"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SWT_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0)</highlight></codeline>
-<codeline lineno="137"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SWT_CNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0)</highlight></codeline>
-<codeline lineno="138"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>switch_read(mask)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0)</highlight></codeline>
-<codeline lineno="140"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>button_read(mask)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0)</highlight></codeline>
-<codeline lineno="141"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight></codeline>
-<codeline lineno="143"><highlight class="preprocessor"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="145"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1ga916f2adc2080b4fe88034086d107a8dc" kindref="member">board_init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1ga2d400eb191882aeb5b35143ffe7ea9ef" kindref="member">board_timer_update</ref>(uint32_t<sp/>precision);</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1gadf80b95e6ceb5c1014e3e1a6f243fe8e" kindref="member">board_delay_ms</ref>(uint32_t<sp/>ms,<sp/>uint8_t<sp/>os_compat);</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1gac019f96ffa35670f7013ab1e3c91b230" kindref="member">board_get_hwticks</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="group___b_o_a_r_d___e_m_s_k___c_o_m_m_o_n___i_n_i_t_1gac804f2adaefaef9ae3d123dbe4abb123" kindref="member">board_get_cur_us</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight></codeline>
-<codeline lineno="153"><highlight class="preprocessor"></highlight><highlight class="normal">}</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="155"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">/*<sp/>_HSDK_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="53" refid="hsdk_8h_ad894fa48bdb6402ac026de449da74ffd_1ad894fa48bdb6402ac026de449da74ffd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_CONSOLE_UART_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DW_UART_3_ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="hsdk_8h_ab6a5428995eb87c161f554c44e6457ab_1ab6a5428995eb87c161f554c44e6457ab" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_CONSOLE_UART_BAUD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UART_BAUDRATE_115200</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="hsdk_8h_a86280467d0f99572c4a332fa34e36b19_1a86280467d0f99572c4a332fa34e36b19" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_ADC_IIC_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DW_IIC_0_ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="hsdk_8h_ab20582f7885e506d06e5e64363e68ddd_1ab20582f7885e506d06e5e64363e68ddd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_TEMP_SENSOR_IIC_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DW_IIC_0_ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="hsdk_8h_a52bffcf56accef8e1ddbf74cc0145808_1a52bffcf56accef8e1ddbf74cc0145808" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SFLASH_SPI_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DW_SPI_0_ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="hsdk_8h_ae26f3d5348ab4a098b18b250adda5b8d_1ae26f3d5348ab4a098b18b250adda5b8d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_WIFI_SPI_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DW_SPI_2_ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="hsdk_8h_a18d726b68df14d3a5d5f3467a565c8db_1a18d726b68df14d3a5d5f3467a565c8db" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SDCARD_SPI_LINE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HSDC_SPI_CS_0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="hsdk_8h_ab6ec1fb5c5bec8858e2fc533515624f3_1ab6ec1fb5c5bec8858e2fc533515624f3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_WIFI_SPI_LINE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HSDC_SPI_CS_1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="hsdk_8h_aa5b28dd2dde2020d6169f3a97ec08469_1aa5b28dd2dde2020d6169f3a97ec08469" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SFLASH_SPI_LINE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HSDC_SPI_CS_0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>BOARD_SPI_FREQ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="hsdk_8h_a3a84fcb550e72d6f56488f9c639054fa_1a3a84fcb550e72d6f56488f9c639054fa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SPI_FREQ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(15000000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="hsdk_8h_a375f6343d75692da616b44c4958e599f_1a375f6343d75692da616b44c4958e599f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SYS_TIMER_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TIMER_0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="hsdk_8h_a75c72f500916ce679ad4458d61fd3a3e_1a75c72f500916ce679ad4458d61fd3a3e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SYS_TIMER_INTNO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INTNO_TIMER0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="hsdk_8h_a8c5105538fa26a5c3d6eff92454a8697_1a8c5105538fa26a5c3d6eff92454a8697" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SYS_TIMER_HZ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="hsdk_8h_a4deac94773cab055391479766cd72cc6_1a4deac94773cab055391479766cd72cc6" refkind="member"><highlight class="preprocessor">#define<sp/>BOARD_SYS_TIMER_MS_HZ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="hsdk_8h_a219862b79fcaa501cea1b068ded35f25_1a219862b79fcaa501cea1b068ded35f25" refkind="member"><highlight class="preprocessor">#define<sp/>BOARD_SYS_TIMER_MS_CONV<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(BOARD_SYS_TIMER_MS_HZ<sp/>/<sp/>BOARD_SYS_TIMER_HZ)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="hsdk_8h_a6c7035ed8c0a3208ed60d7dd4426fc9e_1a6c7035ed8c0a3208ed60d7dd4426fc9e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_OS_TIMER_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TIMER_0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="hsdk_8h_aff8db4f0fddc24033143761ea4a461df_1aff8db4f0fddc24033143761ea4a461df" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_OS_TIMER_INTNO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INTNO_TIMER0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="hsdk_8h_a5ce41facbc716678c95ac51a44e7a052_1a5ce41facbc716678c95ac51a44e7a052" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_CPU_CLOCK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CLK_CPU</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="hsdk_8h_a56e6d6ec3d48ed1eb073e0ed5cec2258_1a56e6d6ec3d48ed1eb073e0ed5cec2258" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_DEV_CLOCK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CLK_BUS_APB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="hsdk_8h_a10e936569e85faad73173595811cacd1_1a10e936569e85faad73173595811cacd1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_ONBOARD_NTSHELL_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_NTSHELL_0_ID)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="hsdk_8h_a779250835495bc58a48fda48115812a3_1a779250835495bc58a48fda48115812a3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NTSHELL_CONSOLE_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_NTSHELL_0_ID)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="hsdk_8h_a50c898f4db4f1bd2ef777180682a37c6_1a50c898f4db4f1bd2ef777180682a37c6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NTSHELL_NETWORK_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_NTSHELL_1_ID)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="hsdk_8h_a7fdbbfa16209827cb230b7e28a92dd37_1a7fdbbfa16209827cb230b7e28a92dd37" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_IPADDR_1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(192)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="hsdk_8h_a3cb7f87be2010a35e47352bea797fbaf_1a3cb7f87be2010a35e47352bea797fbaf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_IPADDR_2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(168)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="hsdk_8h_a3227fa006b1245f5d7bdc553b823eae9_1a3227fa006b1245f5d7bdc553b823eae9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_IPADDR_3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(43)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="hsdk_8h_ae4d8bd39ae83fd00725d1364e578cb26_1ae4d8bd39ae83fd00725d1364e578cb26" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_IPADDR_4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(102)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="hsdk_8h_ad8b38f7aeeffaad7469db86650d5e5b8_1ad8b38f7aeeffaad7469db86650d5e5b8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_NETMASK_1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(255)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="hsdk_8h_ac631f7d54c342a5971a2ce96b2a2fd5a_1ac631f7d54c342a5971a2ce96b2a2fd5a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_NETMASK_2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(255)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="hsdk_8h_a5ea450b203ccd1540cd13bb07ea8ab41_1a5ea450b203ccd1540cd13bb07ea8ab41" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_NETMASK_3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(255)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="hsdk_8h_a97e54858c85428ec57acab5616152787_1a97e54858c85428ec57acab5616152787" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_NETMASK_4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="hsdk_8h_afff963095feb18f21e06aa534921c0eb_1afff963095feb18f21e06aa534921c0eb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_GATEWAY_1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(192)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="hsdk_8h_a97071e2cee0ca3566d29c387b390e42e_1a97071e2cee0ca3566d29c387b390e42e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_GATEWAY_2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(168)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="hsdk_8h_aa0824841678ded03d1f00a43aea928b3_1aa0824841678ded03d1f00a43aea928b3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_GATEWAY_3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(43)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="hsdk_8h_a32f5761c3bdc91e15062024633f3bfef_1a32f5761c3bdc91e15062024633f3bfef" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_GATEWAY_4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="hsdk_8h_a94364251911ea47e212ad79233ebb5e0_1a94364251911ea47e212ad79233ebb5e0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_HOTSPOT_IS_OPEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="hsdk_8h_af380b71a6f9a7188a40dfd92c925dc39_1af380b71a6f9a7188a40dfd92c925dc39" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_IPADDR_DHCP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="hsdk_8h_a5a633e260ba8bc86461e7665662911a3_1a5a633e260ba8bc86461e7665662911a3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_HOTSPOT_NAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;embARC&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="hsdk_8h_a8ee6af55664839a23a804c21267cac97_1a8ee6af55664839a23a804c21267cac97" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_HOTSPOT_PASSWD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;qazwsxedc&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="hsdk_8h_a840e5288d289411b1992df0634dacb6e_1a840e5288d289411b1992df0634dacb6e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_ENABLE_MANUAL_SET_MAC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="hsdk_8h_abf7bf875fb08ed16a8d62a91a94a3958_1abf7bf875fb08ed16a8d62a91a94a3958" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_MAC_ADDR0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_PMWIFI_0_MAC_ADDR0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="hsdk_8h_a609811ce42a95bb4236a084758194ee3_1a609811ce42a95bb4236a084758194ee3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_MAC_ADDR1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_PMWIFI_0_MAC_ADDR1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="hsdk_8h_ab38020a5bf8a6dc4d0a7c43c9bd36a6e_1ab38020a5bf8a6dc4d0a7c43c9bd36a6e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_MAC_ADDR2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_PMWIFI_0_MAC_ADDR2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="hsdk_8h_a28285b357ef2a9df82488e8584fda806_1a28285b357ef2a9df82488e8584fda806" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_MAC_ADDR3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_PMWIFI_0_MAC_ADDR3)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="hsdk_8h_afd1e445be45818827b55ee83a2c880f0_1afd1e445be45818827b55ee83a2c880f0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_MAC_ADDR4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_PMWIFI_0_MAC_ADDR4)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="hsdk_8h_a0e666e3d4456ba928cb3e5c7cc85f170_1a0e666e3d4456ba928cb3e5c7cc85f170" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WF_MAC_ADDR5<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HSDK_PMWIFI_0_MAC_ADDR5)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="hsdk_8h_a5f610d765d2b1871d8776a6a393d2e87_1a5f610d765d2b1871d8776a6a393d2e87" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_PMWIFI_0_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HSDK_PMWIFI_0_ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="hsdk_8h_afbbcb0babc48b4a4e6598b80c03a583d_1afbbcb0babc48b4a4e6598b80c03a583d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_PMWIFI_ID_MAX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HSDK_PMWIFI_0_ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="hsdk_8h_a410e1e3163d011941a32f1e6553e2bc3_1a410e1e3163d011941a32f1e6553e2bc3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_LED_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0xff)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="hsdk_8h_a018041af3d60889cd644e597794f5eb8_1a018041af3d60889cd644e597794f5eb8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_LED_CNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(4)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Un-implemented<sp/>Switch/Button<sp/>functions<sp/>and<sp/>macros</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="hsdk_8h_aa505814603a7771eaa2ad9391d14c37e_1aa505814603a7771eaa2ad9391d14c37e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_BTN_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="hsdk_8h_a57560179839c4f117c91714da34376f0_1a57560179839c4f117c91714da34376f0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_BTN_CNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="hsdk_8h_aa6ae795724a84ab21fa3daee084ab0b8_1aa6ae795724a84ab21fa3daee084ab0b8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SWT_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="hsdk_8h_a5b8a96b97e9cbc4fdacd2404887028bf_1a5b8a96b97e9cbc4fdacd2404887028bf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BOARD_SWT_CNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="hsdk_8h_a8dc91b6750ae7da9696d5575c9c82917_1a8dc91b6750ae7da9696d5575c9c82917" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>switch_read(mask)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="hsdk_8h_a06fce7f491694b0fe2f2b7ac3c5a1b00_1a06fce7f491694b0fe2f2b7ac3c5a1b00" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>button_read(mask)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">/*<sp/>_HSDK_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/hsdk/hsdk.h"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/hsdk.h"/>
   </compounddef>
 </doxygen>

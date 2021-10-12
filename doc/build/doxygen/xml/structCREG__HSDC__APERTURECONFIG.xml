@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structCREG__HSDC__APERTURECONFIG" kind="struct" language="C++" prot="public">
+    <compoundname>CREG_HSDC_APERTURECONFIG</compoundname>
+    <includes refid="creg__hsdc_8h" local="no">creg_hsdc.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCREG__HSDC__APERTURECONFIG_1a10f7a613a0db2453e02ad21098be6824" prot="public" static="no" mutable="no">
+        <type><ref refid="creg__hsdc_8h_afe523110912b207fe56b5c4b75dd3cde_1afe523110912b207fe56b5c4b75dd3cde" kindref="member">CREG_HSDC_MASTER_T</ref></type>
+        <definition>CREG_HSDC_MASTER_T CREG_HSDC_APERTURECONFIG::mst</definition>
+        <argsstring></argsstring>
+        <name>mst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/creg/creg_hsdc.h" line="129" column="20" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/creg/creg_hsdc.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCREG__HSDC__APERTURECONFIG_1aff611725b24114015b1c198d8b0a4d8c" prot="public" static="no" mutable="no">
+        <type><ref refid="creg__hsdc_8h_a18c3dbc5c5b280cc5046bdd919b6735b_1a18c3dbc5c5b280cc5046bdd919b6735b" kindref="member">CREG_HSDC_SLAVE_T</ref></type>
+        <definition>CREG_HSDC_SLAVE_T CREG_HSDC_APERTURECONFIG::slv</definition>
+        <argsstring></argsstring>
+        <name>slv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/creg/creg_hsdc.h" line="130" column="19" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/creg/creg_hsdc.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCREG__HSDC__APERTURECONFIG_1a8f26e8fc18af4e2dbb4a1143b8c1e529" prot="public" static="no" mutable="no">
+        <type><ref refid="creg__hsdc_8h_a02f903e8fcc3fc05326295fded9f81ae_1a02f903e8fcc3fc05326295fded9f81ae" kindref="member">CREG_HSDC_OFFSET_T</ref></type>
+        <definition>CREG_HSDC_OFFSET_T CREG_HSDC_APERTURECONFIG::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/creg/creg_hsdc.h" line="131" column="20" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/creg/creg_hsdc.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCREG__HSDC__APERTURECONFIG_1a6da21d663a283e1b42a431dfc64fa15f" prot="public" static="no" mutable="no">
+        <type><ref refid="creg__hsdc_8h_a3e4bf89d3273d477e8438bbe7adae8d5_1a3e4bf89d3273d477e8438bbe7adae8d5" kindref="member">CREG_HSDC_APERTURE_T</ref></type>
+        <definition>CREG_HSDC_APERTURE_T CREG_HSDC_APERTURECONFIG::aperture</definition>
+        <argsstring></argsstring>
+        <name>aperture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/creg/creg_hsdc.h" line="132" column="22" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/creg/creg_hsdc.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCREG__HSDC__APERTURECONFIG_1a7a0677254074386b733061112eb4d127" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t CREG_HSDC_APERTURECONFIG::intnum</definition>
+        <argsstring></argsstring>
+        <name>intnum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/creg/creg_hsdc.h" line="133" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/creg/creg_hsdc.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/creg/creg_hsdc.h" line="128" column="39" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/hsdk/drivers/creg/creg_hsdc.h" bodystart="128" bodyend="134"/>
+    <listofallmembers>
+      <member refid="structCREG__HSDC__APERTURECONFIG_1a6da21d663a283e1b42a431dfc64fa15f" prot="public" virt="non-virtual"><scope>CREG_HSDC_APERTURECONFIG</scope><name>aperture</name></member>
+      <member refid="structCREG__HSDC__APERTURECONFIG_1a7a0677254074386b733061112eb4d127" prot="public" virt="non-virtual"><scope>CREG_HSDC_APERTURECONFIG</scope><name>intnum</name></member>
+      <member refid="structCREG__HSDC__APERTURECONFIG_1a10f7a613a0db2453e02ad21098be6824" prot="public" virt="non-virtual"><scope>CREG_HSDC_APERTURECONFIG</scope><name>mst</name></member>
+      <member refid="structCREG__HSDC__APERTURECONFIG_1a8f26e8fc18af4e2dbb4a1143b8c1e529" prot="public" virt="non-virtual"><scope>CREG_HSDC_APERTURECONFIG</scope><name>offset</name></member>
+      <member refid="structCREG__HSDC__APERTURECONFIG_1aff611725b24114015b1c198d8b0a4d8c" prot="public" virt="non-virtual"><scope>CREG_HSDC_APERTURECONFIG</scope><name>slv</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

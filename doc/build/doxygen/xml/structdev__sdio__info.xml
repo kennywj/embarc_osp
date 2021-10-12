@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structdev__sdio__info" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structdev__sdio__info" kind="struct" language="C++" prot="public">
     <compoundname>dev_sdio_info</compoundname>
+    <includes refid="dev__sdio_8h" local="no">dev_sdio.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structdev__sdio__info_1a804240f0c116a212cab0959a552fbfdc" prot="public" static="no" mutable="no">
         <type>void *</type>
@@ -14,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" line="100" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" bodystart="100" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" line="94" column="6" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdev__sdio__info_1ae2b822b79e17b0f8565ba341f739bbc6" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -27,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" line="101" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" bodystart="101" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" line="95" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" bodystart="95" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdev__sdio__info_1a8b86f2b7c44dec818e1329007400b2e5" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -40,10 +41,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" line="102" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" bodystart="102" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" line="96" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdev__sdio__info_1ab6ef08efbbcfb9a2a7f3f1e3d1b31252" prot="public" static="no" mutable="no">
-        <type><ref refid="group___d_e_v_i_c_e___h_a_l___c_o_m_m_o_n_1ga91091c2a8f895b2d00ae61e6b607335e" kindref="member">DEV_CALLBACK</ref></type>
+        <type><ref refid="group__DEVICE__HAL__COMMON_gad799b59590746b2af9531e870ae176c8_1gad799b59590746b2af9531e870ae176c8" kindref="member">DEV_CALLBACK</ref></type>
         <definition>DEV_CALLBACK dev_sdio_info::cb</definition>
         <argsstring></argsstring>
         <name>cb</name>
@@ -53,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" line="103" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" bodystart="103" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" line="97" column="14" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdev__sdio__info_1aa0e049e63f584cbf02fb4898481904a6" prot="public" static="no" mutable="no">
         <type>void *</type>
@@ -63,23 +64,18 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>a extra pointer to get hook to applications which should not used by bsp developer </para>        </detaileddescription>
+<para>a extra pointer to get hook to applications which should not used by bsp developer </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" line="104" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" bodystart="104" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" line="98" column="6" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="134">
-        <label>dev_sdio_info</label>
-        <link refid="structdev__sdio__info"/>
-      </node>
-    </collaborationgraph>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" line="99" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" bodystart="99" bodyend="105"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" line="93" column="28" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" bodystart="93" bodyend="99"/>
     <listofallmembers>
       <member refid="structdev__sdio__info_1ab6ef08efbbcfb9a2a7f3f1e3d1b31252" prot="public" virt="non-virtual"><scope>dev_sdio_info</scope><name>cb</name></member>
       <member refid="structdev__sdio__info_1aa0e049e63f584cbf02fb4898481904a6" prot="public" virt="non-virtual"><scope>dev_sdio_info</scope><name>extra</name></member>

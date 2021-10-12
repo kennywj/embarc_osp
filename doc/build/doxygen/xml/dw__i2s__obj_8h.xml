@@ -1,106 +1,148 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="dw__i2s__obj_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dw__i2s__obj_8h" kind="file" language="C++">
     <compoundname>dw_i2s_obj.h</compoundname>
-    <includes refid="dev__i2s_8h" local="yes">ip/ip_hal/inc/dev_i2s.h</includes>
-    <includedby refid="dw__i2s__obj_8c" local="yes">dw_i2s_obj.c</includedby>
-    <includedby refid="iotdk_8h" local="yes">iotdk.h</includedby>
+    <includes refid="dev__i2s_8h" local="yes">device/ip_hal/dev_i2s.h</includes>
+    <includedby refid="dw__i2s__obj_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.c</includedby>
+    <includedby refid="iotdk_8h" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/iotdk/iotdk.h</includedby>
     <incdepgraph>
-      <node id="2888">
+      <node id="4">
         <label>stdint.h</label>
       </node>
-      <node id="2885">
-        <label>dw_i2s_obj.h</label>
-        <link refid="dw_i2s_obj.h"/>
-        <childnode refid="2886" relation="include">
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h</label>
+        <link refid="dw__i2s__obj_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="2887">
-        <label>dev_common.h</label>
-        <link refid="dev__common_8h"/>
-        <childnode refid="2888" relation="include">
-        </childnode>
-      </node>
-      <node id="2886">
-        <label>ip/ip_hal/inc/dev_i2s.h</label>
+      <node id="2">
+        <label>device/ip_hal/dev_i2s.h</label>
         <link refid="dev__i2s_8h"/>
-        <childnode refid="2887" relation="include">
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>device/dev_common.h</label>
+        <link refid="dev__common_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2890">
-        <label>dw_i2s_obj.c</label>
-        <link refid="dw__i2s__obj_8c_source"/>
+      <node id="8">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/subsystem/spi/dfss_spi_obj.c</label>
+        <link refid="iotdk_2drivers_2ip_2subsystem_2spi_2dfss__spi__obj_8c"/>
       </node>
-      <node id="2889">
-        <label>dw_i2s_obj.h</label>
-        <link refid="dw_i2s_obj.h"/>
-        <childnode refid="2890" relation="include">
+      <node id="4">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/pwm_timer/dw_pwm_timer_obj.c</label>
+        <link refid="iotdk_2drivers_2ip_2designware_2pwm__timer_2dw__pwm__timer__obj_8c"/>
+      </node>
+      <node id="2">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.c</label>
+        <link refid="dw__i2s__obj_8c"/>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h</label>
+        <link refid="dw__i2s__obj_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="2891" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="2891">
-        <label>iotdk.h</label>
-        <link refid="iotdk_8h_source"/>
-        <childnode refid="2892" relation="include">
+      <node id="5">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/sdio/dw_sdio_obj.c</label>
+        <link refid="iotdk_2drivers_2ip_2designware_2sdio_2dw__sdio__obj_8c"/>
+      </node>
+      <node id="9">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.c</label>
+        <link refid="iotdk_2drivers_2ip_2subsystem_2uart_2dfss__uart__obj_8c"/>
+      </node>
+      <node id="6">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.c</label>
+        <link refid="iotdk_2drivers_2ip_2subsystem_2gpio_2dfss__gpio__obj_8c"/>
+      </node>
+      <node id="3">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/iotdk.h</label>
+        <link refid="iotdk_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="2892">
-        <label>mux.c</label>
-        <link refid="iotdk_2drivers_2mux_2mux_8c_source"/>
+      <node id="7">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/subsystem/iic/dfss_iic_obj.c</label>
+        <link refid="iotdk_2drivers_2ip_2subsystem_2iic_2dfss__iic__obj_8c"/>
+      </node>
+      <node id="10">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/mux/mux.c</label>
+        <link refid="iotdk_2drivers_2mux_2mux_8c"/>
       </node>
     </invincdepgraph>
       <sectiondef kind="define">
-      <memberdef kind="define" id="dw__i2s__obj_8h_1a538b620eea53b9e96ce8157df00c4017" prot="public" static="no">
+      <memberdef kind="define" id="dw__i2s__obj_8h_a538b620eea53b9e96ce8157df00c4017_1a538b620eea53b9e96ce8157df00c4017" prot="public" static="no">
         <name>DW_I2S_0_ID</name>
         <initializer>0</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>I2S 0 ID macro </para>        </detaileddescription>
+<para>I2S 0 ID macro </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" line="35" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" bodystart="35" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" line="35" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" bodystart="35" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="dw__i2s__obj_8h_1a92ef07f1ab29ba6987582275f7e27639" prot="public" static="no">
+      <memberdef kind="define" id="dw__i2s__obj_8h_a92ef07f1ab29ba6987582275f7e27639_1a92ef07f1ab29ba6987582275f7e27639" prot="public" static="no">
         <name>DW_I2S_1_ID</name>
         <initializer>1</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>I2S 1 ID macro </para>        </detaileddescription>
+<para>I2S 1 ID macro </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" line="36" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" bodystart="36" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" line="36" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" bodystart="36" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="dw__i2s__obj_8h_1a9518c4ed9b131086a63b4873fb641340" prot="public" static="no">
+      <memberdef kind="define" id="dw__i2s__obj_8h_a9518c4ed9b131086a63b4873fb641340_1a9518c4ed9b131086a63b4873fb641340" prot="public" static="no">
         <name>USE_DW_I2S_0</name>
         <initializer>1</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>enable use DesignWare I2S 0 as TX </para>        </detaileddescription>
+<para>enable use DesignWare I2S 0 as TX </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" line="38" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" line="38" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" bodystart="38" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="dw__i2s__obj_8h_1aa4b3339f820bc06781174a71820a7449" prot="public" static="no">
+      <memberdef kind="define" id="dw__i2s__obj_8h_aa4b3339f820bc06781174a71820a7449_1aa4b3339f820bc06781174a71820a7449" prot="public" static="no">
         <name>USE_DW_I2S_1</name>
         <initializer>1</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>enable use DesignWare I2S 1 as TX </para>        </detaileddescription>
+<para>enable use DesignWare I2S 1 as TX </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" line="39" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" line="39" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
-      <memberdef kind="function" id="dw__i2s__obj_8h_1a30e39fa5f55e68a739c0d981c59444bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structdev__i2s" kindref="compound">DEV_I2S_PTR</ref></type>
+      <memberdef kind="function" id="group__DEVICE__HAL__I2S_ga30e39fa5f55e68a739c0d981c59444bf_1ga30e39fa5f55e68a739c0d981c59444bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__DEVICE__HAL__I2S__DEVSTRUCT_gad58ee82fb4e4095abaadbc8db342747b_1gad58ee82fb4e4095abaadbc8db342747b" kindref="member">DEV_I2S_PTR</ref></type>
         <definition>DEV_I2S_PTR i2s_get_dev</definition>
         <argsstring>(int32_t i2s_id)</argsstring>
         <name>i2s_get_dev</name>
@@ -109,12 +151,44 @@
           <declname>i2s_id</declname>
         </param>
         <briefdescription>
-<para>get one designware device structure </para>        </briefdescription>
+<para>get an <ref refid="structdev__i2s" kindref="compound">i2s device</ref> by i2s device id. For how to use i2s device hal refer to <ref refid="group__DEVICE__HAL__I2S__DEVSTRUCT" kindref="compound">Functions in i2s device structure</ref> </para>
+        </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i2s_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of i2s, defined by user </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>!NULL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to an <ref refid="structdev__i2s" kindref="compound">i2s device structure</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NULL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>failed to find the i2s device by i2s_id </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>need to implemented by user in user code</para>
+</simplesect>
+get one designware device structure </para>
         </detaileddescription>
         <inbodydescription>
+<para>&lt; I2S 0 ID macro</para>
+<para>&lt; I2S 1 ID macro</para>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" line="45" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/emsdp/drivers/ip/ip_obj_mgr.c" bodystart="187" bodyend="203"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" line="45" column="20" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/emsdp/drivers/ip/ip_obj_mgr.c" bodystart="186" bodyend="202" declfile="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h" declline="45" declcolumn="20"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -150,28 +224,28 @@
 <codeline lineno="26"><highlight class="comment"><sp/>*<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS</highlight></codeline>
 <codeline lineno="27"><highlight class="comment"><sp/>*<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
 <codeline lineno="28"><highlight class="comment"><sp/>*</highlight></codeline>
-<codeline lineno="29"><highlight class="comment">---------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_DW_I2S_OBJ_H_</highlight></codeline>
-<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_DW_I2S_OBJ_H_</highlight></codeline>
-<codeline lineno="32"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dev__i2s_8h" kindref="compound">ip/ip_hal/inc/dev_i2s.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/>---------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_DW_I2S_OBJ_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_DW_I2S_OBJ_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dev__i2s_8h" kindref="compound">device/ip_hal/dev_i2s.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DW_I2S_0_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="36"><highlight class="preprocessor">#define<sp/>DW_I2S_1_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="38"><highlight class="preprocessor">#define<sp/>USE_DW_I2S_0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="39"><highlight class="preprocessor">#define<sp/>USE_DW_I2S_1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="41"><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight></codeline>
-<codeline lineno="42"><highlight class="preprocessor"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="44"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="structdev__i2s" kindref="compound">DEV_I2S_PTR</ref><sp/><ref refid="group___d_e_v_i_c_e___h_a_l___i2_s_1ga30e39fa5f55e68a739c0d981c59444bf" kindref="member">i2s_get_dev</ref>(int32_t<sp/>i2s_id);</highlight></codeline>
+<codeline lineno="35" refid="dw__i2s__obj_8h_a538b620eea53b9e96ce8157df00c4017_1a538b620eea53b9e96ce8157df00c4017" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DW_I2S_0_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36" refid="dw__i2s__obj_8h_a92ef07f1ab29ba6987582275f7e27639_1a92ef07f1ab29ba6987582275f7e27639" refkind="member"><highlight class="preprocessor">#define<sp/>DW_I2S_1_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38" refid="dw__i2s__obj_8h_a9518c4ed9b131086a63b4873fb641340_1a9518c4ed9b131086a63b4873fb641340" refkind="member"><highlight class="preprocessor">#define<sp/>USE_DW_I2S_0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39" refid="dw__i2s__obj_8h_aa4b3339f820bc06781174a71820a7449_1aa4b3339f820bc06781174a71820a7449" refkind="member"><highlight class="preprocessor">#define<sp/>USE_DW_I2S_1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="structdev__i2s" kindref="compound">DEV_I2S_PTR</ref><sp/><ref refid="group__DEVICE__HAL__I2S_ga30e39fa5f55e68a739c0d981c59444bf_1ga30e39fa5f55e68a739c0d981c59444bf" kindref="member">i2s_get_dev</ref>(int32_t<sp/>i2s_id);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight></codeline>
-<codeline lineno="48"><highlight class="preprocessor"></highlight><highlight class="normal">}</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="50"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_DW_I2S_OBJ_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h"/>
   </compounddef>
 </doxygen>

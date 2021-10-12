@@ -1,59 +1,57 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structdev__uart__cbs" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structdev__uart__cbs" kind="struct" language="C++" prot="public">
     <compoundname>dev_uart_cbs</compoundname>
+    <includes refid="dev__uart_8h" local="no">dev_uart.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structdev__uart__cbs_1a2c385cdfd61f1d7a8f6371935db8e0f1" prot="public" static="no" mutable="no">
-        <type><ref refid="group___d_e_v_i_c_e___h_a_l___c_o_m_m_o_n_1ga91091c2a8f895b2d00ae61e6b607335e" kindref="member">DEV_CALLBACK</ref></type>
+        <type><ref refid="group__DEVICE__HAL__COMMON_gad799b59590746b2af9531e870ae176c8_1gad799b59590746b2af9531e870ae176c8" kindref="member">DEV_CALLBACK</ref></type>
         <definition>DEV_CALLBACK dev_uart_cbs::tx_cb</definition>
         <argsstring></argsstring>
         <name>tx_cb</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>uart data transmit success required bytes callback </para>        </detaileddescription>
+<para>uart data transmit success required bytes callback </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_uart.h" line="334" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_uart.h" bodystart="334" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_uart.h" line="334" column="14" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_uart.h" bodystart="334" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdev__uart__cbs_1af6d1329c648df0d31eb8f8c1a6d7e777" prot="public" static="no" mutable="no">
-        <type><ref refid="group___d_e_v_i_c_e___h_a_l___c_o_m_m_o_n_1ga91091c2a8f895b2d00ae61e6b607335e" kindref="member">DEV_CALLBACK</ref></type>
+        <type><ref refid="group__DEVICE__HAL__COMMON_gad799b59590746b2af9531e870ae176c8_1gad799b59590746b2af9531e870ae176c8" kindref="member">DEV_CALLBACK</ref></type>
         <definition>DEV_CALLBACK dev_uart_cbs::rx_cb</definition>
         <argsstring></argsstring>
         <name>rx_cb</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>uart data receive success required bytes callback </para>        </detaileddescription>
+<para>uart data receive success required bytes callback </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_uart.h" line="335" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_uart.h" bodystart="335" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_uart.h" line="335" column="14" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_uart.h" bodystart="335" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdev__uart__cbs_1a38de0b4956621917a15e6974f9cd6ca4" prot="public" static="no" mutable="no">
-        <type><ref refid="group___d_e_v_i_c_e___h_a_l___c_o_m_m_o_n_1ga91091c2a8f895b2d00ae61e6b607335e" kindref="member">DEV_CALLBACK</ref></type>
+        <type><ref refid="group__DEVICE__HAL__COMMON_gad799b59590746b2af9531e870ae176c8_1gad799b59590746b2af9531e870ae176c8" kindref="member">DEV_CALLBACK</ref></type>
         <definition>DEV_CALLBACK dev_uart_cbs::err_cb</definition>
         <argsstring></argsstring>
         <name>err_cb</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>uart error callback </para>        </detaileddescription>
+<para>uart error callback </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_uart.h" line="336" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_uart.h" bodystart="336" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_uart.h" line="336" column="14" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_uart.h" bodystart="336" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="168">
-        <label>dev_uart_cbs</label>
-        <link refid="structdev__uart__cbs"/>
-      </node>
-    </collaborationgraph>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_uart.h" line="333" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_uart.h" bodystart="333" bodyend="337"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_uart.h" line="333" column="27" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_uart.h" bodystart="333" bodyend="337"/>
     <listofallmembers>
       <member refid="structdev__uart__cbs_1a38de0b4956621917a15e6974f9cd6ca4" prot="public" virt="non-virtual"><scope>dev_uart_cbs</scope><name>err_cb</name></member>
       <member refid="structdev__uart__cbs_1af6d1329c648df0d31eb8f8c1a6d7e777" prot="public" virt="non-virtual"><scope>dev_uart_cbs</scope><name>rx_cb</name></member>

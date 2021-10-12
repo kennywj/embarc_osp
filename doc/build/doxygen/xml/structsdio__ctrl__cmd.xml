@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structsdio__ctrl__cmd" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structsdio__ctrl__cmd" kind="struct" language="C++" prot="public">
     <compoundname>sdio_ctrl_cmd</compoundname>
+    <includes refid="dev__sdio_8h" local="no">dev_sdio.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structsdio__ctrl__cmd_1a62415451ae8841a78cb57b183e7732f5" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -14,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" line="94" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" bodystart="94" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" line="89" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structsdio__ctrl__cmd_1a15c20f88fdfbcf24d02f26d8be2c094a" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -27,20 +28,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" line="95" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" bodystart="95" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" line="90" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="363">
-        <label>sdio_ctrl_cmd</label>
-        <link refid="structsdio__ctrl__cmd"/>
-      </node>
-    </collaborationgraph>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" line="93" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/dev_sdio.h" bodystart="93" bodyend="96"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" line="88" column="28" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_sdio.h" bodystart="88" bodyend="91"/>
     <listofallmembers>
       <member refid="structsdio__ctrl__cmd_1a62415451ae8841a78cb57b183e7732f5" prot="public" virt="non-virtual"><scope>sdio_ctrl_cmd</scope><name>card</name></member>
       <member refid="structsdio__ctrl__cmd_1a15c20f88fdfbcf24d02f26d8be2c094a" prot="public" virt="non-virtual"><scope>sdio_ctrl_cmd</scope><name>cmd</name></member>

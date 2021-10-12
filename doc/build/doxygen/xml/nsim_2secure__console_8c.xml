@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="nsim_2secure__console_8c" kind="file">
-    <compoundname>nsim/secure_console.c</compoundname>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="nsim_2secure__console_8c" kind="file" language="C++">
+    <compoundname>secure_console.c</compoundname>
       <sectiondef kind="func">
-      <memberdef kind="function" id="nsim_2secure__console_8c_1ab49cf6d849c0fc67b7aa491c021f12cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="nsim_2secure__console_8c_ab49cf6d849c0fc67b7aa491c021f12cc_1ab49cf6d849c0fc67b7aa491c021f12cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void secure_console_init</definition>
         <argsstring>(void)</argsstring>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/board/nsim/secure_console.c" line="31" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/board/nsim/secure_console.c" bodystart="31" bodyend="34"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/board/nsim/secure_console.c" line="31" column="6" bodyfile="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/board/nsim/secure_console.c" bodystart="31" bodyend="34"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -55,11 +55,11 @@
 <codeline lineno="28"><highlight class="comment"><sp/>*</highlight></codeline>
 <codeline lineno="29"><highlight class="comment">---------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>secure_console_init(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="emsdp_2common_2secure__console_8c_ab49cf6d849c0fc67b7aa491c021f12cc_1ab49cf6d849c0fc67b7aa491c021f12cc" kindref="member">secure_console_init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="32"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/board/nsim/secure_console.c"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/board/nsim/secure_console.c"/>
   </compounddef>
 </doxygen>

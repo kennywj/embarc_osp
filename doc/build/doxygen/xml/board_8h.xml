@@ -1,328 +1,480 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="board_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="board_8h" kind="file" language="C++">
     <compoundname>board.h</compoundname>
-    <includedby refid="flash__map_8c" local="yes">flash_map.c</includedby>
-    <includedby refid="emb_a_r_c_8h" local="yes">embARC.h</includedby>
-    <includedby refid="axs__init_8c" local="yes">axs_init.c</includedby>
-    <includedby refid="axs__timer_8c" local="yes">axs_timer.c</includedby>
-    <includedby refid="emsdp__init_8c" local="yes">emsdp_init.c</includedby>
-    <includedby refid="emsdp__timer_8c" local="yes">emsdp_timer.c</includedby>
-    <includedby refid="emsdp_2drivers_2ip_2subsystem_2gpio_2dfss__gpio__obj_8c" local="yes">dfss_gpio_obj.c</includedby>
-    <includedby refid="dfss__i2s__obj_8c" local="yes">dfss_i2s_obj.c</includedby>
-    <includedby refid="emsdp_2drivers_2ip_2subsystem_2iic_2dfss__iic__obj_8c" local="yes">dfss_iic_obj.c</includedby>
-    <includedby refid="emsdp_2drivers_2ip_2subsystem_2spi_2dfss__spi__obj_8c" local="yes">dfss_spi_obj.c</includedby>
-    <includedby refid="emsdp_2drivers_2ip_2subsystem_2uart_2dfss__uart__obj_8c" local="yes">dfss_uart_obj.c</includedby>
-    <includedby refid="emsdp_2drivers_2ntshell_2ntshell__io__netconn_8c" local="yes">ntshell_io_netconn.c</includedby>
-    <includedby refid="emsdp_2drivers_2ntshell_2ntshell__io__uart_8c" local="yes">ntshell_io_uart.c</includedby>
-    <includedby refid="emsdp_2drivers_2pmwifi_2pmwifi_8c" local="yes">pmwifi.c</includedby>
-    <includedby refid="emsdp_2drivers_2sdcard_2sdcard__sdio_8c" local="yes">sdcard_sdio.c</includedby>
-    <includedby refid="emsk__init_8c" local="yes">emsk_init.c</includedby>
-    <includedby refid="emsk__timer_8c" local="yes">emsk_timer.c</includedby>
-    <includedby refid="emsk_2drivers_2ntshell_2ntshell__io__netconn_8c" local="yes">ntshell_io_netconn.c</includedby>
-    <includedby refid="emsk_2drivers_2ntshell_2ntshell__io__uart_8c" local="yes">ntshell_io_uart.c</includedby>
-    <includedby refid="emsk_2drivers_2pmwifi_2pmwifi_8c" local="yes">pmwifi.c</includedby>
-    <includedby refid="emsk__sdcard__spi_8c" local="yes">emsk_sdcard_spi.c</includedby>
-    <includedby refid="hsdk__init_8c" local="yes">hsdk_init.c</includedby>
-    <includedby refid="hsdk__timer_8c" local="yes">hsdk_timer.c</includedby>
-    <includedby refid="hsdk_2drivers_2sdcard_2sdcard__sdio_8c" local="yes">sdcard_sdio.c</includedby>
-    <includedby refid="iotdk__init_8c" local="yes">iotdk_init.c</includedby>
-    <includedby refid="iotdk__timer_8c" local="yes">iotdk_timer.c</includedby>
-    <includedby refid="iotdk_2drivers_2ntshell_2ntshell__io__netconn_8c" local="yes">ntshell_io_netconn.c</includedby>
-    <includedby refid="iotdk_2drivers_2ntshell_2ntshell__io__uart_8c" local="yes">ntshell_io_uart.c</includedby>
-    <includedby refid="iotdk_2drivers_2pmwifi_2pmwifi_8c" local="yes">pmwifi.c</includedby>
-    <includedby refid="iotdk_2drivers_2sdcard_2sdcard__sdio_8c" local="yes">sdcard_sdio.c</includedby>
-    <includedby refid="nsim__init_8c" local="yes">nsim_init.c</includedby>
-    <includedby refid="nsim__timer_8c" local="yes">nsim_timer.c</includedby>
-    <includedby refid="dw__sdio_8c" local="yes">dw_sdio.c</includedby>
+    <includedby refid="flash__map_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/flash_map.c</includedby>
+    <includedby refid="embARC_8h" local="yes">/home/runner/work/embarc_osp/embarc_osp/include/embARC.h</includedby>
+    <includedby refid="axs__init_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/axs/common/axs_init.c</includedby>
+    <includedby refid="emsdp__init_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/emsdp/common/emsdp_init.c</includedby>
+    <includedby refid="emsdp__io_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/emsdp/common/emsdp_io.c</includedby>
+    <includedby refid="emsk__gpio_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/emsk/common/emsk_gpio.c</includedby>
+    <includedby refid="emsk__init_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/emsk/common/emsk_init.c</includedby>
+    <includedby refid="hsdk__init_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/hsdk/common/hsdk_init.c</includedby>
+    <includedby refid="hsdk__io_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/hsdk/common/hsdk_io.c</includedby>
+    <includedby refid="iotdk__init_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/iotdk/common/iotdk_init.c</includedby>
+    <includedby refid="nsim__init_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/nsim/common/nsim_init.c</includedby>
     <invincdepgraph>
-      <node id="1329">
-        <label>dfss_i2s_obj.c</label>
-        <link refid="dfss__i2s__obj_8c_source"/>
+      <node id="24">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/nsim/common/nsim_init.c</label>
+        <link refid="nsim__init_8c"/>
       </node>
-      <node id="1353">
-        <label>nsim_timer.c</label>
-        <link refid="nsim__timer_8c_source"/>
+      <node id="19">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/emsk/common/emsk_gpio.c</label>
+        <link refid="emsk__gpio_8c"/>
       </node>
-      <node id="1350">
-        <label>pmwifi.c</label>
-        <link refid="iotdk_2drivers_2pmwifi_2pmwifi_8c_source"/>
+      <node id="12">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/axs/configs/103/axs_103_interrupt.c</label>
+        <link refid="axs__103__interrupt_8c"/>
       </node>
-      <node id="1310">
-        <label>embARC.h</label>
-        <link refid="emb_a_r_c_8h"/>
-        <childnode refid="1311" relation="include">
+      <node id="7">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/board/emsdp/common/secure_console.c</label>
+        <link refid="emsdp_2common_2secure__console_8c"/>
+      </node>
+      <node id="13">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/board.c</label>
+        <link refid="board_8c"/>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/board.h</label>
+        <link refid="board_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="1314" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="1315" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="1316" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="1317" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="1318" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="1319" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="1320" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="1321" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-      </node>
-      <node id="1344">
-        <label>hsdk_timer.c</label>
-        <link refid="hsdk__timer_8c_source"/>
-      </node>
-      <node id="1322">
-        <label>dw_i2s_obj.c</label>
-        <link refid="dw__i2s__obj_8c_source"/>
-      </node>
-      <node id="1312">
-        <label>dirent.h</label>
-        <link refid="dirent_8h_source"/>
-      </node>
-      <node id="1320">
-        <label>hsdk_interrupt.c</label>
-        <link refid="hsdk__interrupt_8c_source"/>
-      </node>
-      <node id="1349">
-        <label>ntshell_io_uart.c</label>
-        <link refid="iotdk_2drivers_2ntshell_2ntshell__io__uart_8c_source"/>
-      </node>
-      <node id="1348">
-        <label>ntshell_io_netconn.c</label>
-        <link refid="iotdk_2drivers_2ntshell_2ntshell__io__netconn_8c_source"/>
-      </node>
-      <node id="1323">
-        <label>dw_i2s.c</label>
-        <link refid="dw__i2s_8c_source"/>
-      </node>
-      <node id="1335">
-        <label>pmwifi.c</label>
-        <link refid="emsdp_2drivers_2pmwifi_2pmwifi_8c_source"/>
-      </node>
-      <node id="1321">
-        <label>dw_i2s.h</label>
-        <link refid="dw__i2s_8h_source"/>
-        <childnode refid="1322" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="1323" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="1337">
-        <label>emsk_init.c</label>
+      <node id="10">
+        <label>/home/runner/work/embarc_osp/embarc_osp/include/device/designware/dw_i2s.h</label>
+        <link refid="dw__i2s_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.c</label>
+        <link refid="dw__i2s__obj_8c"/>
+      </node>
+      <node id="3">
+        <label>/home/runner/work/embarc_osp/embarc_osp/include/embARC.h</label>
+        <link refid="embARC_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/clib/fatfs_dirent.h</label>
+        <link refid="fatfs__dirent_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/hsdk/configs/20/hsdk_interrupt.c</label>
+        <link refid="20_2hsdk__interrupt_8c"/>
+      </node>
+      <node id="5">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/clib/dirent.h</label>
+        <link refid="dirent_8h"/>
+      </node>
+      <node id="9">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/board/iotdk/common/secure_console.c</label>
+        <link refid="iotdk_2common_2secure__console_8c"/>
+      </node>
+      <node id="22">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/hsdk/common/hsdk_io.c</label>
+        <link refid="hsdk__io_8c"/>
+      </node>
+      <node id="16">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/axs/common/axs_init.c</label>
+        <link refid="axs__init_8c"/>
+      </node>
+      <node id="6">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/clib/embARC_syscalls.c</label>
+        <link refid="embARC__syscalls_8c"/>
+      </node>
+      <node id="21">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/hsdk/common/hsdk_init.c</label>
+        <link refid="hsdk__init_8c"/>
+      </node>
+      <node id="14">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/hsdk/configs/10/hsdk_interrupt.c</label>
+        <link refid="10_2hsdk__interrupt_8c"/>
+      </node>
+      <node id="2">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/flash_map.c</label>
+        <link refid="flash__map_8c"/>
+      </node>
+      <node id="20">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/emsk/common/emsk_init.c</label>
         <link refid="emsk__init_8c"/>
       </node>
-      <node id="1332">
-        <label>dfss_uart_obj.c</label>
-        <link refid="emsdp_2drivers_2ip_2subsystem_2uart_2dfss__uart__obj_8c_source"/>
+      <node id="18">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/emsdp/common/emsdp_io.c</label>
+        <link refid="emsdp__io_8c"/>
       </node>
-      <node id="1346">
-        <label>iotdk_init.c</label>
-        <link refid="iotdk__init_8c_source"/>
+      <node id="8">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/board/emsk/common/secure_console.c</label>
+        <link refid="emsk_2common_2secure__console_8c"/>
       </node>
-      <node id="1330">
-        <label>dfss_iic_obj.c</label>
-        <link refid="emsdp_2drivers_2ip_2subsystem_2iic_2dfss__iic__obj_8c_source"/>
+      <node id="23">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/common/iotdk_init.c</label>
+        <link refid="iotdk__init_8c"/>
       </node>
-      <node id="1341">
-        <label>pmwifi.c</label>
-        <link refid="emsk_2drivers_2pmwifi_2pmwifi_8c"/>
-      </node>
-      <node id="1328">
-        <label>dfss_gpio_obj.c</label>
-        <link refid="emsdp_2drivers_2ip_2subsystem_2gpio_2dfss__gpio__obj_8c_source"/>
-      </node>
-      <node id="1315">
-        <label>secure_console.c</label>
-        <link refid="emsdp_2common_2secure__console_8c_source"/>
-      </node>
-      <node id="1333">
-        <label>ntshell_io_netconn.c</label>
-        <link refid="emsdp_2drivers_2ntshell_2ntshell__io__netconn_8c"/>
-      </node>
-      <node id="1339">
-        <label>ntshell_io_netconn.c</label>
-        <link refid="emsk_2drivers_2ntshell_2ntshell__io__netconn_8c"/>
-      </node>
-      <node id="1325">
-        <label>axs_timer.c</label>
-        <link refid="axs__timer_8c_source"/>
-      </node>
-      <node id="1342">
-        <label>emsk_sdcard_spi.c</label>
-        <link refid="emsk__sdcard__spi_8c"/>
-      </node>
-      <node id="1334">
-        <label>ntshell_io_uart.c</label>
-        <link refid="emsdp_2drivers_2ntshell_2ntshell__io__uart_8c"/>
-      </node>
-      <node id="1327">
-        <label>emsdp_timer.c</label>
-        <link refid="emsdp__timer_8c_source"/>
-      </node>
-      <node id="1324">
-        <label>axs_init.c</label>
-        <link refid="axs__init_8c_source"/>
-      </node>
-      <node id="1343">
-        <label>hsdk_init.c</label>
-        <link refid="hsdk__init_8c_source"/>
-      </node>
-      <node id="1345">
-        <label>sdcard_sdio.c</label>
-        <link refid="hsdk_2drivers_2sdcard_2sdcard__sdio_8c_source"/>
-      </node>
-      <node id="1326">
-        <label>emsdp_init.c</label>
-        <link refid="emsdp__init_8c_source"/>
-      </node>
-      <node id="1336">
-        <label>sdcard_sdio.c</label>
-        <link refid="emsdp_2drivers_2sdcard_2sdcard__sdio_8c_source"/>
-      </node>
-      <node id="1313">
-        <label>fatfs_dirent.c</label>
-        <link refid="fatfs__dirent_8c_source"/>
-      </node>
-      <node id="1311">
-        <label>fatfs_dirent.h</label>
-        <link refid="fatfs__dirent_8h_source"/>
-        <childnode refid="1312" relation="include">
-        </childnode>
-        <childnode refid="1313" relation="include">
-        </childnode>
-      </node>
-      <node id="1331">
-        <label>dfss_spi_obj.c</label>
-        <link refid="emsdp_2drivers_2ip_2subsystem_2spi_2dfss__spi__obj_8c_source"/>
-      </node>
-      <node id="1314">
-        <label>embARC_syscalls.c</label>
-        <link refid="emb_a_r_c__syscalls_8c_source"/>
-      </node>
-      <node id="1347">
-        <label>iotdk_timer.c</label>
-        <link refid="iotdk__timer_8c_source"/>
-      </node>
-      <node id="1338">
-        <label>emsk_timer.c</label>
-        <link refid="emsk__timer_8c"/>
-      </node>
-      <node id="1318">
-        <label>axs_103_interrupt.c</label>
-        <link refid="axs__103__interrupt_8c_source"/>
-      </node>
-      <node id="1354">
-        <label>dw_sdio.c</label>
-        <link refid="dw__sdio_8c_source"/>
-      </node>
-      <node id="1309">
-        <label>flash_map.c</label>
-        <link refid="flash__map_8c_source"/>
-      </node>
-      <node id="1319">
-        <label>board.c</label>
-        <link refid="board_8c_source"/>
-      </node>
-      <node id="1308">
-        <label>board.h</label>
-        <link refid="board.h"/>
-        <childnode refid="1309" relation="include">
-        </childnode>
-        <childnode refid="1310" relation="include">
-        </childnode>
-        <childnode refid="1324" relation="include">
-        </childnode>
-        <childnode refid="1325" relation="include">
-        </childnode>
-        <childnode refid="1326" relation="include">
-        </childnode>
-        <childnode refid="1327" relation="include">
-        </childnode>
-        <childnode refid="1328" relation="include">
-        </childnode>
-        <childnode refid="1329" relation="include">
-        </childnode>
-        <childnode refid="1330" relation="include">
-        </childnode>
-        <childnode refid="1331" relation="include">
-        </childnode>
-        <childnode refid="1332" relation="include">
-        </childnode>
-        <childnode refid="1333" relation="include">
-        </childnode>
-        <childnode refid="1334" relation="include">
-        </childnode>
-        <childnode refid="1335" relation="include">
-        </childnode>
-        <childnode refid="1336" relation="include">
-        </childnode>
-        <childnode refid="1337" relation="include">
-        </childnode>
-        <childnode refid="1338" relation="include">
-        </childnode>
-        <childnode refid="1339" relation="include">
-        </childnode>
-        <childnode refid="1340" relation="include">
-        </childnode>
-        <childnode refid="1341" relation="include">
-        </childnode>
-        <childnode refid="1342" relation="include">
-        </childnode>
-        <childnode refid="1343" relation="include">
-        </childnode>
-        <childnode refid="1344" relation="include">
-        </childnode>
-        <childnode refid="1345" relation="include">
-        </childnode>
-        <childnode refid="1346" relation="include">
-        </childnode>
-        <childnode refid="1347" relation="include">
-        </childnode>
-        <childnode refid="1348" relation="include">
-        </childnode>
-        <childnode refid="1349" relation="include">
-        </childnode>
-        <childnode refid="1350" relation="include">
-        </childnode>
-        <childnode refid="1351" relation="include">
-        </childnode>
-        <childnode refid="1352" relation="include">
-        </childnode>
-        <childnode refid="1353" relation="include">
-        </childnode>
-        <childnode refid="1354" relation="include">
-        </childnode>
-      </node>
-      <node id="1340">
-        <label>ntshell_io_uart.c</label>
-        <link refid="emsk_2drivers_2ntshell_2ntshell__io__uart_8c"/>
-      </node>
-      <node id="1317">
-        <label>secure_console.c</label>
-        <link refid="iotdk_2common_2secure__console_8c_source"/>
-      </node>
-      <node id="1316">
-        <label>secure_console.c</label>
-        <link refid="emsk_2common_2secure__console_8c_source"/>
-      </node>
-      <node id="1352">
-        <label>nsim_init.c</label>
-        <link refid="nsim__init_8c_source"/>
-      </node>
-      <node id="1351">
-        <label>sdcard_sdio.c</label>
-        <link refid="iotdk_2drivers_2sdcard_2sdcard__sdio_8c_source"/>
+      <node id="17">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/emsdp/common/emsdp_init.c</label>
+        <link refid="emsdp__init_8c"/>
       </node>
     </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="group__BOARD__COMMON_ga0925d758144e37de4158bb2faadea9e9_1ga0925d758144e37de4158bb2faadea9e9" prot="public" static="no">
+        <name>OSP_DELAY_OS_COMPAT_ENABLE</name>
+        <initializer>(1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="100" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__BOARD__COMMON_ga0a78908e297806f4ae43488e59f3e682_1ga0a78908e297806f4ae43488e59f3e682" prot="public" static="no">
+        <name>OSP_DELAY_OS_COMPAT_DISABLE</name>
+        <initializer>(0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="101" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__BOARD__COMMON_gabd10baafda4f7905848d2a6741be5888_1gabd10baafda4f7905848d2a6741be5888" prot="public" static="no">
+        <name>OSP_GET_CUR_SYSHZ</name>
+        <param></param>
+        <initializer>bord_get_cur_syshz()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="103" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__BOARD__COMMON_ga1aeaa7e8387adcad735b59293caa0078_1ga1aeaa7e8387adcad735b59293caa0078" prot="public" static="no">
+        <name>OSP_GET_CUR_MS</name>
+        <param></param>
+        <initializer><ref refid="group__BOARD__COMMON_ga0a2cbc20d3612af27543fde270ad862c_1ga0a2cbc20d3612af27543fde270ad862c" kindref="member">board_get_cur_ms</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="104" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__BOARD__COMMON_gabfd80da126409074c73a5a633f2909bf_1gabfd80da126409074c73a5a633f2909bf" prot="public" static="no">
+        <name>OSP_GET_CUR_US</name>
+        <param></param>
+        <initializer><ref refid="group__BOARD__COMMON_gac804f2adaefaef9ae3d123dbe4abb123_1gac804f2adaefaef9ae3d123dbe4abb123" kindref="member">board_get_cur_us</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="105" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__BOARD__COMMON_gad5344be95b93a72c0901d34027240b9c_1gad5344be95b93a72c0901d34027240b9c" prot="public" static="no">
+        <name>OSP_GET_CUR_HWTICKS</name>
+        <param></param>
+        <initializer><ref refid="group__BOARD__COMMON_gac019f96ffa35670f7013ab1e3c91b230_1gac019f96ffa35670f7013ab1e3c91b230" kindref="member">board_get_hwticks</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="106" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__BOARD__COMMON_ga916f2adc2080b4fe88034086d107a8dc_1ga916f2adc2080b4fe88034086d107a8dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void board_init</definition>
+        <argsstring>(void)</argsstring>
+        <name>board_init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Board init routine MUST be called in each application. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>the following macros must use the same name, because they are used by middleware and other applications here is a sample of EMSK board resource definitions you can add your board configuration as BOARD_EMSK defined up nsim related definition</para>
+</simplesect>
+<simplesect kind="note"><para>It is better to disable interrupts when calling this function remember to enable interrupt when you want to use them </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="86" column="13" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/axs/common/axs_init.c" bodystart="38" bodyend="42" declfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" declline="86" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BOARD__COMMON_ga2d400eb191882aeb5b35143ffe7ea9ef_1ga2d400eb191882aeb5b35143ffe7ea9ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void board_timer_update</definition>
+        <argsstring>(uint32_t precision)</argsstring>
+        <name>board_timer_update</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>precision</declname>
+        </param>
+        <briefdescription>
+<para>Update timer counter and other MS period operation in cycling interrupt and must be called periodically. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>precision</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>interrupt-period precision in Hz </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>count sys hz</para>
+<para>count ms</para>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="87" column="13" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/board.c" bodystart="344" bodyend="365" declfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" declline="87" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BOARD__COMMON_gadf80b95e6ceb5c1014e3e1a6f243fe8e_1gadf80b95e6ceb5c1014e3e1a6f243fe8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void board_delay_ms</definition>
+        <argsstring>(uint32_t ms, uint8_t os_compat)</argsstring>
+        <name>board_delay_ms</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ms</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>os_compat</declname>
+        </param>
+        <briefdescription>
+<para>provide MS delay function </para>
+        </briefdescription>
+        <detaileddescription>
+<para>this function needs a 1-MS timer interrupt to work. For bare-metal, it is implemented in this file. For OS, you must call <ref refid="group__BOARD__COMMON_ga2d400eb191882aeb5b35143ffe7ea9ef_1ga2d400eb191882aeb5b35143ffe7ea9ef" kindref="member">board_timer_update</ref> in the OS 1-MS timer interrupt when the bare-metal timer interrupt is not ready <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>MS to delay </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">os_compat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable or disable When this delay is enabled, use the OS delay function, if one is provided. See <ref refid="group__BOARD__COMMON_ga0925d758144e37de4158bb2faadea9e9_1ga0925d758144e37de4158bb2faadea9e9" kindref="member">OSP_DELAY_OS_COMPAT_ENABLE</ref> and <ref refid="group__BOARD__COMMON_ga0a78908e297806f4ae43488e59f3e682_1ga0a78908e297806f4ae43488e59f3e682" kindref="member">OSP_DELAY_OS_COMPAT_DISABLE</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="88" column="13" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/board.c" bodystart="433" bodyend="451" declfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" declline="88" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BOARD__COMMON_gac019f96ffa35670f7013ab1e3c91b230_1gac019f96ffa35670f7013ab1e3c91b230" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t board_get_hwticks</definition>
+        <argsstring>(void)</argsstring>
+        <name>board_get_hwticks</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get current timer&apos;s counter value in ticks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>Ticks</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>count in 64 bit format </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="89" column="17" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/board.c" bodystart="371" bodyend="382" declfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" declline="89" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BOARD__COMMON_gac804f2adaefaef9ae3d123dbe4abb123_1gac804f2adaefaef9ae3d123dbe4abb123" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t board_get_cur_us</definition>
+        <argsstring>(void)</argsstring>
+        <name>board_get_cur_us</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get current passed us since timer init. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>us</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Count in 64 bit format </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="90" column="17" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/board.c" bodystart="388" bodyend="399" declfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" declline="90" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BOARD__COMMON_gad78111cf910063b70a901aa3fbcf7c86_1gad78111cf910063b70a901aa3fbcf7c86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t board_get_cur_syshz</definition>
+        <argsstring>(void)</argsstring>
+        <name>board_get_cur_syshz</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get board timer counter in timer interrupt. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>Count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>in 64 bit format </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="91" column="17" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/board.c" bodystart="414" bodyend="417" declfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" declline="91" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BOARD__COMMON_ga0a2cbc20d3612af27543fde270ad862c_1ga0a2cbc20d3612af27543fde270ad862c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t board_get_cur_ms</definition>
+        <argsstring>(void)</argsstring>
+        <name>board_get_cur_ms</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get current passed ms since timer init. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>ms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Count in 32 bit format </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="92" column="17" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/board.c" bodystart="405" bodyend="408" declfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" declline="92" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BOARD__COMMON_ga93e410eda85f9b5da900bcf582ff0043_1ga93e410eda85f9b5da900bcf582ff0043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void platform_main</definition>
+        <argsstring>(void)</argsstring>
+        <name>platform_main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="93" column="13" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/board.c" bodystart="298" bodyend="313" declfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" declline="93" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BOARD__COMMON_gaebe394b3306ee36bba1a23f2ea9e6d2d_1gaebe394b3306ee36bba1a23f2ea9e6d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void board_main</definition>
+        <argsstring>(void)</argsstring>
+        <name>board_main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h" line="94" column="13" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/board.c" bodystart="315" bodyend="336" declfile="/home/runner/work/embarc_osp/embarc_osp/board/board.h" declline="94" declcolumn="13"/>
+      </memberdef>
+      </sectiondef>
     <briefdescription>
-<para>common board header file </para>    </briefdescription>
+<para>common board header file </para>
+    </briefdescription>
     <detaileddescription>
 <para><itemizedlist>
-<listitem><para>This header file will contain board related settings for different boards.</para></listitem><listitem><para>Each board configurations are put in its own header file, like <ref refid="emsk_8h" kindref="compound">emsk/emsk.h</ref></para></listitem><listitem><para>If you want to change the configuration, you need to go to related header file, e.g. if you want to change EMSK board settings, you need to go to <ref refid="emsk_8h" kindref="compound">emsk/emsk.h</ref></para></listitem><listitem><para>In embARC 2015.05, all the settings are in this <ref refid="board_8h" kindref="compound">board.h</ref>, but now it moved to related board header file </para></listitem></itemizedlist>
-</para>    </detaileddescription>
+<listitem><para>This header file will contain board related settings for different boards.</para>
+</listitem><listitem><para>Each board configurations are put in its own header file, like <ref refid="emsk_8h" kindref="compound">emsk/emsk.h</ref></para>
+</listitem><listitem><para>If you want to change the configuration, you need to go to related header file, e.g. if you want to change EMSK board settings, you need to go to <ref refid="emsk_8h" kindref="compound">emsk/emsk.h</ref></para>
+</listitem><listitem><para>In embARC 2015.05, all the settings are in this <ref refid="board_8h" kindref="compound">board.h</ref>, but now it moved to related board header file </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="comment">/*<sp/>------------------------------------------</highlight></codeline>
 <codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2017,<sp/>Synopsys,<sp/>Inc.<sp/>All<sp/>rights<sp/>reserved.</highlight></codeline>
@@ -352,37 +504,63 @@
 <codeline lineno="26"><highlight class="comment"><sp/>*<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS</highlight></codeline>
 <codeline lineno="27"><highlight class="comment"><sp/>*<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
 <codeline lineno="28"><highlight class="comment"><sp/>*</highlight></codeline>
-<codeline lineno="29"><highlight class="comment">---------------------------------------------<sp/>*/</highlight></codeline>
-<codeline lineno="47"><highlight class="preprocessor">#ifndef<sp/>_EMBARC_BOARD_H_</highlight></codeline>
-<codeline lineno="48"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_EMBARC_BOARD_H_</highlight></codeline>
-<codeline lineno="49"><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="55"><highlight class="preprocessor">#ifdef<sp/>BOARD_EMSK</highlight></codeline>
-<codeline lineno="56"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="emsk_8h" kindref="compound">emsk/emsk.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>BOARD_EMSK<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="58"><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="62"><highlight class="preprocessor">#ifdef<sp/>BOARD_NSIM</highlight></codeline>
-<codeline lineno="63"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;nsim/nsim.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>BOARD_NSIM<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="65"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>BOARD_AXS</highlight></codeline>
-<codeline lineno="67"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;axs/axs.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>BOARD_AXS<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="69"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>BOARD_HSDK</highlight></codeline>
-<codeline lineno="71"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;hsdk/hsdk.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>BOARD_HSDK<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="73"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>BOARD_IOTDK</highlight></codeline>
-<codeline lineno="75"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;iotdk/iotdk.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>BOARD_IOTDK<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="77"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>BOARD_EMSDP</highlight></codeline>
-<codeline lineno="79"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;emsdp/emsdp.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>BOARD_EMDK<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="81"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_EMBARC_BOARD_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="83"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/>---------------------------------------------<sp/>*/</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor">#ifndef<sp/>_EMBARC_BOARD_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_EMBARC_BOARD_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="preprocessor">#ifdef<sp/>BOARD_EMSK</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="emsk_8h" kindref="compound">emsk/emsk.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>BOARD_EMSK<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="preprocessor">#ifdef<sp/>BOARD_NSIM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="nsim_8h" kindref="compound">nsim/nsim.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>BOARD_NSIM<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>BOARD_AXS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="axs_8h" kindref="compound">axs/axs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>BOARD_AXS<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>BOARD_HSDK</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="hsdk_8h" kindref="compound">hsdk/hsdk.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>BOARD_HSDK<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>BOARD_IOTDK</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="iotdk_8h" kindref="compound">iotdk/iotdk.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>BOARD_IOTDK<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>BOARD_EMSDP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="emsdp_8h" kindref="compound">emsdp/emsdp.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>BOARD_EMDK<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__BOARD__COMMON_ga916f2adc2080b4fe88034086d107a8dc_1ga916f2adc2080b4fe88034086d107a8dc" kindref="member">board_init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__BOARD__COMMON_ga2d400eb191882aeb5b35143ffe7ea9ef_1ga2d400eb191882aeb5b35143ffe7ea9ef" kindref="member">board_timer_update</ref>(uint32_t<sp/>precision);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__BOARD__COMMON_gadf80b95e6ceb5c1014e3e1a6f243fe8e_1gadf80b95e6ceb5c1014e3e1a6f243fe8e" kindref="member">board_delay_ms</ref>(uint32_t<sp/>ms,<sp/>uint8_t<sp/>os_compat);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="group__BOARD__COMMON_gac019f96ffa35670f7013ab1e3c91b230_1gac019f96ffa35670f7013ab1e3c91b230" kindref="member">board_get_hwticks</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="group__BOARD__COMMON_gac804f2adaefaef9ae3d123dbe4abb123_1gac804f2adaefaef9ae3d123dbe4abb123" kindref="member">board_get_cur_us</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="group__BOARD__COMMON_gad78111cf910063b70a901aa3fbcf7c86_1gad78111cf910063b70a901aa3fbcf7c86" kindref="member">board_get_cur_syshz</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="group__BOARD__COMMON_ga0a2cbc20d3612af27543fde270ad862c_1ga0a2cbc20d3612af27543fde270ad862c" kindref="member">board_get_cur_ms</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__BOARD__COMMON_ga93e410eda85f9b5da900bcf582ff0043_1ga93e410eda85f9b5da900bcf582ff0043" kindref="member">platform_main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__BOARD__COMMON_gaebe394b3306ee36bba1a23f2ea9e6d2d_1gaebe394b3306ee36bba1a23f2ea9e6d2d" kindref="member">board_main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="group__BOARD__COMMON_ga0925d758144e37de4158bb2faadea9e9_1ga0925d758144e37de4158bb2faadea9e9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSP_DELAY_OS_COMPAT_ENABLE<sp/><sp/><sp/><sp/><sp/><sp/>(1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="group__BOARD__COMMON_ga0a78908e297806f4ae43488e59f3e682_1ga0a78908e297806f4ae43488e59f3e682" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSP_DELAY_OS_COMPAT_DISABLE<sp/><sp/><sp/><sp/><sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="group__BOARD__COMMON_gabd10baafda4f7905848d2a6741be5888_1gabd10baafda4f7905848d2a6741be5888" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSP_GET_CUR_SYSHZ()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bord_get_cur_syshz()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="group__BOARD__COMMON_ga1aeaa7e8387adcad735b59293caa0078_1ga1aeaa7e8387adcad735b59293caa0078" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSP_GET_CUR_MS()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>board_get_cur_ms()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="group__BOARD__COMMON_gabfd80da126409074c73a5a633f2909bf_1gabfd80da126409074c73a5a633f2909bf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSP_GET_CUR_US()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>board_get_cur_us()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="group__BOARD__COMMON_gad5344be95b93a72c0901d34027240b9c_1gad5344be95b93a72c0901d34027240b9c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSP_GET_CUR_HWTICKS()<sp/><sp/><sp/><sp/><sp/><sp/><sp/>board_get_hwticks()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_EMBARC_BOARD_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/board.h"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/board/board.h"/>
   </compounddef>
 </doxygen>

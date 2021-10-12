@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structio__cb__t" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structio__cb__t" kind="struct" language="C++" prot="public">
     <compoundname>io_cb_t</compoundname>
+    <includes refid="ioctl_8h" local="no">ioctl.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structio__cb__t_1a6368d4e1aec3ee0a33f91729ce10103e" prot="public" static="no" mutable="no">
-        <type>IO_CB_FUNC</type>
+        <type><ref refid="ioctl_8h_a981b388196f453dabe85fc5a81b2279b_1a981b388196f453dabe85fc5a81b2279b" kindref="member">IO_CB_FUNC</ref></type>
         <definition>IO_CB_FUNC io_cb_t::cb</definition>
         <argsstring></argsstring>
         <name>cb</name>
@@ -14,20 +15,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/ioctl.h" line="40" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/ioctl.h" bodystart="40" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/ioctl.h" line="39" column="12" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/ioctl.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="315">
-        <label>io_cb_t</label>
-        <link refid="structio__cb__t"/>
-      </node>
-    </collaborationgraph>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/ioctl.h" line="39" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/ip_hal/inc/ioctl.h" bodystart="39" bodyend="41"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/ioctl.h" line="38" column="15" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/ioctl.h" bodystart="38" bodyend="40"/>
     <listofallmembers>
       <member refid="structio__cb__t_1a6368d4e1aec3ee0a33f91729ce10103e" prot="public" virt="non-virtual"><scope>io_cb_t</scope><name>cb</name></member>
     </listofallmembers>

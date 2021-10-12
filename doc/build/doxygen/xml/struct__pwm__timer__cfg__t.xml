@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="struct__pwm__timer__cfg__t" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct__pwm__timer__cfg__t" kind="struct" language="C++" prot="public">
     <compoundname>_pwm_timer_cfg_t</compoundname>
+    <includes refid="pwm_8h" local="no">pwm.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct__pwm__timer__cfg__t_1af6375eba17bb201e53d89afcc5bc9103" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -14,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/pwm/pwm.h" line="61" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/pwm/pwm.h" bodystart="61" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/pwm.h" line="59" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/pwm.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct__pwm__timer__cfg__t_1ab421b633ac289a19d889d5468036679b" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -27,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/pwm/pwm.h" line="62" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/pwm/pwm.h" bodystart="62" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/pwm.h" line="60" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/pwm.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct__pwm__timer__cfg__t_1a0c89d38856cf0b16d86c399faa3ed411" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -40,20 +41,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/pwm/pwm.h" line="63" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/pwm/pwm.h" bodystart="63" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/pwm.h" line="61" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/pwm.h" bodystart="61" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="21">
-        <label>_pwm_timer_cfg_t</label>
-        <link refid="struct__pwm__timer__cfg__t"/>
-      </node>
-    </collaborationgraph>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/pwm/pwm.h" line="60" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/pwm/pwm.h" bodystart="60" bodyend="64"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/pwm.h" line="58" column="31" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/pwm.h" bodystart="58" bodyend="62"/>
     <listofallmembers>
       <member refid="struct__pwm__timer__cfg__t_1af6375eba17bb201e53d89afcc5bc9103" prot="public" virt="non-virtual"><scope>_pwm_timer_cfg_t</scope><name>max</name></member>
       <member refid="struct__pwm__timer__cfg__t_1a0c89d38856cf0b16d86c399faa3ed411" prot="public" virt="non-virtual"><scope>_pwm_timer_cfg_t</scope><name>mode</name></member>

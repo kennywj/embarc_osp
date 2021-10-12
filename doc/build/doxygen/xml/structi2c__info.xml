@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structi2c__info" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structi2c__info" kind="struct" language="C++" prot="public">
     <compoundname>i2c_info</compoundname>
+    <includes refid="i2c__priv_8h" local="no">i2c_priv.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structi2c__info_1ab657f359a694ad3629e69ecccfe2b882" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -14,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="93" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="93" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="92" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a2d34a71de5e4f658c1275b1b790ccd4c" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -27,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="94" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="94" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="93" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1aa21d52ba8076ee9c98d74b01884e544a" prot="public" static="no" mutable="no">
         <type>uint8_t *</type>
@@ -40,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="96" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="96" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="95" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="95" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a1135c04bbd0626aed8bf6f5160b94b20" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -53,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="97" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="97" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="96" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1ac7192af879accb1b4fbac510f62587e2" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -66,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="98" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="98" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="97" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a8cefe2d5e4fb0eb12cbda7e14be43e5c" prot="public" static="no" mutable="no">
         <type>uint32_t *</type>
@@ -79,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="99" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="99" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="98" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a900776646bd1f1ffc7e05850108adeca" prot="public" static="no" mutable="no">
         <type>uint8_t *</type>
@@ -92,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="100" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="100" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="99" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1adfe7137552ca6e01f96280ea3527d416" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -105,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="101" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="101" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="100" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="100" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a76d4cbb3dd90a9e22b77e39f8a1d1528" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -118,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="102" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="102" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="101" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="101" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a1b0753a09e40bb9d0abff5ca62ad09f1" prot="public" static="no" mutable="no">
         <type>uint32_t *</type>
@@ -131,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="103" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="103" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="102" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="102" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a34cc956e2c94325df9ff900bdac4df80" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -144,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="104" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="104" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="103" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a0981a20438510e4195c3d1f2e25e97b4" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -157,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="105" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="105" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="104" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="104" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a0e121b1ba1832ad52c4bde6e4f8dad5d" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -170,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="106" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="106" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="105" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="105" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a36e6b831b633210f80c5b8e4bc5865dc" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -183,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="107" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="107" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="106" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="106" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a2df2bc4459733054f7fa51628deccf11" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -196,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="108" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="108" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="107" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="107" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a703cca58c95bbb7990bc28de31d7e254" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -209,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="109" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="109" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="108" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="108" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a494ac9ddcebb6a7f5e4a7965e82abf04" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -222,7 +223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="110" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="110" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="109" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a1824f23e030e01a123e2159b3dad699e" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -235,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="110" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="110" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="109" column="22" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a0fe2b207817076c47b2f9f26769fa318" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -248,10 +249,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="111" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="111" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="110" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="110" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1abfa22d8b5a7631ceada3a9a1dd2a263f" prot="public" static="no" mutable="no">
-        <type>IO_CB_FUNC</type>
+        <type><ref refid="ioctl_8h_a981b388196f453dabe85fc5a81b2279b_1a981b388196f453dabe85fc5a81b2279b" kindref="member">IO_CB_FUNC</ref></type>
         <definition>IO_CB_FUNC i2c_info::tx_cb</definition>
         <argsstring></argsstring>
         <name>tx_cb</name>
@@ -261,10 +262,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="117" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="117" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="116" column="12" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1ab7012f17f9c5a8551fae471610e75075" prot="public" static="no" mutable="no">
-        <type>IO_CB_FUNC</type>
+        <type><ref refid="ioctl_8h_a981b388196f453dabe85fc5a81b2279b_1a981b388196f453dabe85fc5a81b2279b" kindref="member">IO_CB_FUNC</ref></type>
         <definition>IO_CB_FUNC i2c_info::rx_cb</definition>
         <argsstring></argsstring>
         <name>rx_cb</name>
@@ -274,10 +275,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="118" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="118" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="117" column="12" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a34732cfc5685195c86bf256fe8d3b2c1" prot="public" static="no" mutable="no">
-        <type>IO_CB_FUNC</type>
+        <type><ref refid="ioctl_8h_a981b388196f453dabe85fc5a81b2279b_1a981b388196f453dabe85fc5a81b2279b" kindref="member">IO_CB_FUNC</ref></type>
         <definition>IO_CB_FUNC i2c_info::err_cb</definition>
         <argsstring></argsstring>
         <name>err_cb</name>
@@ -287,7 +288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="119" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="119" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="118" column="12" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="118" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a627fe42f3121d229ae6071e75c030e1d" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -300,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="121" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="121" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="120" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="120" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a93f969eabb3e90e108b04b28444c9542" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -313,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="122" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="122" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="121" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1af1d1b89972c5249a0a7f27767de081b8" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -326,7 +327,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="123" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="123" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="122" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="122" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a24c3440aa8804831cbff1c8f800ef4d7" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -339,7 +340,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="124" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="124" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="123" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a63fbff1cb712b192cb4b9c0de990b58f" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -352,7 +353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="125" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="125" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="124" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a5074f8f76be20ee78075d723c26659fd" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -365,10 +366,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="126" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="126" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="125" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="125" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1acae60b28c471e53b892f73dbe81f66f7" prot="public" static="no" mutable="no">
-        <type>I2C_ISR</type>
+        <type><ref refid="i2c__priv_8h_ac71e811f04ddd1036a18283a11bb221d_1ac71e811f04ddd1036a18283a11bb221d" kindref="member">I2C_ISR</ref></type>
         <definition>I2C_ISR i2c_info::isr_err</definition>
         <argsstring></argsstring>
         <name>isr_err</name>
@@ -378,10 +379,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="127" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="127" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="126" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a5db43057052d40b98447dee5aba7ee3c" prot="public" static="no" mutable="no">
-        <type>I2C_ISR</type>
+        <type><ref refid="i2c__priv_8h_ac71e811f04ddd1036a18283a11bb221d_1ac71e811f04ddd1036a18283a11bb221d" kindref="member">I2C_ISR</ref></type>
         <definition>I2C_ISR i2c_info::isr_rx_avail</definition>
         <argsstring></argsstring>
         <name>isr_rx_avail</name>
@@ -391,10 +392,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="128" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="128" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="127" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1abf96f85a09841097d9b9bcec12e830bf" prot="public" static="no" mutable="no">
-        <type>I2C_ISR</type>
+        <type><ref refid="i2c__priv_8h_ac71e811f04ddd1036a18283a11bb221d_1ac71e811f04ddd1036a18283a11bb221d" kindref="member">I2C_ISR</ref></type>
         <definition>I2C_ISR i2c_info::isr_tx_req</definition>
         <argsstring></argsstring>
         <name>isr_tx_req</name>
@@ -404,10 +405,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="129" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="129" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="128" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1aaf36c810a2ca48c087da24d6e34d8003" prot="public" static="no" mutable="no">
-        <type>I2C_ISR</type>
+        <type><ref refid="i2c__priv_8h_ac71e811f04ddd1036a18283a11bb221d_1ac71e811f04ddd1036a18283a11bb221d" kindref="member">I2C_ISR</ref></type>
         <definition>I2C_ISR i2c_info::isr_stop_det</definition>
         <argsstring></argsstring>
         <name>isr_stop_det</name>
@@ -417,10 +418,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="130" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="130" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="129" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structi2c__info_1a2355e71e8b81501feb985777b15acd97" prot="public" static="no" mutable="no">
-        <type>I2C_ISR</type>
+        <type><ref refid="i2c__priv_8h_ac71e811f04ddd1036a18283a11bb221d_1ac71e811f04ddd1036a18283a11bb221d" kindref="member">I2C_ISR</ref></type>
         <definition>I2C_ISR i2c_info::isr_rd_req</definition>
         <argsstring></argsstring>
         <name>isr_rd_req</name>
@@ -430,20 +431,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="131" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="131" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="130" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="130" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="282">
-        <label>i2c_info</label>
-        <link refid="structi2c__info"/>
-      </node>
-    </collaborationgraph>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" line="92" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/iic/i2c_priv.h" bodystart="92" bodyend="132"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" line="91" column="23" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/i2c_priv.h" bodystart="91" bodyend="131"/>
     <listofallmembers>
       <member refid="structi2c__info_1a494ac9ddcebb6a7f5e4a7965e82abf04" prot="public" virt="non-virtual"><scope>i2c_info</scope><name>dmarxchanid</name></member>
       <member refid="structi2c__info_1a1824f23e030e01a123e2159b3dad699e" prot="public" virt="non-virtual"><scope>i2c_info</scope><name>dmatxchanid</name></member>

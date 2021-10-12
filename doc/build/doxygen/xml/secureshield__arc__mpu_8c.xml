@@ -1,68 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="secureshield__arc__mpu_8c" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="secureshield__arc__mpu_8c" kind="file" language="C++">
     <compoundname>secureshield_arc_mpu.c</compoundname>
-    <includes refid="arc__mpu_8c" local="yes">arc_mpu.c</includes>
+    <includes local="yes">arc_mpu.c</includes>
     <incdepgraph>
-      <node id="7255">
-        <label>stdbool.h</label>
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/arc_hal/secureshield_arc_mpu.c</label>
+        <link refid="secureshield__arc__mpu_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
       </node>
-      <node id="7246">
+      <node id="2">
         <label>arc_mpu.c</label>
-        <link refid="arc__mpu_8c_source"/>
-        <childnode refid="7247" relation="include">
-        </childnode>
-      </node>
-      <node id="7252">
-        <label>stdint.h</label>
-      </node>
-      <node id="7254">
-        <label>stddef.h</label>
-      </node>
-      <node id="7250">
-        <label>arc_builtin.h</label>
-        <link refid="arc__builtin_8h"/>
-        <childnode refid="7251" relation="include">
-        </childnode>
-      </node>
-      <node id="7245">
-        <label>secureshield_arc_mpu.c</label>
-        <link refid="secureshield_arc_mpu.c"/>
-        <childnode refid="7246" relation="include">
-        </childnode>
-      </node>
-      <node id="7253">
-        <label>limits.h</label>
-      </node>
-      <node id="7248">
-        <label>arc.h</label>
-        <link refid="arc_8h"/>
-        <childnode refid="7249" relation="include">
-        </childnode>
-      </node>
-      <node id="7249">
-        <label>arc_feature_config.h</label>
-        <link refid="arc__feature__config_8h"/>
-      </node>
-      <node id="7251">
-        <label>embARC_toolchain.h</label>
-        <link refid="emb_a_r_c__toolchain_8h"/>
-        <childnode refid="7252" relation="include">
-        </childnode>
-        <childnode refid="7253" relation="include">
-        </childnode>
-        <childnode refid="7254" relation="include">
-        </childnode>
-        <childnode refid="7255" relation="include">
-        </childnode>
-      </node>
-      <node id="7247">
-        <label>arc_mpu.h</label>
-        <link refid="arc__mpu_8h_source"/>
-        <childnode refid="7248" relation="include">
-        </childnode>
-        <childnode refid="7250" relation="include">
-        </childnode>
       </node>
     </incdepgraph>
     <briefdescription>
@@ -99,9 +48,9 @@
 <codeline lineno="27"><highlight class="comment"><sp/>*<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
 <codeline lineno="28"><highlight class="comment"><sp/>*</highlight></codeline>
 <codeline lineno="29"><highlight class="comment">---------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>LIB_SECURESHIELD_OVERRIDES</highlight></codeline>
-<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;arc_mpu.c&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>LIB_SECURESHIELD_OVERRIDES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;arc_mpu.c&quot;</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/src/arc_hal/secureshield_arc_mpu.c"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/arc_hal/secureshield_arc_mpu.c"/>
   </compounddef>
 </doxygen>

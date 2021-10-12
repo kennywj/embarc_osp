@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="image__validate_8c" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="image__validate_8c" kind="file" language="C++">
     <compoundname>image_validate.c</compoundname>
     <includes local="no">assert.h</includes>
     <includes local="no">stddef.h</includes>
@@ -13,88 +13,88 @@
     <includes local="yes">mbedtls/asn1.h</includes>
     <includes refid="bootutil__priv_8h" local="yes">bootutil_priv.h</includes>
     <incdepgraph>
-      <node id="5545">
-        <label>flash_map/flash_map.h</label>
-        <link refid="flash__map_8h_source"/>
-        <childnode refid="5543" relation="include">
-        </childnode>
-      </node>
-      <node id="5541">
+      <node id="2">
         <label>assert.h</label>
       </node>
-      <node id="5549">
+      <node id="13">
+        <label>bootutil_priv.h</label>
+        <link refid="bootutil__priv_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
         <label>stdint.h</label>
       </node>
-      <node id="5546">
-        <label>bootutil/image.h</label>
-        <link refid="image_8h_source"/>
-        <childnode refid="5543" relation="include">
-        </childnode>
-      </node>
-      <node id="5542">
+      <node id="3">
         <label>stddef.h</label>
       </node>
-      <node id="5544">
+      <node id="11">
+        <label>bootutil/sign_key.h</label>
+        <link refid="sign__key_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>flash_map/flash_map.h</label>
+        <link refid="flash__map_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>string.h</label>
       </node>
-      <node id="5551">
+      <node id="12">
         <label>mbedtls/asn1.h</label>
       </node>
-      <node id="5550">
-        <label>bootutil/sign_key.h</label>
-        <link refid="sign__key_8h_source"/>
-        <childnode refid="5549" relation="include">
-        </childnode>
-      </node>
-      <node id="5540">
-        <label>image_validate.c</label>
-        <link refid="image_validate.c"/>
-        <childnode refid="5541" relation="include">
-        </childnode>
-        <childnode refid="5542" relation="include">
-        </childnode>
-        <childnode refid="5543" relation="include">
-        </childnode>
-        <childnode refid="5544" relation="include">
-        </childnode>
-        <childnode refid="5545" relation="include">
-        </childnode>
-        <childnode refid="5546" relation="include">
-        </childnode>
-        <childnode refid="5547" relation="include">
-        </childnode>
-        <childnode refid="5550" relation="include">
-        </childnode>
-        <childnode refid="5551" relation="include">
-        </childnode>
-        <childnode refid="5552" relation="include">
-        </childnode>
-      </node>
-      <node id="5547">
+      <node id="8">
         <label>bootutil/sha256.h</label>
-        <link refid="sha256_8h_source"/>
-        <childnode refid="5548" relation="include">
+        <link refid="sha256_8h"/>
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="5549" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="5548">
+      <node id="7">
+        <label>bootutil/image.h</label>
+        <link refid="image_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/src/image_validate.c</label>
+        <link refid="image__validate_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
         <label>mbedtls/sha256.h</label>
       </node>
-      <node id="5552">
-        <label>bootutil_priv.h</label>
-        <link refid="bootutil__priv_8h_source"/>
-        <childnode refid="5545" relation="include">
-        </childnode>
-        <childnode refid="5546" relation="include">
-        </childnode>
-      </node>
-      <node id="5543">
+      <node id="4">
         <label>inttypes.h</label>
       </node>
     </incdepgraph>
       <sectiondef kind="func">
-      <memberdef kind="function" id="image__validate_8c_1a088050429ec7199b7dad93db6d142440" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="image__validate_8c_a088050429ec7199b7dad93db6d142440_1a088050429ec7199b7dad93db6d142440" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>static int bootutil_img_hash</definition>
         <argsstring>(struct image_header *hdr, const struct flash_area *fap, uint8_t *tmp_buf, uint32_t tmp_buf_sz, uint8_t *hash_result, uint8_t *seed, int seed_len)</argsstring>
@@ -133,9 +133,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/mcuboot/bootutil/src/image_validate.c" line="42" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/mcuboot/bootutil/src/image_validate.c" bodystart="42" bodyend="81"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/src/image_validate.c" line="42" column="1" bodyfile="/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/src/image_validate.c" bodystart="42" bodyend="81"/>
       </memberdef>
-      <memberdef kind="function" id="image__validate_8c_1a7780247c26eaa774f888ec30340168f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="image__validate_8c_a7780247c26eaa774f888ec30340168f8_1a7780247c26eaa774f888ec30340168f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int bootutil_img_validate</definition>
         <argsstring>(struct image_header *hdr, const struct flash_area *fap, uint8_t *tmp_buf, uint32_t tmp_buf_sz, uint8_t *seed, int seed_len, uint8_t *out_hash)</argsstring>
@@ -174,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/mcuboot/bootutil/src/image_validate.c" line="123" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/mcuboot/bootutil/src/image_validate.c" bodystart="123" bodyend="242"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/src/image_validate.c" line="123" column="1" bodyfile="/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/src/image_validate.c" bodystart="123" bodyend="242"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -206,60 +206,60 @@
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;inttypes.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;flash_map/flash_map.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;bootutil/image.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;bootutil/sha256.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;bootutil/sign_key.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="flash__map_8h" kindref="compound">flash_map/flash_map.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="image_8h" kindref="compound">bootutil/image.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="sha256_8h" kindref="compound">bootutil/sha256.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="sign__key_8h" kindref="compound">bootutil/sign_key.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>MCUBOOT_SIGN_RSA</highlight></codeline>
-<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;mbedtls/rsa.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="33"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>MCUBOOT_SIGN_RSA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;mbedtls/rsa.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;mbedtls/asn1.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;bootutil_priv.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bootutil__priv_8h" kindref="compound">bootutil_priv.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
 <codeline lineno="39"><highlight class="comment"><sp/>*<sp/>Compute<sp/>SHA256<sp/>over<sp/>the<sp/>image.</highlight></codeline>
 <codeline lineno="40"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal">bootutil_img_hash(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structimage__header" kindref="compound">image_header</ref><sp/>*hdr,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structflash__area" kindref="compound">flash_area</ref><sp/>*fap,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><ref refid="image__validate_8c_a088050429ec7199b7dad93db6d142440_1a088050429ec7199b7dad93db6d142440" kindref="member">bootutil_img_hash</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structimage__header" kindref="compound">image_header</ref><sp/>*hdr,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structflash__area" kindref="compound">flash_area</ref><sp/>*fap,</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*tmp_buf,<sp/>uint32_t<sp/>tmp_buf_sz,</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*hash_result,<sp/>uint8_t<sp/>*seed,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>seed_len)</highlight></codeline>
 <codeline lineno="45"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>bootutil_sha256_context<sp/>sha256_ctx;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="sha256_8h_aacc43e416b982f83b1b6d7008f5e3e71_1aacc43e416b982f83b1b6d7008f5e3e71" kindref="member">bootutil_sha256_context</ref><sp/>sha256_ctx;</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>blk_sz;</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>size;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>off;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rc;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>bootutil_sha256_init(&amp;sha256_ctx);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="sha256_8h_ad560173e67b8e6ee47b277a03f1f2713_1ad560173e67b8e6ee47b277a03f1f2713" kindref="member">bootutil_sha256_init</ref>(&amp;sha256_ctx);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>in<sp/>some<sp/>cases<sp/>(split<sp/>image)<sp/>the<sp/>hash<sp/>is<sp/>seeded<sp/>with<sp/>data<sp/>from</highlight></codeline>
 <codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>loader<sp/>image<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(seed<sp/>&amp;&amp;<sp/>(seed_len<sp/>&gt;<sp/>0))<sp/>{</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bootutil_sha256_update(&amp;sha256_ctx,<sp/>seed,<sp/>seed_len);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="sha256_8h_ac7d625fbd147684d74e180bccf798bb5_1ac7d625fbd147684d74e180bccf798bb5" kindref="member">bootutil_sha256_update</ref>(&amp;sha256_ctx,<sp/>seed,<sp/>seed_len);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>size<sp/>=<sp/>hdr-&gt;ih_img_size<sp/>+<sp/>hdr-&gt;ih_hdr_size;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>size<sp/>=<sp/>hdr-&gt;<ref refid="structimage__header_1aeef33dce80daf19afa12cb54184caca1" kindref="member">ih_img_size</ref><sp/>+<sp/>hdr-&gt;<ref refid="structimage__header_1a44033e9527ebee55ab795189d8169530" kindref="member">ih_hdr_size</ref>;</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
 <codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Hash<sp/>is<sp/>computed<sp/>over<sp/>image<sp/>header<sp/>and<sp/>image<sp/>itself.<sp/>No<sp/>TLV<sp/>is</highlight></codeline>
 <codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>included<sp/>ATM.</highlight></codeline>
 <codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>size<sp/>=<sp/>hdr-&gt;ih_img_size<sp/>+<sp/>hdr-&gt;ih_hdr_size;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>size<sp/>=<sp/>hdr-&gt;<ref refid="structimage__header_1aeef33dce80daf19afa12cb54184caca1" kindref="member">ih_img_size</ref><sp/>+<sp/>hdr-&gt;<ref refid="structimage__header_1a44033e9527ebee55ab795189d8169530" kindref="member">ih_hdr_size</ref>;</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(off<sp/>=<sp/>0;<sp/>off<sp/>&lt;<sp/>size;<sp/>off<sp/>+=<sp/>blk_sz)<sp/>{</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blk_sz<sp/>=<sp/>size<sp/>-<sp/>off;</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(blk_sz<sp/>&gt;<sp/>tmp_buf_sz)<sp/>{</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blk_sz<sp/>=<sp/>tmp_buf_sz;</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc<sp/>=<sp/>flash_area_read(fap,<sp/>off,<sp/>tmp_buf,<sp/>blk_sz);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc<sp/>=<sp/><ref refid="flash__map_8c_ac6302d2beec8f307bf9758e3ae85d3cc_1ac6302d2beec8f307bf9758e3ae85d3cc" kindref="member">flash_area_read</ref>(fap,<sp/>off,<sp/>tmp_buf,<sp/>blk_sz);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rc)<sp/>{</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rc;</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bootutil_sha256_update(&amp;sha256_ctx,<sp/>tmp_buf,<sp/>blk_sz);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="sha256_8h_ac7d625fbd147684d74e180bccf798bb5_1ac7d625fbd147684d74e180bccf798bb5" kindref="member">bootutil_sha256_update</ref>(&amp;sha256_ctx,<sp/>tmp_buf,<sp/>blk_sz);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>bootutil_sha256_finish(&amp;sha256_ctx,<sp/>hash_result);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="sha256_8h_a8480856e7ea7dd854ad7ba4be1bcca5a_1a8480856e7ea7dd854ad7ba4be1bcca5a" kindref="member">bootutil_sha256_finish</ref>(&amp;sha256_ctx,<sp/>hash_result);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
 <codeline lineno="81"><highlight class="normal">}</highlight></codeline>
@@ -270,41 +270,41 @@
 <codeline lineno="86"><highlight class="comment"><sp/>*<sp/>call.<sp/><sp/>List<sp/>the<sp/>type<sp/>of<sp/>TLV<sp/>we<sp/>are<sp/>expecting.<sp/><sp/>If<sp/>we<sp/>aren&apos;t</highlight></codeline>
 <codeline lineno="87"><highlight class="comment"><sp/>*<sp/>configured<sp/>for<sp/>any<sp/>signature,<sp/>don&apos;t<sp/>define<sp/>this<sp/>macro.</highlight></codeline>
 <codeline lineno="88"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(MCUBOOT_SIGN_RSA)</highlight></codeline>
-<codeline lineno="90"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>EXPECTED_SIG_TLV<sp/>IMAGE_TLV_RSA2048_PSS</highlight></codeline>
-<codeline lineno="91"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>EXPECTED_SIG_LEN(x)<sp/>((x)<sp/>==<sp/>256)<sp/></highlight><highlight class="comment">/*<sp/>2048<sp/>bits<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="92"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="93"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>EXPECTED_SIG_TLV</highlight></codeline>
-<codeline lineno="95"><highlight class="preprocessor"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(MCUBOOT_SIGN_RSA)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>EXPECTED_SIG_TLV<sp/>IMAGE_TLV_RSA2048_PSS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>EXPECTED_SIG_LEN(x)<sp/>((x)<sp/>==<sp/>256)<sp/></highlight><highlight class="comment">/*<sp/>2048<sp/>bits<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>EXPECTED_SIG_TLV</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="96"><highlight class="normal">bootutil_find_key(uint8_t<sp/>*keyhash,<sp/>uint8_t<sp/>keyhash_len)</highlight></codeline>
 <codeline lineno="97"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>bootutil_sha256_context<sp/>sha256_ctx;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="sha256_8h_aacc43e416b982f83b1b6d7008f5e3e71_1aacc43e416b982f83b1b6d7008f5e3e71" kindref="member">bootutil_sha256_context</ref><sp/>sha256_ctx;</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structbootutil__key" kindref="compound">bootutil_key</ref><sp/>*key;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structbootutil__key" kindref="compound">bootutil_key</ref><sp/>*<ref refid="structbootutil__key_1a91436bcf03996f081abbf9b521138a05" kindref="member">key</ref>;</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>hash[32];</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(keyhash_len<sp/>&lt;=<sp/>32);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="malloc_8c_af576bf8ffa22a44e53018c67095ffbf0_1af576bf8ffa22a44e53018c67095ffbf0" kindref="member">assert</ref>(keyhash_len<sp/>&lt;=<sp/>32);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>bootutil_key_cnt;<sp/>i++)<sp/>{</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>key<sp/>=<sp/>&amp;bootutil_keys[i];</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bootutil_sha256_init(&amp;sha256_ctx);</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bootutil_sha256_update(&amp;sha256_ctx,<sp/>key-&gt;key,<sp/>*key-&gt;len);</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bootutil_sha256_finish(&amp;sha256_ctx,<sp/>hash);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="sign__key_8h_a00a227864bf0e221aab38675bc04e286_1a00a227864bf0e221aab38675bc04e286" kindref="member">bootutil_key_cnt</ref>;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structbootutil__key_1a91436bcf03996f081abbf9b521138a05" kindref="member">key</ref><sp/>=<sp/>&amp;<ref refid="sign__key_8h_a634951795ecb30bc24c644a9314028a2_1a634951795ecb30bc24c644a9314028a2" kindref="member">bootutil_keys</ref>[i];</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="sha256_8h_ad560173e67b8e6ee47b277a03f1f2713_1ad560173e67b8e6ee47b277a03f1f2713" kindref="member">bootutil_sha256_init</ref>(&amp;sha256_ctx);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="sha256_8h_ac7d625fbd147684d74e180bccf798bb5_1ac7d625fbd147684d74e180bccf798bb5" kindref="member">bootutil_sha256_update</ref>(&amp;sha256_ctx,<sp/><ref refid="structbootutil__key_1a91436bcf03996f081abbf9b521138a05" kindref="member">key</ref>-&gt;key,<sp/>*<ref refid="structbootutil__key_1a91436bcf03996f081abbf9b521138a05" kindref="member">key</ref>-&gt;len);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="sha256_8h_a8480856e7ea7dd854ad7ba4be1bcca5a_1a8480856e7ea7dd854ad7ba4be1bcca5a" kindref="member">bootutil_sha256_finish</ref>(&amp;sha256_ctx,<sp/>hash);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!memcmp(hash,<sp/>keyhash,<sp/>keyhash_len))<sp/>{</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
 <codeline lineno="115"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="117"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
 <codeline lineno="119"><highlight class="comment"><sp/>*<sp/>Verify<sp/>the<sp/>integrity<sp/>of<sp/>the<sp/>image.</highlight></codeline>
 <codeline lineno="120"><highlight class="comment"><sp/>*<sp/>Return<sp/>non-zero<sp/>if<sp/>image<sp/>could<sp/>not<sp/>be<sp/>validated/does<sp/>not<sp/>validate.</highlight></codeline>
 <codeline lineno="121"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="123"><highlight class="normal">bootutil_img_validate(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structimage__header" kindref="compound">image_header</ref><sp/>*hdr,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structflash__area" kindref="compound">flash_area</ref><sp/>*fap,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><ref refid="image__validate_8c_a7780247c26eaa774f888ec30340168f8_1a7780247c26eaa774f888ec30340168f8" kindref="member">bootutil_img_validate</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structimage__header" kindref="compound">image_header</ref><sp/>*hdr,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structflash__area" kindref="compound">flash_area</ref><sp/>*fap,</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*tmp_buf,<sp/>uint32_t<sp/>tmp_buf_sz,</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*seed,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>seed_len,<sp/>uint8_t<sp/>*out_hash)</highlight></codeline>
 <codeline lineno="126"><highlight class="normal">{</highlight></codeline>
@@ -312,16 +312,16 @@
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>end;</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sha256_valid<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structimage__tlv__info" kindref="compound">image_tlv_info</ref><sp/>info;</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>EXPECTED_SIG_TLV</highlight></codeline>
-<codeline lineno="132"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>valid_signature<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>EXPECTED_SIG_TLV</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>valid_signature<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key_id<sp/>=<sp/>-1;</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="135"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structimage__tlv" kindref="compound">image_tlv</ref><sp/>tlv;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structimage__tlv" kindref="compound">image_tlv</ref><sp/>tlv;</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>buf[256];</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>hash[32]<sp/>=<sp/>{0};</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rc;</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>rc<sp/>=<sp/>bootutil_img_hash(hdr,<sp/>fap,<sp/>tmp_buf,<sp/>tmp_buf_sz,<sp/>hash,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>rc<sp/>=<sp/><ref refid="image__validate_8c_a088050429ec7199b7dad93db6d142440_1a088050429ec7199b7dad93db6d142440" kindref="member">bootutil_img_hash</ref>(hdr,<sp/>fap,<sp/>tmp_buf,<sp/>tmp_buf_sz,<sp/>hash,</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>seed,<sp/>seed_len);</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rc)<sp/>{</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rc;</highlight></codeline>
@@ -333,13 +333,13 @@
 <codeline lineno="149"><highlight class="normal"></highlight></codeline>
 <codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>The<sp/>TLVs<sp/>come<sp/>after<sp/>the<sp/>image.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>After<sp/>image<sp/>there<sp/>are<sp/>TLVs.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>off<sp/>=<sp/>hdr-&gt;ih_img_size<sp/>+<sp/>hdr-&gt;ih_hdr_size;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>off<sp/>=<sp/>hdr-&gt;<ref refid="structimage__header_1aeef33dce80daf19afa12cb54184caca1" kindref="member">ih_img_size</ref><sp/>+<sp/>hdr-&gt;<ref refid="structimage__header_1a44033e9527ebee55ab795189d8169530" kindref="member">ih_hdr_size</ref>;</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>rc<sp/>=<sp/>flash_area_read(fap,<sp/>off,<sp/>&amp;info,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(info));</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>rc<sp/>=<sp/><ref refid="flash__map_8c_ac6302d2beec8f307bf9758e3ae85d3cc_1ac6302d2beec8f307bf9758e3ae85d3cc" kindref="member">flash_area_read</ref>(fap,<sp/>off,<sp/>&amp;info,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(info));</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rc)<sp/>{</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rc;</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(info.it_magic<sp/>!=<sp/>IMAGE_TLV_INFO_MAGIC)<sp/>{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(info.it_magic<sp/>!=<sp/><ref refid="image_8h_af7daf64422fe363f1db3b9ed90ef13f9_1af7daf64422fe363f1db3b9ed90ef13f9" kindref="member">IMAGE_TLV_INFO_MAGIC</ref>)<sp/>{</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>end<sp/>=<sp/>off<sp/>+<sp/>info.it_tlv_tot;</highlight></codeline>
@@ -350,12 +350,12 @@
 <codeline lineno="166"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>are<sp/>able<sp/>to<sp/>do.</highlight></codeline>
 <codeline lineno="167"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(;<sp/>off<sp/>&lt;<sp/>end;<sp/>off<sp/>+=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(tlv)<sp/>+<sp/>tlv.it_len)<sp/>{</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc<sp/>=<sp/>flash_area_read(fap,<sp/>off,<sp/>&amp;tlv,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(tlv));</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc<sp/>=<sp/><ref refid="flash__map_8c_ac6302d2beec8f307bf9758e3ae85d3cc_1ac6302d2beec8f307bf9758e3ae85d3cc" kindref="member">flash_area_read</ref>(fap,<sp/>off,<sp/>&amp;tlv,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(tlv));</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rc)<sp/>{</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rc;</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tlv.it_type<sp/>==<sp/>IMAGE_TLV_SHA256)<sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tlv.it_type<sp/>==<sp/><ref refid="image_8h_aa9a0585cb5e500b1e6c0817e22190aeb_1aa9a0585cb5e500b1e6c0817e22190aeb" kindref="member">IMAGE_TLV_SHA256</ref>)<sp/>{</highlight></codeline>
 <codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
 <codeline lineno="176"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>Verify<sp/>the<sp/>SHA256<sp/>image<sp/>hash.<sp/><sp/>This<sp/>must<sp/>always<sp/>be</highlight></codeline>
 <codeline lineno="177"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>present.</highlight></codeline>
@@ -363,7 +363,7 @@
 <codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tlv.it_len<sp/>!=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(hash))<sp/>{</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc<sp/>=<sp/>flash_area_read(fap,<sp/>off<sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(tlv),<sp/>buf,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(hash));</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc<sp/>=<sp/><ref refid="flash__map_8c_ac6302d2beec8f307bf9758e3ae85d3cc_1ac6302d2beec8f307bf9758e3ae85d3cc" kindref="member">flash_area_read</ref>(fap,<sp/>off<sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(tlv),<sp/>buf,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(hash));</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rc)<sp/>{</highlight></codeline>
 <codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rc;</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
@@ -372,15 +372,15 @@
 <codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
 <codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sha256_valid<sp/>=<sp/>1;</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>EXPECTED_SIG_TLV</highlight></codeline>
-<codeline lineno="192"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tlv.it_type<sp/>==<sp/>IMAGE_TLV_KEYHASH)<sp/>{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>EXPECTED_SIG_TLV</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tlv.it_type<sp/>==<sp/><ref refid="image_8h_adbd235b2439c47180fb5477a887640c2_1adbd235b2439c47180fb5477a887640c2" kindref="member">IMAGE_TLV_KEYHASH</ref>)<sp/>{</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
 <codeline lineno="194"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>Determine<sp/>which<sp/>key<sp/>we<sp/>should<sp/>be<sp/>checking.</highlight></codeline>
 <codeline lineno="195"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tlv.it_len<sp/>&gt;<sp/>32)<sp/>{</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc<sp/>=<sp/>flash_area_read(fap,<sp/>off<sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(tlv),<sp/>buf,<sp/>tlv.it_len);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc<sp/>=<sp/><ref refid="flash__map_8c_ac6302d2beec8f307bf9758e3ae85d3cc_1ac6302d2beec8f307bf9758e3ae85d3cc" kindref="member">flash_area_read</ref>(fap,<sp/>off<sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(tlv),<sp/>buf,<sp/>tlv.it_len);</highlight></codeline>
 <codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rc)<sp/>{</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rc;</highlight></codeline>
 <codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
@@ -391,40 +391,40 @@
 <codeline lineno="207"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tlv.it_type<sp/>==<sp/>EXPECTED_SIG_TLV)<sp/>{</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Ignore<sp/>this<sp/>signature<sp/>if<sp/>it<sp/>is<sp/>out<sp/>of<sp/>bounds.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(key_id<sp/>&lt;<sp/>0<sp/>||<sp/>key_id<sp/>&gt;=<sp/>bootutil_key_cnt)<sp/>{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(key_id<sp/>&lt;<sp/>0<sp/>||<sp/>key_id<sp/>&gt;=<sp/><ref refid="sign__key_8h_a00a227864bf0e221aab38675bc04e286_1a00a227864bf0e221aab38675bc04e286" kindref="member">bootutil_key_cnt</ref>)<sp/>{</highlight></codeline>
 <codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>key_id<sp/>=<sp/>-1;</highlight></codeline>
 <codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!EXPECTED_SIG_LEN(tlv.it_len)<sp/>||<sp/>tlv.it_len<sp/>&gt;<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(buf))<sp/>{</highlight></codeline>
 <codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
 <codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc<sp/>=<sp/>flash_area_read(fap,<sp/>off<sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(tlv),<sp/>buf,<sp/>tlv.it_len);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc<sp/>=<sp/><ref refid="flash__map_8c_ac6302d2beec8f307bf9758e3ae85d3cc_1ac6302d2beec8f307bf9758e3ae85d3cc" kindref="member">flash_area_read</ref>(fap,<sp/>off<sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(tlv),<sp/>buf,<sp/>tlv.it_len);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rc)<sp/>{</highlight></codeline>
 <codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
 <codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc<sp/>=<sp/>bootutil_verify_sig(hash,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(hash),<sp/>buf,<sp/>tlv.it_len,</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc<sp/>=<sp/><ref refid="bootutil__priv_8h_afdd0bd8e8d104e216bb7d75685045aaf_1afdd0bd8e8d104e216bb7d75685045aaf" kindref="member">bootutil_verify_sig</ref>(hash,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(hash),<sp/>buf,<sp/>tlv.it_len,</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>key_id);</highlight></codeline>
 <codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rc<sp/>==<sp/>0)<sp/>{</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>valid_signature<sp/>=<sp/>1;</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>key_id<sp/>=<sp/>-1;</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="228"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="230"><highlight class="normal"></highlight></codeline>
 <codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!sha256_valid)<sp/>{</highlight></codeline>
 <codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight></codeline>
-<codeline lineno="235"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>EXPECTED_SIG_TLV</highlight></codeline>
-<codeline lineno="236"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!valid_signature)<sp/>{</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>EXPECTED_SIG_TLV</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!valid_signature)<sp/>{</highlight></codeline>
 <codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
 <codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="239"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="240"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
 <codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
 <codeline lineno="242"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/mcuboot/bootutil/src/image_validate.c"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/src/image_validate.c"/>
   </compounddef>
 </doxygen>

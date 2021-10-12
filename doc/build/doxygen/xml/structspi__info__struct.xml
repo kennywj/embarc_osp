@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structspi__info__struct" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structspi__info__struct" kind="struct" language="C++" prot="public">
     <compoundname>spi_info_struct</compoundname>
+    <includes refid="spi__priv_8h" local="no">spi_priv.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structspi__info__struct_1a544b6a23181df2c2b3bc4a5a4c48a8e6" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -14,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="77" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="77" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="76" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1af8cb5107a6b570cb355db79256ebf12f" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -27,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="78" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="78" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="77" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1abc9699c6747ab26c12c816c6de08e183" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -40,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="80" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="80" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="79" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a0a5e08cf750a6319c1ef1191400e795e" prot="public" static="no" mutable="no">
         <type>uint32_t *</type>
@@ -53,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="81" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="81" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="80" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1aa4555cd2d8d285d25328399f8801037d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -66,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="82" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="82" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="81" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="81" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1ab7e67dbd8143e071ac2d16f478516dd5" prot="public" static="no" mutable="no">
         <type>void *</type>
@@ -79,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="83" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="83" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="82" column="6" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a33e164c519644e3013f255cab3209706" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -92,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="84" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="84" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="83" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="83" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a09037e867f391185be17ba040dade95d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -105,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="85" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="85" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="84" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1aa945a1ae20bfa5edf3010aa01208b389" prot="public" static="no" mutable="no">
         <type>void *</type>
@@ -118,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="86" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="86" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="85" column="6" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a126c7e2ea397db8b9210add171a27589" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -131,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="87" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="87" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="86" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a370ee0f949c4edd6afa3bda734135c96" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -144,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="87" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="87" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="86" column="21" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a5db1a839d380195b85c497f060da56ef" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -157,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="88" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="88" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="87" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a3268e8c170ca62c50edae269ece43502" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -170,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="89" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="89" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="88" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a184a4d252713094b246f67e10ef4f89e" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -183,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="90" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="90" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="89" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1af364836c5d422c14630c877affb1184f" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -196,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="91" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="91" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="90" column="10" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a788a0e23ff3b177435d2fa87bb746eff" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -209,10 +210,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="91" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="91" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="90" column="22" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a88edbb15c5dba113253923a49294891d" prot="public" static="no" mutable="no">
-        <type>IO_CB_FUNC</type>
+        <type><ref refid="ioctl_8h_a981b388196f453dabe85fc5a81b2279b_1a981b388196f453dabe85fc5a81b2279b" kindref="member">IO_CB_FUNC</ref></type>
         <definition>IO_CB_FUNC spi_info_struct::tx_cb</definition>
         <argsstring></argsstring>
         <name>tx_cb</name>
@@ -222,10 +223,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="98" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="98" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="97" column="12" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a61cb0217452dda2df70116a5613ec391" prot="public" static="no" mutable="no">
-        <type>IO_CB_FUNC</type>
+        <type><ref refid="ioctl_8h_a981b388196f453dabe85fc5a81b2279b_1a981b388196f453dabe85fc5a81b2279b" kindref="member">IO_CB_FUNC</ref></type>
         <definition>IO_CB_FUNC spi_info_struct::rx_cb</definition>
         <argsstring></argsstring>
         <name>rx_cb</name>
@@ -235,10 +236,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="99" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="99" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="98" column="12" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a5ab6dada7772cea9d445968b866b08d9" prot="public" static="no" mutable="no">
-        <type>IO_CB_FUNC</type>
+        <type><ref refid="ioctl_8h_a981b388196f453dabe85fc5a81b2279b_1a981b388196f453dabe85fc5a81b2279b" kindref="member">IO_CB_FUNC</ref></type>
         <definition>IO_CB_FUNC spi_info_struct::err_cb</definition>
         <argsstring></argsstring>
         <name>err_cb</name>
@@ -248,7 +249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="100" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="100" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="99" column="12" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1aca90fe0981fc6368ee7822fbb012c0a2" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -261,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="102" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="102" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="101" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="101" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a42d8d48d3a320a52806c77d93f3dd826" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -274,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="103" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="103" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="102" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="102" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a614f9ef3cc0d8471488ad36a7358ba54" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -287,7 +288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="104" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="104" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="103" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a025d6f34885895c358848a1509026b83" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -300,10 +301,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="105" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="105" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="104" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="104" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1ace280c3d5ba2be9d2149c37bdf8adfdd" prot="public" static="no" mutable="no">
-        <type>SPI_ISR</type>
+        <type><ref refid="spi__priv_8h_a728c535bb5da7bf899e04da93f0875f0_1a728c535bb5da7bf899e04da93f0875f0" kindref="member">SPI_ISR</ref></type>
         <definition>SPI_ISR spi_info_struct::rx_isr</definition>
         <argsstring></argsstring>
         <name>rx_isr</name>
@@ -313,10 +314,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="106" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="106" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="105" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="105" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a19daa7447170ab89b40184c225b9d78f" prot="public" static="no" mutable="no">
-        <type>SPI_ISR</type>
+        <type><ref refid="spi__priv_8h_a728c535bb5da7bf899e04da93f0875f0_1a728c535bb5da7bf899e04da93f0875f0" kindref="member">SPI_ISR</ref></type>
         <definition>SPI_ISR spi_info_struct::tx_isr</definition>
         <argsstring></argsstring>
         <name>tx_isr</name>
@@ -326,10 +327,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="107" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="107" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="106" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="106" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1a233c83350e01219bdd20e607d939982e" prot="public" static="no" mutable="no">
-        <type>SPI_ISR</type>
+        <type><ref refid="spi__priv_8h_a728c535bb5da7bf899e04da93f0875f0_1a728c535bb5da7bf899e04da93f0875f0" kindref="member">SPI_ISR</ref></type>
         <definition>SPI_ISR spi_info_struct::err_isr</definition>
         <argsstring></argsstring>
         <name>err_isr</name>
@@ -339,10 +340,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="108" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="108" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="107" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="107" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspi__info__struct_1ad98c0b8f50eeb8251695f5d5f55ceb10" prot="public" static="no" mutable="no">
-        <type>SPI_ISR</type>
+        <type><ref refid="spi__priv_8h_a728c535bb5da7bf899e04da93f0875f0_1a728c535bb5da7bf899e04da93f0875f0" kindref="member">SPI_ISR</ref></type>
         <definition>SPI_ISR spi_info_struct::idle_isr</definition>
         <argsstring></argsstring>
         <name>idle_isr</name>
@@ -352,20 +353,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="109" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="109" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="108" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="108" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="388">
-        <label>spi_info_struct</label>
-        <link refid="structspi__info__struct"/>
-      </node>
-    </collaborationgraph>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" line="76" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/spi_priv.h" bodystart="76" bodyend="110"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" line="75" column="30" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/spi_priv.h" bodystart="75" bodyend="109"/>
     <listofallmembers>
       <member refid="structspi__info__struct_1af364836c5d422c14630c877affb1184f" prot="public" virt="non-virtual"><scope>spi_info_struct</scope><name>dmarxchanid</name></member>
       <member refid="structspi__info__struct_1a788a0e23ff3b177435d2fa87bb746eff" prot="public" virt="non-virtual"><scope>spi_info_struct</scope><name>dmatxchanid</name></member>

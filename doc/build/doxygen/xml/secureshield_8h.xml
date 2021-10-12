@@ -1,235 +1,237 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="secureshield_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="secureshield_8h" kind="file" language="C++">
     <compoundname>secureshield.h</compoundname>
-    <includes refid="arc__exception_8h" local="yes">arc_exception.h</includes>
-    <includes refid="emb_a_r_c__debug_8h" local="yes">embARC_debug.h</includes>
-    <includes refid="emb_a_r_c__assert_8h" local="yes">embARC_assert.h</includes>
+    <includes refid="arc__exception_8h" local="yes">arc/arc_exception.h</includes>
+    <includes refid="embARC__debug_8h" local="yes">embARC_debug.h</includes>
+    <includes refid="embARC__assert_8h" local="yes">embARC_assert.h</includes>
     <includes refid="secureshield__exports_8h" local="yes">secureshield_exports.h</includes>
     <includes refid="secureshield__config_8h" local="yes">secureshield_config.h</includes>
-    <includedby refid="secureshield__container__call_8h" local="yes">secureshield_container_call.h</includedby>
-    <includedby refid="secureshield__container__stack_8h" local="yes">secureshield_container_stack.h</includedby>
-    <includedby refid="secureshield__int_8c" local="yes">secureshield_int.c</includedby>
-    <includedby refid="secureshield_8c" local="yes">secureshield.c</includedby>
-    <includedby refid="secureshield__sys_8c" local="yes">secureshield_sys.c</includedby>
-    <includedby refid="secureshield__vmpu_8c" local="yes">secureshield_vmpu.c</includedby>
-    <includedby refid="secureshield__vmpu__arc_8c" local="yes">secureshield_vmpu_arc.c</includedby>
-    <includedby refid="secureshield__trap_8c" local="yes">secureshield_trap.c</includedby>
-    <includedby refid="secureshield__sjli_8c" local="yes">secureshield_sjli.c</includedby>
+    <includedby refid="secureshield__container__call_8h" local="yes">/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield_container_call.h</includedby>
+    <includedby refid="secureshield__container__stack_8h" local="yes">/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield_container_stack.h</includedby>
+    <includedby refid="secureshield__int_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/arc_hal/secureshield_int.c</includedby>
+    <includedby refid="secureshield_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield.c</includedby>
+    <includedby refid="secureshield__sys_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield_sys.c</includedby>
+    <includedby refid="secureshield__vmpu_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield_vmpu.c</includedby>
+    <includedby refid="secureshield__vmpu__arc_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield_vmpu_arc.c</includedby>
+    <includedby refid="secureshield__trap_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/v1/secureshield_trap.c</includedby>
+    <includedby refid="secureshield__sjli_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/v2/secureshield_sjli.c</includedby>
     <incdepgraph>
-      <node id="7225">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="7222">
+      <node id="14">
+        <label>secureshield_exports.h</label>
+        <link refid="secureshield__exports_8h"/>
+      </node>
+      <node id="4">
         <label>stdint.h</label>
       </node>
-      <node id="7231">
-        <label>embARC_assert.h</label>
-        <link refid="emb_a_r_c__assert_8h"/>
-        <childnode refid="7230" relation="include">
-        </childnode>
-        <childnode refid="7221" relation="include">
+      <node id="8">
+        <label>arc/arc.h</label>
+        <link refid="arc_8h"/>
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="7224">
+      <node id="6">
         <label>stddef.h</label>
       </node>
-      <node id="7228">
-        <label>arc_builtin.h</label>
-        <link refid="arc__builtin_8h"/>
-        <childnode refid="7221" relation="include">
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield.h</label>
+        <link refid="secureshield_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="7223">
+      <node id="10">
+        <label>arc/arc_builtin.h</label>
+        <link refid="arc__builtin_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>limits.h</label>
       </node>
-      <node id="7232">
-        <label>secureshield_exports.h</label>
-        <link refid="secureshield__exports_8h_source"/>
-      </node>
-      <node id="7226">
-        <label>arc.h</label>
-        <link refid="arc_8h"/>
-        <childnode refid="7227" relation="include">
-        </childnode>
-      </node>
-      <node id="7234">
-        <label>secureshield_board_config.h</label>
-      </node>
-      <node id="7229">
-        <label>embARC_debug.h</label>
-        <link refid="emb_a_r_c__debug_8h"/>
-        <childnode refid="7230" relation="include">
-        </childnode>
-      </node>
-      <node id="7219">
-        <label>secureshield.h</label>
-        <link refid="secureshield.h"/>
-        <childnode refid="7220" relation="include">
-        </childnode>
-        <childnode refid="7229" relation="include">
-        </childnode>
-        <childnode refid="7231" relation="include">
-        </childnode>
-        <childnode refid="7232" relation="include">
-        </childnode>
-        <childnode refid="7233" relation="include">
-        </childnode>
-      </node>
-      <node id="7227">
-        <label>arc_feature_config.h</label>
+      <node id="9">
+        <label>arc/arc_feature_config.h</label>
         <link refid="arc__feature__config_8h"/>
       </node>
-      <node id="7230">
+      <node id="3">
+        <label>embARC_toolchain.h</label>
+        <link refid="embARC__toolchain_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>arc/arc_exception.h</label>
+        <link refid="arc__exception_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>secureshield_board_config.h</label>
+      </node>
+      <node id="13">
+        <label>embARC_assert.h</label>
+        <link refid="embARC__assert_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
         <label>xprintf.h</label>
       </node>
-      <node id="7221">
-        <label>embARC_toolchain.h</label>
-        <link refid="emb_a_r_c__toolchain_8h"/>
-        <childnode refid="7222" relation="include">
-        </childnode>
-        <childnode refid="7223" relation="include">
-        </childnode>
-        <childnode refid="7224" relation="include">
-        </childnode>
-        <childnode refid="7225" relation="include">
+      <node id="11">
+        <label>embARC_debug.h</label>
+        <link refid="embARC__debug_8h"/>
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="7233">
+      <node id="15">
         <label>secureshield_config.h</label>
-        <link refid="secureshield__config_8h_source"/>
-        <childnode refid="7234" relation="include">
-        </childnode>
-      </node>
-      <node id="7220">
-        <label>arc_exception.h</label>
-        <link refid="arc__exception_8h"/>
-        <childnode refid="7221" relation="include">
-        </childnode>
-        <childnode refid="7226" relation="include">
-        </childnode>
-        <childnode refid="7228" relation="include">
+        <link refid="secureshield__config_8h"/>
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="7241">
-        <label>secureshield_container_stack.h</label>
-        <link refid="secureshield__container__stack_8h_source"/>
-        <childnode refid="7237" relation="include">
+      <node id="8">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield_sys.c</label>
+        <link refid="secureshield__sys_8c"/>
+      </node>
+      <node id="6">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/v2/secureshield_sjli.c</label>
+        <link refid="secureshield__sjli_8c"/>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield.h</label>
+        <link refid="secureshield_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="7242" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="7243" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="7238" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="7239" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="7240" relation="include">
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="7236">
-        <label>secureshield_container_call.h</label>
-        <link refid="secureshield__container__call_8h_source"/>
-        <childnode refid="7237" relation="include">
+      <node id="5">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/v1/secureshield_trap.c</label>
+        <link refid="secureshield__trap_8c"/>
+      </node>
+      <node id="4">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield_vmpu_arc.c</label>
+        <link refid="secureshield__vmpu__arc_8c"/>
+      </node>
+      <node id="3">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/arc_hal/secureshield_int.c</label>
+        <link refid="secureshield__int_8c"/>
+      </node>
+      <node id="2">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield_container_call.h</label>
+        <link refid="secureshield__container__call_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="7238" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7239" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="7240" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="7240">
-        <label>secureshield_sjli.c</label>
-        <link refid="secureshield__sjli_8c_source"/>
-      </node>
-      <node id="7238">
-        <label>secureshield_vmpu_arc.c</label>
-        <link refid="secureshield__vmpu__arc_8c_source"/>
-      </node>
-      <node id="7239">
-        <label>secureshield_trap.c</label>
-        <link refid="secureshield__trap_8c_source"/>
-      </node>
-      <node id="7235">
-        <label>secureshield.h</label>
-        <link refid="secureshield.h"/>
-        <childnode refid="7236" relation="include">
+      <node id="7">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield_container_stack.h</label>
+        <link refid="secureshield__container__stack_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="7241" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="7237" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="7244" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7242" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="7243" relation="include">
-        </childnode>
-        <childnode refid="7238" relation="include">
-        </childnode>
-        <childnode refid="7239" relation="include">
-        </childnode>
-        <childnode refid="7240" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="7237">
-        <label>secureshield_int.c</label>
-        <link refid="secureshield__int_8c_source"/>
+      <node id="9">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield_vmpu.c</label>
+        <link refid="secureshield__vmpu_8c"/>
       </node>
-      <node id="7243">
-        <label>secureshield_vmpu.c</label>
-        <link refid="secureshield__vmpu_8c_source"/>
-      </node>
-      <node id="7244">
-        <label>secureshield.c</label>
-        <link refid="secureshield_8c_source"/>
-      </node>
-      <node id="7242">
-        <label>secureshield_sys.c</label>
-        <link refid="secureshield__sys_8c_source"/>
+      <node id="10">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield.c</label>
+        <link refid="secureshield_8c"/>
       </node>
     </invincdepgraph>
-    <innerclass refid="struct_e_m_b_a_r_c___p_a_c_k_e_d" prot="public">EMBARC_PACKED</innerclass>
+    <innerclass refid="structEMBARC__PACKED" prot="public">EMBARC_PACKED</innerclass>
       <sectiondef kind="define">
-      <memberdef kind="define" id="secureshield_8h_1a6de31d5d9644e546db6e048309809caa" prot="public" static="no">
+      <memberdef kind="define" id="secureshield_8h_a6de31d5d9644e546db6e048309809caa_1a6de31d5d9644e546db6e048309809caa" prot="public" static="no">
         <name>SECURESHIELD_DBG</name>
-        <initializer>DBG</initializer>
+        <initializer><ref refid="embARC__debug_8h_a7da75c1a7622f6d0cf57c81626853e9b_1a7da75c1a7622f6d0cf57c81626853e9b" kindref="member">DBG</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/inc/secureshield.h" line="71" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/inc/secureshield.h" bodystart="71" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield.h" line="71" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield.h" bodystart="71" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="secureshield_8h_1af06988a582f08b4c009e8d2da07a549c" prot="public" static="no">
+      <memberdef kind="define" id="secureshield_8h_af06988a582f08b4c009e8d2da07a549c_1af06988a582f08b4c009e8d2da07a549c" prot="public" static="no">
         <name>SECURESHIELD_HALT</name>
-        <initializer>EMBARC_HALT</initializer>
+        <initializer><ref refid="embARC__assert_8h_a35d048cdf15a3d545ad9229ddc3aab5d_1a35d048cdf15a3d545ad9229ddc3aab5d" kindref="member">EMBARC_HALT</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/inc/secureshield.h" line="75" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/inc/secureshield.h" bodystart="75" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield.h" line="75" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield.h" bodystart="75" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="secureshield_8h_1a50407c559aa3f73bcc026944c677edcd" prot="public" static="no">
+      <memberdef kind="define" id="secureshield_8h_a50407c559aa3f73bcc026944c677edcd_1a50407c559aa3f73bcc026944c677edcd" prot="public" static="no">
         <name>SECURESHIELD_ASSERT</name>
-        <initializer>EMBARC_ASSERT</initializer>
+        <initializer><ref refid="embARC__assert_8h_a2035594eaca2cdb540b817df526c0fd7_1a2035594eaca2cdb540b817df526c0fd7" kindref="member">EMBARC_ASSERT</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/inc/secureshield.h" line="79" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/inc/secureshield.h" bodystart="79" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield.h" line="79" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
-      <memberdef kind="variable" id="secureshield_8h_1a7121a91a1a0ca2ac8d12e2ec3121b7b3" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="secureshield_8h_a7121a91a1a0ca2ac8d12e2ec3121b7b3_1a7121a91a1a0ca2ac8d12e2ec3121b7b3" prot="public" static="no" mutable="no">
         <type>const SECURESHIELD_CONFIG</type>
         <definition>const SECURESHIELD_CONFIG __secureshield_config</definition>
         <argsstring></argsstring>
@@ -240,11 +242,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/inc/secureshield.h" line="68" column="1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield.h" line="68" column="34" declfile="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield.h" declline="68" declcolumn="34"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
-      <memberdef kind="function" id="secureshield_8h_1acdf057d8ea3cd9cf7156df462da1e100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="secureshield_8h_acdf057d8ea3cd9cf7156df462da1e100_1acdf057d8ea3cd9cf7156df462da1e100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void secureshield_init</definition>
         <argsstring>(void)</argsstring>
@@ -253,12 +255,13 @@
           <type>void</type>
         </param>
         <briefdescription>
-<para>initialization of secureshield </para>        </briefdescription>
+<para>initialization of secureshield </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/inc/secureshield.h" line="82" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/src/secureshield.c" bodystart="47" bodyend="58"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield.h" line="82" column="13" bodyfile="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield.c" bodystart="47" bodyend="58" declfile="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield.h" declline="82" declcolumn="13"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -295,59 +298,59 @@
 <codeline lineno="27"><highlight class="comment"><sp/>*<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
 <codeline lineno="28"><highlight class="comment"><sp/>*</highlight></codeline>
 <codeline lineno="29"><highlight class="comment">---------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_SECURESHIELD_H_</highlight></codeline>
-<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_SECURESHIELD_H_</highlight></codeline>
-<codeline lineno="32"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>LIB_SECURESHIELD_OVERRIDES</highlight></codeline>
-<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="arc__exception_8h" kindref="compound">arc_exception.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_SECURESHIELD_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_SECURESHIELD_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>LIB_SECURESHIELD_OVERRIDES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="arc__exception_8h" kindref="compound">arc/arc_exception.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="emb_a_r_c__debug_8h" kindref="compound">embARC_debug.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="emb_a_r_c__assert_8h" kindref="compound">embARC_assert.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="embARC__debug_8h" kindref="compound">embARC_debug.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="embARC__assert_8h" kindref="compound">embARC_assert.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>definitions<sp/>that<sp/>are<sp/>made<sp/>visible<sp/>externally<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;secureshield_exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;secureshield_config.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="secureshield__exports_8h" kindref="compound">secureshield_exports.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="secureshield__config_8h" kindref="compound">secureshield_config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="struct_e_m_b_a_r_c___p_a_c_k_e_d" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>magic;</highlight></codeline>
+<codeline lineno="49" refid="structEMBARC__PACKED" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50" refid="structEMBARC__PACKED_1a8c48899592bf6debeb13488ba58c6cbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structEMBARC__PACKED_1a8c48899592bf6debeb13488ba58c6cbc" kindref="member">magic</ref>;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>protected<sp/>flash<sp/>memory<sp/>region<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>*secure_rom_start,<sp/>*secure_rom_end;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>protected<sp/>bss<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>*secure_ram_start,<sp/>*secure_ram_end;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>protected<sp/>flash<sp/>memory<sp/>region<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="structEMBARC__PACKED_1ae215655c0ad2b16a362b3a8f3e3222db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>*<ref refid="structEMBARC__PACKED_1ae215655c0ad2b16a362b3a8f3e3222db" kindref="member">secure_rom_start</ref>,<sp/>*secure_rom_end;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>protected<sp/>bss<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="structEMBARC__PACKED_1ad67df8975d194caeab2481fe20ccee91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>*<ref refid="structEMBARC__PACKED_1ad67df8975d194caeab2481fe20ccee91" kindref="member">secure_ram_start</ref>,<sp/>*secure_ram_end;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>*background_rom_start,<sp/>*background_rom_end;</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>*background_ram_start,<sp/>*background_ram_end;</highlight></codeline>
+<codeline lineno="58" refid="structEMBARC__PACKED_1a4941005e931a48422528ff6b4804d4b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>*<ref refid="structEMBARC__PACKED_1a4941005e931a48422528ff6b4804d4b5" kindref="member">background_rom_start</ref>,<sp/>*background_rom_end;</highlight></codeline>
+<codeline lineno="59" refid="structEMBARC__PACKED_1ae869206f1fe8c2066bcb7dd5cf785fd6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>*<ref refid="structEMBARC__PACKED_1ae869206f1fe8c2066bcb7dd5cf785fd6" kindref="member">background_ram_start</ref>,<sp/>*background_ram_end;</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>container<sp/>configuration<sp/>tables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>*cfgtbl_start,<sp/>*cfgtbl_end;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>container<sp/>configuration<sp/>tables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="structEMBARC__PACKED_1a1b4196492a1bb0b9063aba0e51b1f10a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>*<ref refid="structEMBARC__PACKED_1a1b4196492a1bb0b9063aba0e51b1f10a" kindref="member">cfgtbl_start</ref>,<sp/>*cfgtbl_end;</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>pointers<sp/>to<sp/>container<sp/>configuration<sp/>tables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>*cfgtbl_ptr_start,<sp/>*cfgtbl_ptr_end;</highlight></codeline>
-<codeline lineno="66"><highlight class="normal">}<sp/><ref refid="struct_e_m_b_a_r_c___p_a_c_k_e_d" kindref="compound">EMBARC_PACKED</ref><sp/>SECURESHIELD_CONFIG;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>pointers<sp/>to<sp/>container<sp/>configuration<sp/>tables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="structEMBARC__PACKED_1a417c6b56abcfa971319fff822d5a7a44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>*<ref refid="structEMBARC__PACKED_1a417c6b56abcfa971319fff822d5a7a44" kindref="member">cfgtbl_ptr_start</ref>,<sp/>*cfgtbl_ptr_end;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}<sp/><ref refid="structEMBARC__PACKED" kindref="compound">EMBARC_PACKED</ref><sp/>SECURESHIELD_CONFIG;</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SECURESHIELD_CONFIG<sp/>__secureshield_config;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SECURESHIELD_CONFIG<sp/><ref refid="secureshield_8h_a7121a91a1a0ca2ac8d12e2ec3121b7b3_1a7121a91a1a0ca2ac8d12e2ec3121b7b3" kindref="member">__secureshield_config</ref>;</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SECURESHIELD_DBG</highlight></codeline>
-<codeline lineno="71"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SECURESHIELD_DBG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DBG</highlight></codeline>
-<codeline lineno="72"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="73"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SECURESHIELD_HALT</highlight></codeline>
-<codeline lineno="75"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SECURESHIELD_HALT<sp/><sp/><sp/><sp/><sp/><sp/><sp/>EMBARC_HALT</highlight></codeline>
-<codeline lineno="76"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="77"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SECURESHIELD_ASSERT</highlight></codeline>
-<codeline lineno="79"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SECURESHIELD_ASSERT<sp/><sp/><sp/><sp/><sp/>EMBARC_ASSERT</highlight></codeline>
-<codeline lineno="80"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="81"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>secureshield_init(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SECURESHIELD_DBG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="secureshield_8h_a6de31d5d9644e546db6e048309809caa_1a6de31d5d9644e546db6e048309809caa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SECURESHIELD_DBG<sp/><sp/><sp/><sp/>DBG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SECURESHIELD_HALT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="secureshield_8h_af06988a582f08b4c009e8d2da07a549c_1af06988a582f08b4c009e8d2da07a549c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SECURESHIELD_HALT<sp/><sp/><sp/>EMBARC_HALT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SECURESHIELD_ASSERT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="secureshield_8h_a50407c559aa3f73bcc026944c677edcd_1a50407c559aa3f73bcc026944c677edcd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SECURESHIELD_ASSERT<sp/><sp/><sp/><sp/><sp/>EMBARC_ASSERT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="secureshield_8h_acdf057d8ea3cd9cf7156df462da1e100_1acdf057d8ea3cd9cf7156df462da1e100" kindref="member">secureshield_init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="comment">/*_SECURESHIELD_H_*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/inc/secureshield.h"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/inc/secureshield.h"/>
   </compounddef>
 </doxygen>

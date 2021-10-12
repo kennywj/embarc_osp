@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
   <compounddef id="dir_a74b2d6f9bc35318d154aa771c448dca" kind="dir">
-    <compoundname>bootutil</compoundname>
+    <compoundname>/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/include/bootutil</compoundname>
     <innerfile refid="bootutil_8h">bootutil.h</innerfile>
     <innerfile refid="bootutil__log_8h">bootutil_log.h</innerfile>
     <innerfile refid="bootutil__test_8h">bootutil_test.h</innerfile>
@@ -14,6 +14,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/mcuboot/bootutil/include/bootutil/"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/library/mcuboot/bootutil/include/bootutil/"/>
   </compounddef>
 </doxygen>

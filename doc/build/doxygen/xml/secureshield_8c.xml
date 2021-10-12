@@ -1,132 +1,134 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="secureshield_8c" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="secureshield_8c" kind="file" language="C++">
     <compoundname>secureshield.c</compoundname>
     <includes refid="secureshield_8h" local="yes">secureshield.h</includes>
     <includes refid="secureshield__vmpu_8h" local="yes">secureshield_vmpu.h</includes>
     <includes refid="secureshield__int_8h" local="yes">secureshield_int.h</includes>
     <incdepgraph>
-      <node id="7205">
+      <node id="8">
         <label>stdbool.h</label>
       </node>
-      <node id="7202">
+      <node id="20">
+        <label>secureshield_int.h</label>
+        <link refid="secureshield__int_8h"/>
+      </node>
+      <node id="15">
+        <label>secureshield_exports.h</label>
+        <link refid="secureshield__exports_8h"/>
+      </node>
+      <node id="5">
         <label>stdint.h</label>
       </node>
-      <node id="7211">
-        <label>embARC_assert.h</label>
-        <link refid="emb_a_r_c__assert_8h"/>
-        <childnode refid="7210" relation="include">
-        </childnode>
-        <childnode refid="7201" relation="include">
+      <node id="9">
+        <label>arc/arc.h</label>
+        <link refid="arc_8h"/>
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="7204">
+      <node id="7">
         <label>stddef.h</label>
       </node>
-      <node id="7208">
-        <label>arc_builtin.h</label>
-        <link refid="arc__builtin_8h"/>
-        <childnode refid="7201" relation="include">
+      <node id="2">
+        <label>secureshield.h</label>
+        <link refid="secureshield_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="7203">
+      <node id="11">
+        <label>arc/arc_builtin.h</label>
+        <link refid="arc__builtin_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
         <label>limits.h</label>
       </node>
-      <node id="7212">
-        <label>secureshield_exports.h</label>
-        <link refid="secureshield__exports_8h_source"/>
-      </node>
-      <node id="7206">
-        <label>arc.h</label>
-        <link refid="arc_8h"/>
-        <childnode refid="7207" relation="include">
-        </childnode>
-      </node>
-      <node id="7214">
-        <label>secureshield_board_config.h</label>
-      </node>
-      <node id="7215">
-        <label>secureshield_vmpu.h</label>
-        <link refid="secureshield__vmpu_8h_source"/>
-        <childnode refid="7216" relation="include">
-        </childnode>
-      </node>
-      <node id="7209">
-        <label>embARC_debug.h</label>
-        <link refid="emb_a_r_c__debug_8h"/>
-        <childnode refid="7210" relation="include">
-        </childnode>
-      </node>
-      <node id="7199">
-        <label>secureshield.h</label>
-        <link refid="secureshield_8h_source"/>
-        <childnode refid="7200" relation="include">
-        </childnode>
-        <childnode refid="7209" relation="include">
-        </childnode>
-        <childnode refid="7211" relation="include">
-        </childnode>
-        <childnode refid="7212" relation="include">
-        </childnode>
-        <childnode refid="7213" relation="include">
-        </childnode>
-      </node>
-      <node id="7207">
-        <label>arc_feature_config.h</label>
+      <node id="10">
+        <label>arc/arc_feature_config.h</label>
         <link refid="arc__feature__config_8h"/>
       </node>
-      <node id="7210">
+      <node id="4">
+        <label>embARC_toolchain.h</label>
+        <link refid="embARC__toolchain_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>arc/arc_exception.h</label>
+        <link refid="arc__exception_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>secureshield_board_config.h</label>
+      </node>
+      <node id="18">
+        <label>secureshield_vmpu.h</label>
+        <link refid="secureshield__vmpu_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>embARC_assert.h</label>
+        <link refid="embARC__assert_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
         <label>xprintf.h</label>
       </node>
-      <node id="7201">
-        <label>embARC_toolchain.h</label>
-        <link refid="emb_a_r_c__toolchain_8h"/>
-        <childnode refid="7202" relation="include">
-        </childnode>
-        <childnode refid="7203" relation="include">
-        </childnode>
-        <childnode refid="7204" relation="include">
-        </childnode>
-        <childnode refid="7205" relation="include">
+      <node id="12">
+        <label>embARC_debug.h</label>
+        <link refid="embARC__debug_8h"/>
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="7217">
-        <label>secureshield_int.h</label>
-        <link refid="secureshield__int_8h_source"/>
-      </node>
-      <node id="7213">
-        <label>secureshield_config.h</label>
-        <link refid="secureshield__config_8h_source"/>
-        <childnode refid="7214" relation="include">
-        </childnode>
-      </node>
-      <node id="7198">
-        <label>secureshield.c</label>
-        <link refid="secureshield.c"/>
-        <childnode refid="7199" relation="include">
-        </childnode>
-        <childnode refid="7215" relation="include">
-        </childnode>
-        <childnode refid="7217" relation="include">
-        </childnode>
-      </node>
-      <node id="7200">
-        <label>arc_exception.h</label>
-        <link refid="arc__exception_8h"/>
-        <childnode refid="7201" relation="include">
-        </childnode>
-        <childnode refid="7206" relation="include">
-        </childnode>
-        <childnode refid="7208" relation="include">
-        </childnode>
-      </node>
-      <node id="7216">
+      <node id="19">
         <label>secureshield_vmpu_exports.h</label>
-        <link refid="secureshield__vmpu__exports_8h_source"/>
+        <link refid="secureshield__vmpu__exports_8h"/>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield.c</label>
+        <link refid="secureshield_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>secureshield_config.h</label>
+        <link refid="secureshield__config_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
       <sectiondef kind="func">
-      <memberdef kind="function" id="secureshield_8c_1af7f22203a9e8f536af28ff17d9a75f82" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="secureshield_8c_af7f22203a9e8f536af28ff17d9a75f82_1af7f22203a9e8f536af28ff17d9a75f82" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>static void secureshield_init_post</definition>
         <argsstring>(void)</argsstring>
@@ -135,14 +137,15 @@
           <type>void</type>
         </param>
         <briefdescription>
-<para>the post initialization of secureshield </para>        </briefdescription>
+<para>the post initialization of secureshield </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/src/secureshield.c" line="37" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/src/secureshield.c" bodystart="37" bodyend="41"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield.c" line="37" column="13" bodyfile="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield.c" bodystart="37" bodyend="41"/>
       </memberdef>
-      <memberdef kind="function" id="secureshield_8c_1acdf057d8ea3cd9cf7156df462da1e100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="secureshield_8c_acdf057d8ea3cd9cf7156df462da1e100_1acdf057d8ea3cd9cf7156df462da1e100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void secureshield_init</definition>
         <argsstring>(void)</argsstring>
@@ -151,12 +154,13 @@
           <type>void</type>
         </param>
         <briefdescription>
-<para>initialization of secureshield </para>        </briefdescription>
+<para>initialization of secureshield </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/src/secureshield.c" line="47" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/src/secureshield.c" bodystart="47" bodyend="58"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield.c" line="47" column="6" bodyfile="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield.c" bodystart="47" bodyend="58"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -193,30 +197,30 @@
 <codeline lineno="27"><highlight class="comment"><sp/>*<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
 <codeline lineno="28"><highlight class="comment"><sp/>*</highlight></codeline>
 <codeline lineno="29"><highlight class="comment">---------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;secureshield.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;secureshield_vmpu.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;secureshield_int.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="secureshield_8h" kindref="compound">secureshield.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="secureshield__vmpu_8h" kindref="compound">secureshield_vmpu.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="secureshield__int_8h" kindref="compound">secureshield_int.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>secureshield_init_post(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="37"><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="secureshield_8c_af7f22203a9e8f536af28ff17d9a75f82_1af7f22203a9e8f536af28ff17d9a75f82" kindref="member">secureshield_init_post</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="38"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>init<sp/>MPU<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vmpu_init_post();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>init<sp/>MPU<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="secureshield__vmpu_8h_a629c9bce961b74afa0d66369de26842b_1a629c9bce961b74afa0d66369de26842b" kindref="member">vmpu_init_post</ref>();</highlight></codeline>
 <codeline lineno="41"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>secureshield_init(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="47"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="secureshield_8c_acdf057d8ea3cd9cf7156df462da1e100_1acdf057d8ea3cd9cf7156df462da1e100" kindref="member">secureshield_init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="48"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>now<sp/>processor<sp/>is<sp/>in<sp/>secure<sp/>mode<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
-<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>for<sp/>sem<sp/>the<sp/>processor<sp/>cannot<sp/>execute<sp/>the<sp/>code<sp/>in<sp/>normal<sp/>world<sp/>when</highlight></codeline>
-<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>it&apos;s<sp/>secure<sp/>mode</highlight></codeline>
-<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>secureshield<sp/>interrupt<sp/>init<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>secureshield_int_init();</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>finish<sp/>initialization<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>secureshield_init_post();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>now<sp/>processor<sp/>is<sp/>in<sp/>secure<sp/>mode<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>for<sp/>sem<sp/>the<sp/>processor<sp/>cannot<sp/>execute<sp/>the<sp/>code<sp/>in<sp/>normal<sp/>world<sp/>when</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>it&apos;s<sp/>secure<sp/>mode</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>secureshield<sp/>interrupt<sp/>init<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="secureshield__int_8h_a16b2ed238a732f2613b57296e68b6dc2_1a16b2ed238a732f2613b57296e68b6dc2" kindref="member">secureshield_int_init</ref>();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>finish<sp/>initialization<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="secureshield_8c_af7f22203a9e8f536af28ff17d9a75f82_1af7f22203a9e8f536af28ff17d9a75f82" kindref="member">secureshield_init_post</ref>();</highlight></codeline>
 <codeline lineno="58"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/library/secureshield/core/src/secureshield.c"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/library/secureshield/core/src/secureshield.c"/>
   </compounddef>
 </doxygen>

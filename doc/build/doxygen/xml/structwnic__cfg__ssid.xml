@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structwnic__cfg__ssid" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structwnic__cfg__ssid" kind="struct" language="C++" prot="public">
     <compoundname>wnic_cfg_ssid</compoundname>
+    <includes refid="dev__wnic_8h" local="no">dev_wnic.h</includes>
       <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structwnic__cfg__ssid_1a19139a8796d918504185af5879a84182" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="structwnic__cfg__ssid_1ae41fda564bc7328b574fa67f54b8a5dc" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
-        <definition>uint8_t wnic_cfg_ssid::ssid[WNIC_SSID_MAX_LEN]</definition>
-        <argsstring>[WNIC_SSID_MAX_LEN]</argsstring>
+        <definition>uint8_t wnic_cfg_ssid::ssid[(32)]</definition>
+        <argsstring>[(32)]</argsstring>
         <name>ssid</name>
         <briefdescription>
         </briefdescription>
@@ -14,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/inc/dev_wnic.h" line="177" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/inc/dev_wnic.h" bodystart="177" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/dev_wnic.h" line="176" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/dev_wnic.h" bodystart="176" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structwnic__cfg__ssid_1a67b9ffb41e38616ca48beec953711789" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -27,22 +28,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/inc/dev_wnic.h" line="178" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/inc/dev_wnic.h" bodystart="178" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/dev_wnic.h" line="177" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/dev_wnic.h" bodystart="177" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="427">
-        <label>wnic_cfg_ssid</label>
-        <link refid="structwnic__cfg__ssid"/>
-      </node>
-    </collaborationgraph>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/inc/dev_wnic.h" line="176" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/inc/dev_wnic.h" bodystart="176" bodyend="179"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/dev_wnic.h" line="175" column="28" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/dev_wnic.h" bodystart="175" bodyend="178"/>
     <listofallmembers>
-      <member refid="structwnic__cfg__ssid_1a19139a8796d918504185af5879a84182" prot="public" virt="non-virtual"><scope>wnic_cfg_ssid</scope><name>ssid</name></member>
+      <member refid="structwnic__cfg__ssid_1ae41fda564bc7328b574fa67f54b8a5dc" prot="public" virt="non-virtual"><scope>wnic_cfg_ssid</scope><name>ssid</name></member>
       <member refid="structwnic__cfg__ssid_1a67b9ffb41e38616ca48beec953711789" prot="public" virt="non-virtual"><scope>wnic_cfg_ssid</scope><name>ssid_len</name></member>
     </listofallmembers>
   </compounddef>

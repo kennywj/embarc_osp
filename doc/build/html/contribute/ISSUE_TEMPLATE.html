@@ -1,39 +1,42 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Issue Template &mdash; embARC 2019.06 documentation</title>
+  <title>Issue Template &mdash; embARC OSP Project Documentation</title>
   
-
-  
-  
-  
-  
-
-  
-  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
-  
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-        <script type="text/javascript" src="../_static/jquery.js"></script>
-        <script type="text/javascript" src="../_static/underscore.js"></script>
-        <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="../_static/language_data.js"></script>
-    
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-
-    
 
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../_static/style_overrides.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Pull Request Template" href="PULL_REQUEST_TEMPLATE.html" />
@@ -61,7 +64,7 @@
             
             
               <div class="version">
-                2019.06
+                2021.09
               </div>
             
           
@@ -78,6 +81,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -122,6 +126,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -156,11 +161,13 @@
 
 
 
+
+
 <div role="navigation" aria-label="breadcrumbs navigation">
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="../index.html">Docs</a> &raquo;</li>
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
           <li><a href="contribute.html">Contribute to embARC OSP</a> &raquo;</li>
         
@@ -169,8 +176,6 @@
     
       <li class="wy-breadcrumbs-aside">
         
-            
-            <a href="../_sources/contribute/ISSUE_TEMPLATE.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -184,7 +189,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="issue-template">
-<h1>Issue Template<a class="headerlink" href="#issue-template" title="Permalink to this headline">¶</a></h1>
+<span id="issue-guidelines"></span><h1>Issue Template<a class="headerlink" href="#issue-template" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
 <li><p><strong>Type</strong>: <em>Bug</em> | <em>Enhancement</em> | <em>Question</em></p></li>
 <li><p><strong>Category</strong>: <em>ARC HAL</em> | <em>Device HAL</em> | <em>BSP</em> | <em>OS</em> | <em>Middleware</em> | <em>Library</em> | <em>Example</em> | <em>Build System</em> | <em>Tools</em> | <em>Documentation</em> | <em>Installation</em> | <em>Usability</em></p></li>
@@ -198,37 +203,55 @@
 <div class="section" id="development-environment">
 <h2>Development Environment<a class="headerlink" href="#development-environment" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p><strong>HOST OS</strong>
-Input the host os name and its version.
-For example, Windows 7, 64Bit | Debian Linux 8.6, 64Bit</p></li>
-<li><p><strong>TOOLCHAIN</strong>
-Input the toolchain name and its version.
+<li><dl class="simple">
+<dt><strong>HOST OS</strong></dt><dd><p>Input the host os name and its version.
+For example, Windows 7, 64Bit | Debian Linux 8.6, 64Bit</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>TOOLCHAIN</strong></dt><dd><p>Input the toolchain name and its version.
 For example, MWDT L-2016.06 | ARC GNU 2016.03.
-You can also put the compiler version here.</p></li>
-<li><p><strong>BOARD</strong>
-Input the board name and its version.
-For example, EMSK 2.2 | AXS 103 | nSIM</p></li>
-<li><p><strong>ARC CORE</strong>
-Input the ARC core name, such as EM7D.</p></li>
+You can also put the compiler version here.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>BOARD</strong></dt><dd><p>Input the board name and its version.
+For example, EMSK 2.2 | AXS 103 | nSIM</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>ARC CORE</strong></dt><dd><p>Input the ARC core name, such as EM7D.</p>
+</dd>
+</dl>
+</li>
 </ul>
 <div class="section" id="bug-description">
 <h3>Bug Description<a class="headerlink" href="#bug-description" title="Permalink to this headline">¶</a></h3>
-<p>Describe the bug you met in details, and tell us how to reproduce it.
+<blockquote>
+<div><p>Describe the bug you met in details, and tell us how to reproduce it.
 If you want to put some log information here, you can post it here or in github gist.
 If there are some screenshots, you can post outside of github, and provide links here.</p>
+</div></blockquote>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="enhancement">
 <h2>Enhancement<a class="headerlink" href="#enhancement" title="Permalink to this headline">¶</a></h2>
-<p>Describe the enhancement you suggest to add in details.
+<blockquote>
+<div><p>Describe the enhancement you suggest to add in details.
 Explain why you want this enhancement to be added, what are the pros and cons?
 Do you have any initial implementation about this enhancement, if yes, post link here.</p>
+</div></blockquote>
 </div>
 <hr class="docutils" />
 <div class="section" id="question">
 <h2>Question<a class="headerlink" href="#question" title="Permalink to this headline">¶</a></h2>
-<p>Input your question in details here.</p>
+<blockquote>
+<div><p>Input your question in details here.</p>
+</div></blockquote>
 </div>
 </div>
 
@@ -237,29 +260,20 @@ Do you have any initial implementation about this enhancement, if yes, post link
            
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="PULL_REQUEST_TEMPLATE.html" class="btn btn-neutral float-right" title="Pull Request Template" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="CODE_OF_CONDUCT.html" class="btn btn-neutral float-left" title="Contributor Covenant Code of Conduct" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Synopsys
+        &#169; Copyright 2021, Synopsys.
+      <span class="lastupdated">
+        Last updated on Oct 12, 2021.
+      </span>
 
     </p>
-  </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  </div> 
 
 </footer>
-
         </div>
       </div>
 
@@ -267,7 +281,6 @@ Do you have any initial implementation about this enhancement, if yes, post link
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

@@ -1,39 +1,42 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Contributing to embARC OSP &mdash; embARC 2019.06 documentation</title>
+  <title>Contributing to embARC OSP &mdash; embARC OSP Project Documentation</title>
   
-
-  
-  
-  
-  
-
-  
-  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
-  
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-        <script type="text/javascript" src="../_static/jquery.js"></script>
-        <script type="text/javascript" src="../_static/underscore.js"></script>
-        <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="../_static/language_data.js"></script>
-    
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-
-    
 
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../_static/style_overrides.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Contributor Covenant Code of Conduct" href="CODE_OF_CONDUCT.html" />
@@ -61,7 +64,7 @@
             
             
               <div class="version">
-                2019.06
+                2021.09
               </div>
             
           
@@ -78,6 +81,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -118,7 +122,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#styleguides">Styleguides</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#git-commit-messages">Git Commit Messages</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#c-styleguide">C Styleguide</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#documentation-styleguide">Documentation Styleguide</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id9">Documentation Styleguide</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#additional-notes">Additional Notes</a><ul>
@@ -141,6 +145,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -175,11 +180,13 @@
 
 
 
+
+
 <div role="navigation" aria-label="breadcrumbs navigation">
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="../index.html">Docs</a> &raquo;</li>
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
           <li><a href="contribute.html">Contribute to embARC OSP</a> &raquo;</li>
         
@@ -188,8 +195,6 @@
     
       <li class="wy-breadcrumbs-aside">
         
-            
-            <a href="../_sources/contribute/CONTRIBUTING.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -203,42 +208,42 @@
            <div itemprop="articleBody">
             
   <div class="section" id="contributing-to-embarc-osp">
-<h1>Contributing to embARC OSP<a class="headerlink" href="#contributing-to-embarc-osp" title="Permalink to this headline">¶</a></h1>
+<span id="coding-guidelines"></span><h1>Contributing to embARC OSP<a class="headerlink" href="#contributing-to-embarc-osp" title="Permalink to this headline">¶</a></h1>
 <p>Thank you for contributing to embARC.</p>
 <p>The following is a set of guidelines for contributing to embARC Open Software Platform (OSP), which is hosted in the <a class="reference external" href="https://github.com/foss-for-synopsys-dwc-arc-processors/embarc_osp">embARC Open Software Platform</a> repository on GitHub.</p>
 <p>These guidelines must be followed when submitting contributions to Synopsys projects to help ensure requests are processed as efficiently as possible. If you have any questions or concerns, please feel free to contact us at <a class="reference external" href="mailto:opensource&#37;&#52;&#48;synopsys&#46;com">opensource<span>&#64;</span>synopsys<span>&#46;</span>com</a>.</p>
 <div class="section" id="table-of-contents">
 <h2>Table Of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="#what-should-i-know-before-i-get-started">What should I know before I get started?</a></p>
+<p><a class="reference internal" href="#what-should-i-know-before-i-get-started">What should I know before I get started?</a></p>
 <ul class="simple">
-<li><p><a class="reference external" href="#code-of-conduct">Review Code of Conduct</a></p></li>
-<li><p><a class="reference external" href="#create-github-account-and-sign-contribution-agreement">Create GitHub account and sign Contribution Agreement</a></p></li>
-<li><p><a class="reference external" href="#embarc-osp-and-applications">embARC OSP and Applications</a></p></li>
-<li><p><a class="reference external" href="#embarc-osp-design-decisions">embARC OSP Design Decisions</a></p></li>
+<li><p><a class="reference internal" href="#code-of-conduct">Code of Conduct</a></p></li>
+<li><p><a class="reference internal" href="#create-github-account-and-sign-contribution-agreement">Create GitHub account and sign Contribution Agreement</a></p></li>
+<li><p><a class="reference internal" href="#embarc-osp-and-applications">embARC OSP and Applications</a></p></li>
+<li><p><a class="reference internal" href="#embarc-osp-design-decisions">embARC OSP Design Decisions</a></p></li>
 </ul>
-<p><a class="reference external" href="#how-can-i-contribute">How Can I Contribute?</a></p>
+<p><a class="reference internal" href="#how-can-i-contribute">How Can I Contribute?</a></p>
 <ul class="simple">
-<li><p><a class="reference external" href="#reporting-bugs">Reporting Bugs</a></p></li>
-<li><p><a class="reference external" href="#suggesting-enhancements">Suggesting Enhancements</a></p></li>
-<li><p><a class="reference external" href="#your-first-code-contribution">Your First Code Contribution</a></p></li>
-<li><p><a class="reference external" href="#pull-requests">Pull Requests</a></p></li>
+<li><p><a class="reference internal" href="#reporting-bugs">Reporting Bugs</a></p></li>
+<li><p><a class="reference internal" href="#suggesting-enhancements">Suggesting Enhancements</a></p></li>
+<li><p><a class="reference internal" href="#your-first-code-contribution">Your First Code Contribution</a></p></li>
+<li><p><a class="reference internal" href="#pull-requests">Pull Requests</a></p></li>
 </ul>
-<p><a class="reference external" href="#styleguides">Styleguides</a></p>
+<p><a class="reference internal" href="#styleguides">Styleguides</a></p>
 <ul class="simple">
-<li><p><a class="reference external" href="#git-commit-messages">Git Commit Messages</a></p></li>
-<li><p><a class="reference external" href="#c-styleguide">C Styleguide</a></p></li>
+<li><p><a class="reference internal" href="#git-commit-messages">Git Commit Messages</a></p></li>
+<li><p><a class="reference internal" href="#c-styleguide">C Styleguide</a></p></li>
 <li><p><a class="reference external" href="#documentation-styleguide">Documentation Styleguide</a></p></li>
 </ul>
-<p><a class="reference external" href="#additional-notes">Additional Notes</a></p>
+<p><a class="reference internal" href="#additional-notes">Additional Notes</a></p>
 <ul class="simple">
-<li><p><a class="reference external" href="#issue-and-pull-request-labels">Issue and Pull Request Labels</a></p></li>
+<li><p><a class="reference internal" href="#issue-and-pull-request-labels">Issue and Pull Request Labels</a></p></li>
 </ul>
 </div>
 <div class="section" id="what-should-i-know-before-i-get-started">
 <h2>What should I know before I get started?<a class="headerlink" href="#what-should-i-know-before-i-get-started" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="code-of-conduct">
 <h3>Code of Conduct<a class="headerlink" href="#code-of-conduct" title="Permalink to this headline">¶</a></h3>
-<p>This project adheres to the Contributor Covenant <a class="reference internal" href="CODE_OF_CONDUCT.html"><span class="doc">code of conduct</span></a>.
+<p>This project adheres to the Contributor Covenant <a class="reference internal" href="CODE_OF_CONDUCT.html#code-guidelines"><span class="std std-ref">code of conduct</span></a>.
 By participating, you are expected to uphold this code.
 Please report unacceptable behavior to <a class="reference external" href="mailto:info&#37;&#52;&#48;embarc&#46;org">info<span>&#64;</span>embarc<span>&#46;</span>org</a>.</p>
 </div>
@@ -271,10 +276,10 @@ Please report unacceptable behavior to <a class="reference external" href="mailt
 <div class="section" id="before-submitting-a-bug-report">
 <h4>Before Submitting A Bug Report<a class="headerlink" href="#before-submitting-a-bug-report" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p><strong>Check the embARC OSP documentation.</strong> You might be able to find the cause of the problem and fix things yourself. Most importantly, check if you can reproduce the problem in the latest version of embARC OSP, if the problem happens when you run using both the Metaware and the GNU toolchain for ARC Processors.</p></li>
-<li><p><strong>Check the embARC OSP FAQs</strong> for a list of common questions and problems.</p></li>
-<li><p><strong>Determine <a class="reference external" href="#embarc-osp-and-applications">which repository the problem should be reported in</a></strong>.</p></li>
-<li><p><strong>Perform a cursory search in related embARC repositories</strong> to see if the problem has already been reported. If it has, add a comment to the existing issue instead of opening a new one.</p></li>
+<li><p>Check the embARC OSP documentation. You might be able to find the cause of the problem and fix things yourself. Most importantly, check if you can reproduce the problem in the latest version of embARC OSP, if the problem happens when you run using both the Metaware and the GNU toolchain for ARC Processors.</p></li>
+<li><p>Check the embARC OSP FAQs for a list of common questions and problems.</p></li>
+<li><p>Determine <a class="reference external" href="#embarc-osp-and-applications">which repository the problem should be reported in</a>.</p></li>
+<li><p>Perform a cursory search in related embARC repositories to see if the problem has already been reported. If it has, add a comment to the existing issue instead of opening a new one.</p></li>
 </ul>
 </div>
 <div class="section" id="how-do-i-submit-a-good-bug-report">
@@ -303,9 +308,7 @@ Please report unacceptable behavior to <a class="reference external" href="mailt
 <li><p><strong>Provide name and version of the OS and toolchain you are using</strong></p></li>
 <li><p><strong>Provide hardware board and arc core you are using</strong></p></li>
 </ul>
-</div>
-<div class="section" id="template-for-submitting-bug-reports">
-<h4><a class="reference internal" href="ISSUE_TEMPLATE.html"><span class="doc">Template For Submitting Bug Reports</span></a><a class="headerlink" href="#template-for-submitting-bug-reports" title="Permalink to this headline">¶</a></h4>
+<p><a class="reference internal" href="ISSUE_TEMPLATE.html#issue-guidelines"><span class="std std-ref">Template For Submitting Bug Reports</span></a></p>
 </div>
 </div>
 <div class="section" id="suggesting-enhancements">
@@ -317,7 +320,7 @@ Please report unacceptable behavior to <a class="reference external" href="mailt
 <ul class="simple">
 <li><p>Check the embARC OSP documentation, and embARC OSP roadmap.</p></li>
 <li><p>Check if the enhancement is already developed or in development in latest sourcecode.</p></li>
-<li><p><strong>Determine <a class="reference external" href="#embarc-osp-and-applications">which repository the enhancement should be suggested in</a>.</strong>
+<li><p>Determine <a class="reference external" href="#embarc-osp-and-applications">which repository the enhancement should be suggested in</a>.
 <strong>Perform a cursory search in related embARC repositories</strong> to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.</p></li>
 </ul>
 </div>
@@ -336,13 +339,13 @@ Please report unacceptable behavior to <a class="reference external" href="mailt
 </ul>
 </div>
 <div class="section" id="template-for-submitting-enhancement-suggestions">
-<h4><a class="reference internal" href="ISSUE_TEMPLATE.html"><span class="doc">Template For Submitting Enhancement Suggestions</span></a><a class="headerlink" href="#template-for-submitting-enhancement-suggestions" title="Permalink to this headline">¶</a></h4>
+<h4><a class="reference internal" href="ISSUE_TEMPLATE.html#issue-guidelines"><span class="std std-ref">Template For Submitting Enhancement Suggestions</span></a><a class="headerlink" href="#template-for-submitting-enhancement-suggestions" title="Permalink to this headline">¶</a></h4>
 </div>
 </div>
 <div class="section" id="your-first-code-contribution">
 <h3>Your First Code Contribution<a class="headerlink" href="#your-first-code-contribution" title="Permalink to this headline">¶</a></h3>
 <p>Unsure where to begin contributing to embARC OSP? You can start by looking through the existing issues.</p>
-<p>If you want to read about using embARC OSP or developing board support package, peripheral drivers, libraries, middlewares or applications in embARC OSP, the <a class="reference external" href="https://embarc.org/embarc_osp">embARC OSP documentation</a> is free and available online.</p>
+<p>If you want to read about using embARC OSP or developing board support package, peripheral drivers, libraries, middlewares or applications in embARC OSP, the <a class="reference external" href="https://foss-for-synopsys-dwc-arc-processors.github.io/embarc_osp/doc/build/html/index.html">embARC OSP documentation</a> is free and available online.</p>
 </div>
 <div class="section" id="pull-requests">
 <h3>Pull Requests<a class="headerlink" href="#pull-requests" title="Permalink to this headline">¶</a></h3>
@@ -394,8 +397,8 @@ Here we use <a class="reference external" href="http://astyle.sourceforge.net/">
 <li><p>For sublime-text editor, you can use <a class="reference external" href="https://packagecontrol.io/packages/SublimeAStyleFormatter">SublimeAStyleFormatter</a> plugin.</p></li>
 </ul>
 </div>
-<div class="section" id="documentation-styleguide">
-<h3>Documentation Styleguide<a class="headerlink" href="#documentation-styleguide" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id9">
+<h3>Documentation Styleguide<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>Use <a class="reference external" href="http://www.doxygen.nl">Doxygen</a>.</p>
 <ul>
@@ -411,23 +414,23 @@ Here we use <a class="reference external" href="http://astyle.sourceforge.net/">
 <div class="section" id="example">
 <h4>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h4>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="cm">/**</span>
-<span class="cm"> * \brief       Reserve a DMA channel, and bind it with dma_chn, and set the dma</span>
+<span class="cm"> * @brief       Reserve a DMA channel, and bind it with dma_chn, and set the dma</span>
 <span class="cm"> *              trigger source</span>
 <span class="cm"> *</span>
-<span class="cm"> * \param[in]   channel                This can be DMA_CHN_ANY or any valid</span>
+<span class="cm"> * @param[in]   channel                This can be DMA_CHN_ANY or any valid</span>
 <span class="cm"> *                                     channel id. For DMA_CHN_ANY, it will try</span>
 <span class="cm"> *                                     to peek an available channel. For any</span>
 <span class="cm"> *                                     valid channel id, it will try to reserve</span>
 <span class="cm"> *                                     that channel.</span>
-<span class="cm"> * \param       dma_chn                uDMA channel structure, should not be</span>
+<span class="cm"> * @param       dma_chn                uDMA channel structure, should not be</span>
 <span class="cm"> *                                     NULL</span>
-<span class="cm"> * \param[in]   source                 DMA trigger source, this can be any value</span>
+<span class="cm"> * @param[in]   source                 DMA trigger source, this can be any value</span>
 <span class="cm"> *                                     in dma_request_source_t enum</span>
 <span class="cm"> *</span>
-<span class="cm"> * \retval      DMA_CHN_INVALID        dma_chn is NULL, or channel is not a</span>
+<span class="cm"> * @retval      DMA_CHN_INVALID        dma_chn is NULL, or channel is not a</span>
 <span class="cm"> *                                     valid one, or there is no channel</span>
 <span class="cm"> *                                     available now</span>
-<span class="cm"> * \retval      0-DMA_ALL_CHANNEL_NUM  the channel id that reserved</span>
+<span class="cm"> * @retval      0-DMA_ALL_CHANNEL_NUM  the channel id that reserved</span>
 <span class="cm"> */</span>
 </pre></div>
 </div>
@@ -453,29 +456,20 @@ Here we use <a class="reference external" href="http://astyle.sourceforge.net/">
            
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="CODE_OF_CONDUCT.html" class="btn btn-neutral float-right" title="Contributor Covenant Code of Conduct" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="contribute.html" class="btn btn-neutral float-left" title="Contribute to embARC OSP" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Synopsys
+        &#169; Copyright 2021, Synopsys.
+      <span class="lastupdated">
+        Last updated on Oct 12, 2021.
+      </span>
 
     </p>
-  </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  </div> 
 
 </footer>
-
         </div>
       </div>
 
@@ -483,7 +477,6 @@ Here we use <a class="reference external" href="http://astyle.sourceforge.net/">
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

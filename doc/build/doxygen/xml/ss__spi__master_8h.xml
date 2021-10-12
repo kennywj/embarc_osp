@@ -1,83 +1,76 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="ss__spi__master_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="ss__spi__master_8h" kind="file" language="C++">
     <compoundname>ss_spi_master.h</compoundname>
-    <includes refid="dev__spi_8h" local="yes">ip/ip_hal/inc/dev_spi.h</includes>
-    <includedby refid="emsdp_2drivers_2ip_2subsystem_2spi_2dfss__spi__obj_8c" local="yes">dfss_spi_obj.c</includedby>
-    <includedby refid="iotdk_2drivers_2ip_2subsystem_2spi_2dfss__spi__obj_8c" local="yes">dfss_spi_obj.c</includedby>
-    <includedby refid="ss__spi__master_8c" local="yes">ss_spi_master.c</includedby>
+    <includes refid="dev__spi_8h" local="yes">device/ip_hal/dev_spi.h</includes>
+    <includedby refid="emsdp_2drivers_2ip_2subsystem_2spi_2dfss__spi__obj_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/emsdp/drivers/ip/subsystem/spi/dfss_spi_obj.c</includedby>
+    <includedby refid="iotdk_2drivers_2ip_2subsystem_2spi_2dfss__spi__obj_8c" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/subsystem/spi/dfss_spi_obj.c</includedby>
     <incdepgraph>
-      <node id="7902">
+      <node id="4">
         <label>stdint.h</label>
       </node>
-      <node id="7901">
-        <label>dev_common.h</label>
-        <link refid="dev__common_8h"/>
-        <childnode refid="7902" relation="include">
-        </childnode>
-      </node>
-      <node id="7899">
-        <label>ss_spi_master.h</label>
-        <link refid="ss_spi_master.h"/>
-        <childnode refid="7900" relation="include">
-        </childnode>
-      </node>
-      <node id="7900">
-        <label>ip/ip_hal/inc/dev_spi.h</label>
+      <node id="2">
+        <label>device/ip_hal/dev_spi.h</label>
         <link refid="dev__spi_8h"/>
-        <childnode refid="7901" relation="include">
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h</label>
+        <link refid="ss__spi__master_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>device/dev_common.h</label>
+        <link refid="dev__common_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="7905">
-        <label>dfss_spi_obj.c</label>
-        <link refid="iotdk_2drivers_2ip_2subsystem_2spi_2dfss__spi__obj_8c_source"/>
+      <node id="3">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/subsystem/spi/dfss_spi_obj.c</label>
+        <link refid="iotdk_2drivers_2ip_2subsystem_2spi_2dfss__spi__obj_8c"/>
       </node>
-      <node id="7906">
-        <label>ss_spi_master.c</label>
-        <link refid="ss__spi__master_8c_source"/>
+      <node id="2">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/emsdp/drivers/ip/subsystem/spi/dfss_spi_obj.c</label>
+        <link refid="emsdp_2drivers_2ip_2subsystem_2spi_2dfss__spi__obj_8c"/>
       </node>
-      <node id="7903">
-        <label>ss_spi_master.h</label>
-        <link refid="ss_spi_master.h"/>
-        <childnode refid="7904" relation="include">
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h</label>
+        <link refid="ss__spi__master_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="7905" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="7906" relation="include">
-        </childnode>
-      </node>
-      <node id="7904">
-        <label>dfss_spi_obj.c</label>
-        <link refid="emsdp_2drivers_2ip_2subsystem_2spi_2dfss__spi__obj_8c_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structss__spi__master__dev__context" prot="public">ss_spi_master_dev_context</innerclass>
       <sectiondef kind="define">
-      <memberdef kind="define" id="ss__spi__master_8h_1a629abacbc92ee07f11c242a4f5c122f3" prot="public" static="no">
+      <memberdef kind="define" id="ss__spi__master_8h_a629abacbc92ee07f11c242a4f5c122f3_1a629abacbc92ee07f11c242a4f5c122f3" prot="public" static="no">
         <name>SS_SPI_MASTER_FLAG_TX_READY</name>
-        <initializer>(1 &lt;&lt; 0) /* interrupt tx */</initializer>
+        <initializer>(1 &lt;&lt; 0)        /* interrupt tx */</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" line="41" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" bodystart="41" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" line="41" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" bodystart="41" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="ss__spi__master_8h_1a5f611e73d175d80f3f807c024fa7ad8c" prot="public" static="no">
+      <memberdef kind="define" id="ss__spi__master_8h_a5f611e73d175d80f3f807c024fa7ad8c_1a5f611e73d175d80f3f807c024fa7ad8c" prot="public" static="no">
         <name>SS_SPI_MASTER_FLAG_RX_READY</name>
-        <initializer>(1 &lt;&lt; 1) /* interrupt rx */</initializer>
+        <initializer>(1 &lt;&lt; 1)        /* interrupt rx */</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" line="42" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" bodystart="42" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" line="42" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" bodystart="42" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="ss__spi__master_8h_1aa8cd741b78652b2fa00fead17c9ce373" prot="public" static="no">
+      <memberdef kind="define" id="ss__spi__master_8h_aa8cd741b78652b2fa00fead17c9ce373_1aa8cd741b78652b2fa00fead17c9ce373" prot="public" static="no">
         <name>SS_SPI_MASTER_FLAG_BUSY</name>
         <initializer>(1 &lt;&lt; 2)</initializer>
         <briefdescription>
@@ -86,20 +79,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" line="43" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" bodystart="43" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" line="43" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" bodystart="43" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="ss__spi__master_8h_1abbcb5fc88a1f194c0615936c03c8336a" prot="public" static="no">
+      <memberdef kind="define" id="ss__spi__master_8h_abbcb5fc88a1f194c0615936c03c8336a_1abbcb5fc88a1f194c0615936c03c8336a" prot="public" static="no">
         <name>SS_SPI_MASTER_FLAG_TX_RX</name>
-        <initializer>(1 &lt;&lt; 3) /* both tx and rx */</initializer>
+        <initializer>(1 &lt;&lt; 3)        /* both tx and rx */</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" line="44" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" bodystart="44" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" line="44" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" bodystart="44" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="ss__spi__master_8h_1a36e0eb9679538efb21c366521032fbc1" prot="public" static="no">
+      <memberdef kind="define" id="ss__spi__master_8h_a36e0eb9679538efb21c366521032fbc1_1a36e0eb9679538efb21c366521032fbc1" prot="public" static="no">
         <name>SS_SPI_MASTER_FLAG_ERROR</name>
         <initializer>(1 &lt;&lt; 4)</initializer>
         <briefdescription>
@@ -108,13 +101,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" line="45" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" bodystart="45" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" line="45" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="ss__spi__master_8h_1a4cb6d8a5ba1646a7bb7e8b45bd44fe9c" prot="public" static="no">
+      <memberdef kind="typedef" id="ss__spi__master_8h_a6cd0b3a5771c3b8880e31ba246284fa2_1a6cd0b3a5771c3b8880e31ba246284fa2" prot="public" static="no">
         <type>struct <ref refid="structss__spi__master__dev__context" kindref="compound">ss_spi_master_dev_context</ref></type>
-        <definition>typedef struct ss_spi_master_dev_context  SS_SPI_MASTER_DEV_CONTEXT</definition>
+        <definition>typedef struct ss_spi_master_dev_context SS_SPI_MASTER_DEV_CONTEXT</definition>
         <argsstring></argsstring>
         <name>SS_SPI_MASTER_DEV_CONTEXT</name>
         <briefdescription>
@@ -123,17 +116,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" line="65" column="1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" line="63" column="27"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
-      <memberdef kind="function" id="ss__spi__master_8h_1a1c55717f0108ba26c6c057ebf48e1f30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__spi__master_8h_a1c55717f0108ba26c6c057ebf48e1f30_1a1c55717f0108ba26c6c057ebf48e1f30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
         <definition>int32_t ss_spi_master_open</definition>
         <argsstring>(SS_SPI_MASTER_DEV_CONTEXT *ctx, uint32_t mode, uint32_t param)</argsstring>
         <name>ss_spi_master_open</name>
         <param>
-          <type><ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__spi__master_8h_a6cd0b3a5771c3b8880e31ba246284fa2_1a6cd0b3a5771c3b8880e31ba246284fa2" kindref="member">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <param>
@@ -150,15 +143,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" line="67" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.c" bodystart="43" bodyend="97"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" line="65" column="16" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" declline="65" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="ss__spi__master_8h_1a9eabf9c15b59c96eb3820c034e75eb11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__spi__master_8h_a9eabf9c15b59c96eb3820c034e75eb11_1a9eabf9c15b59c96eb3820c034e75eb11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
         <definition>int32_t ss_spi_master_close</definition>
         <argsstring>(SS_SPI_MASTER_DEV_CONTEXT *ctx)</argsstring>
         <name>ss_spi_master_close</name>
         <param>
-          <type><ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__spi__master_8h_a6cd0b3a5771c3b8880e31ba246284fa2_1a6cd0b3a5771c3b8880e31ba246284fa2" kindref="member">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <briefdescription>
@@ -167,15 +160,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" line="68" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.c" bodystart="99" bodyend="116"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" line="66" column="16" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" declline="66" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="ss__spi__master_8h_1a3c3d42f357b038f3179f981142821039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__spi__master_8h_a3c3d42f357b038f3179f981142821039_1a3c3d42f357b038f3179f981142821039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
         <definition>int32_t ss_spi_master_control</definition>
         <argsstring>(SS_SPI_MASTER_DEV_CONTEXT *ctx, uint32_t ctrl_cmd, void *param)</argsstring>
         <name>ss_spi_master_control</name>
         <param>
-          <type><ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__spi__master_8h_a6cd0b3a5771c3b8880e31ba246284fa2_1a6cd0b3a5771c3b8880e31ba246284fa2" kindref="member">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <param>
@@ -192,15 +185,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" line="69" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.c" bodystart="118" bodyend="293"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" line="67" column="16" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" declline="67" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="ss__spi__master_8h_1a40acb04ac1f9c178afe39cc4ff5d4211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__spi__master_8h_a40acb04ac1f9c178afe39cc4ff5d4211_1a40acb04ac1f9c178afe39cc4ff5d4211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
         <definition>int32_t ss_spi_master_write</definition>
         <argsstring>(SS_SPI_MASTER_DEV_CONTEXT *ctx, const void *data, uint32_t len)</argsstring>
         <name>ss_spi_master_write</name>
         <param>
-          <type><ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__spi__master_8h_a6cd0b3a5771c3b8880e31ba246284fa2_1a6cd0b3a5771c3b8880e31ba246284fa2" kindref="member">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <param>
@@ -217,15 +210,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" line="70" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.c" bodystart="295" bodyend="328"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" line="68" column="16" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" declline="68" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="ss__spi__master_8h_1ae133b665fcf40674b3619bff02275338" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__spi__master_8h_ae133b665fcf40674b3619bff02275338_1ae133b665fcf40674b3619bff02275338" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
         <definition>int32_t ss_spi_master_read</definition>
         <argsstring>(SS_SPI_MASTER_DEV_CONTEXT *ctx, void *data, uint32_t len)</argsstring>
         <name>ss_spi_master_read</name>
         <param>
-          <type><ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__spi__master_8h_a6cd0b3a5771c3b8880e31ba246284fa2_1a6cd0b3a5771c3b8880e31ba246284fa2" kindref="member">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <param>
@@ -242,15 +235,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" line="71" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.c" bodystart="330" bodyend="361"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" line="69" column="16" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" declline="69" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="ss__spi__master_8h_1a9ab0aca0e7592d98f8b75b1f2eff2a1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__spi__master_8h_a9ab0aca0e7592d98f8b75b1f2eff2a1c_1a9ab0aca0e7592d98f8b75b1f2eff2a1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void ss_spi_master_tx_cb</definition>
         <argsstring>(SS_SPI_MASTER_DEV_CONTEXT *ctx, void *param)</argsstring>
         <name>ss_spi_master_tx_cb</name>
         <param>
-          <type><ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__spi__master_8h_a6cd0b3a5771c3b8880e31ba246284fa2_1a6cd0b3a5771c3b8880e31ba246284fa2" kindref="member">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <param>
@@ -263,15 +256,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" line="72" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.c" bodystart="363" bodyend="382"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" line="70" column="13" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" declline="70" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="ss__spi__master_8h_1a39afd0698b2cdd3243787cb981e0c806" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__spi__master_8h_a39afd0698b2cdd3243787cb981e0c806_1a39afd0698b2cdd3243787cb981e0c806" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void ss_spi_master_rx_cb</definition>
         <argsstring>(SS_SPI_MASTER_DEV_CONTEXT *ctx, void *param)</argsstring>
         <name>ss_spi_master_rx_cb</name>
         <param>
-          <type><ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__spi__master_8h_a6cd0b3a5771c3b8880e31ba246284fa2_1a6cd0b3a5771c3b8880e31ba246284fa2" kindref="member">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <param>
@@ -284,15 +277,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" line="73" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.c" bodystart="384" bodyend="402"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" line="71" column="13" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" declline="71" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="ss__spi__master_8h_1a5329239bd68ae9552a440cf4c7fe1b11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="ss__spi__master_8h_a5329239bd68ae9552a440cf4c7fe1b11_1a5329239bd68ae9552a440cf4c7fe1b11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void ss_spi_master_err_cb</definition>
         <argsstring>(SS_SPI_MASTER_DEV_CONTEXT *ctx, void *param)</argsstring>
         <name>ss_spi_master_err_cb</name>
         <param>
-          <type><ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
+          <type><ref refid="ss__spi__master_8h_a6cd0b3a5771c3b8880e31ba246284fa2_1a6cd0b3a5771c3b8880e31ba246284fa2" kindref="member">SS_SPI_MASTER_DEV_CONTEXT</ref> *</type>
           <declname>ctx</declname>
         </param>
         <param>
@@ -305,7 +298,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h" line="74" column="1" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.c" bodystart="404" bodyend="413"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" line="72" column="13" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h" declline="72" declcolumn="13"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -345,52 +338,49 @@
 <codeline lineno="30"><highlight class="comment"><sp/>*<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED</highlight></codeline>
 <codeline lineno="31"><highlight class="comment"><sp/>*<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
 <codeline lineno="32"><highlight class="comment"><sp/>*</highlight></codeline>
-<codeline lineno="33"><highlight class="comment">---------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_SS_SPI_MASTER_H_</highlight></codeline>
-<codeline lineno="35"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_SS_SPI_MASTER_H_</highlight></codeline>
-<codeline lineno="36"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/>---------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_SS_SPI_MASTER_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_SS_SPI_MASTER_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>the<sp/>wrapper<sp/>of<sp/>subsystem<sp/>spi<sp/>master<sp/>driver<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dev__spi_8h" kindref="compound">ip/ip_hal/inc/dev_spi.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dev__spi_8h" kindref="compound">device/ip_hal/dev_spi.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SS_SPI_MASTER_FLAG_TX_READY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>0)<sp/></highlight><highlight class="comment">/*<sp/>interrupt<sp/>tx<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="42"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SS_SPI_MASTER_FLAG_RX_READY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>1)<sp/></highlight><highlight class="comment">/*<sp/>interrupt<sp/>rx<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="43"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SS_SPI_MASTER_FLAG_BUSY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>2)</highlight></codeline>
-<codeline lineno="44"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SS_SPI_MASTER_FLAG_TX_RX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>3)<sp/></highlight><highlight class="comment">/*<sp/>both<sp/>tx<sp/>and<sp/>rx<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="45"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SS_SPI_MASTER_FLAG_ERROR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>4)</highlight></codeline>
-<codeline lineno="46"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="structss__spi__master__dev__context" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structss__spi__master__dev__context" kindref="compound">ss_spi_master_dev_context</ref></highlight></codeline>
-<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>reg_base;</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="group___d_e_v_i_c_e___h_a_l___c_o_m_m_o_n___d_e_v_i_d_1gae2dabafacb4a0fa4c5d6b7176b542e72" kindref="member">dev_id</ref>;</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>intno_rx;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>intno_tx;</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>intno_idle;</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>intno_err;</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>bus_freq;</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>uint32_t<sp/>flags;</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___d_e_v_i_c_e___h_a_l___c_o_m_m_o_n_1ga91091c2a8f895b2d00ae61e6b607335e" kindref="member">DEV_CALLBACK</ref><sp/>int_rx_cb;</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___d_e_v_i_c_e___h_a_l___c_o_m_m_o_n_1ga91091c2a8f895b2d00ae61e6b607335e" kindref="member">DEV_CALLBACK</ref><sp/>int_tx_cb;</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___d_e_v_i_c_e___h_a_l___c_o_m_m_o_n_1ga91091c2a8f895b2d00ae61e6b607335e" kindref="member">DEV_CALLBACK</ref><sp/>int_err_cb;</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structdev__spi__info" kindref="compound">DEV_SPI_INFO</ref><sp/>*info;</highlight></codeline>
-<codeline lineno="65"><highlight class="normal">}<sp/><ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref>;</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/>ss_spi_master_open(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref><sp/>*<sp/>ctx,<sp/>uint32_t<sp/>mode,<sp/>uint32_t<sp/>param);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/>ss_spi_master_close(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref><sp/>*ctx);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/>ss_spi_master_control(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref><sp/>*<sp/>ctx,<sp/>uint32_t<sp/>ctrl_cmd,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/>ss_spi_master_write(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref>*ctx,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data,<sp/>uint32_t<sp/>len);</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/>ss_spi_master_read(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data,<sp/>uint32_t<sp/>len);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ss_spi_master_tx_cb(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ss_spi_master_rx_cb(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ss_spi_master_err_cb(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_SS_SPI_MASTER_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="41" refid="ss__spi__master_8h_a629abacbc92ee07f11c242a4f5c122f3_1a629abacbc92ee07f11c242a4f5c122f3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SS_SPI_MASTER_FLAG_TX_READY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>0)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>interrupt<sp/>tx<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="ss__spi__master_8h_a5f611e73d175d80f3f807c024fa7ad8c_1a5f611e73d175d80f3f807c024fa7ad8c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SS_SPI_MASTER_FLAG_RX_READY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>1)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>interrupt<sp/>rx<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="ss__spi__master_8h_aa8cd741b78652b2fa00fead17c9ce373_1aa8cd741b78652b2fa00fead17c9ce373" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SS_SPI_MASTER_FLAG_BUSY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="ss__spi__master_8h_abbcb5fc88a1f194c0615936c03c8336a_1abbcb5fc88a1f194c0615936c03c8336a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SS_SPI_MASTER_FLAG_TX_RX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>3)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>both<sp/>tx<sp/>and<sp/>rx<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="ss__spi__master_8h_a36e0eb9679538efb21c366521032fbc1_1a36e0eb9679538efb21c366521032fbc1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SS_SPI_MASTER_FLAG_ERROR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>4)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="structss__spi__master__dev__context" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structss__spi__master__dev__context" kindref="compound">ss_spi_master_dev_context</ref><sp/>{</highlight></codeline>
+<codeline lineno="48" refid="structss__spi__master__dev__context_1aa52357f217eaff16cef7086c623abc5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structss__spi__master__dev__context_1aa52357f217eaff16cef7086c623abc5f" kindref="member">reg_base</ref>;</highlight></codeline>
+<codeline lineno="49" refid="structss__spi__master__dev__context_1a095f408474cea91f5430415b36ad4c1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structss__spi__master__dev__context_1a095f408474cea91f5430415b36ad4c1e" kindref="member">dev_id</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="structss__spi__master__dev__context_1aebab60535d4384ef7bef440227fe0c7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structss__spi__master__dev__context_1aebab60535d4384ef7bef440227fe0c7d" kindref="member">intno_rx</ref>;</highlight></codeline>
+<codeline lineno="52" refid="structss__spi__master__dev__context_1a34c495c8ab753420b719c7481ac01d41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structss__spi__master__dev__context_1a34c495c8ab753420b719c7481ac01d41" kindref="member">intno_tx</ref>;</highlight></codeline>
+<codeline lineno="53" refid="structss__spi__master__dev__context_1a75af204e001d742e3607020a2784db69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structss__spi__master__dev__context_1a75af204e001d742e3607020a2784db69" kindref="member">intno_idle</ref>;</highlight></codeline>
+<codeline lineno="54" refid="structss__spi__master__dev__context_1a8f2c514ae225c6d6635180e120123bf1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structss__spi__master__dev__context_1a8f2c514ae225c6d6635180e120123bf1" kindref="member">intno_err</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="structss__spi__master__dev__context_1a8fc9d1bb477e39f707c85464a189808f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structss__spi__master__dev__context_1a8fc9d1bb477e39f707c85464a189808f" kindref="member">bus_freq</ref>;</highlight></codeline>
+<codeline lineno="57" refid="structss__spi__master__dev__context_1a114d07d39a1fe5abfe8f650502f0376f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="structss__spi__master__dev__context_1a114d07d39a1fe5abfe8f650502f0376f" kindref="member">flags</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="structss__spi__master__dev__context_1aa26cddffe90221d1ddc4825dd2196e8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DEVICE__HAL__COMMON_gad799b59590746b2af9531e870ae176c8_1gad799b59590746b2af9531e870ae176c8" kindref="member">DEV_CALLBACK</ref><sp/><ref refid="structss__spi__master__dev__context_1aa26cddffe90221d1ddc4825dd2196e8f" kindref="member">int_rx_cb</ref>;</highlight></codeline>
+<codeline lineno="60" refid="structss__spi__master__dev__context_1a6d002a6f743751e0aed2e5992ebf267c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DEVICE__HAL__COMMON_gad799b59590746b2af9531e870ae176c8_1gad799b59590746b2af9531e870ae176c8" kindref="member">DEV_CALLBACK</ref><sp/><ref refid="structss__spi__master__dev__context_1a6d002a6f743751e0aed2e5992ebf267c" kindref="member">int_tx_cb</ref>;</highlight></codeline>
+<codeline lineno="61" refid="structss__spi__master__dev__context_1a085c6ea0690ca0ea111c849ff234adce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DEVICE__HAL__COMMON_gad799b59590746b2af9531e870ae176c8_1gad799b59590746b2af9531e870ae176c8" kindref="member">DEV_CALLBACK</ref><sp/><ref refid="structss__spi__master__dev__context_1a085c6ea0690ca0ea111c849ff234adce" kindref="member">int_err_cb</ref>;</highlight></codeline>
+<codeline lineno="62" refid="structss__spi__master__dev__context_1a44fad477b5ca8b092a6004908e0e3359" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdev__spi__info" kindref="compound">DEV_SPI_INFO</ref><sp/>*<ref refid="structss__spi__master__dev__context_1a44fad477b5ca8b092a6004908e0e3359" kindref="member">info</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}<sp/><ref refid="ss__spi__master_8h_a6cd0b3a5771c3b8880e31ba246284fa2_1a6cd0b3a5771c3b8880e31ba246284fa2" kindref="member">SS_SPI_MASTER_DEV_CONTEXT</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="ss__spi__master_8h_a1c55717f0108ba26c6c057ebf48e1f30_1a1c55717f0108ba26c6c057ebf48e1f30" kindref="member">ss_spi_master_open</ref>(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref><sp/>*ctx,<sp/>uint32_t<sp/>mode,<sp/>uint32_t<sp/>param);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="ss__spi__master_8h_a9eabf9c15b59c96eb3820c034e75eb11_1a9eabf9c15b59c96eb3820c034e75eb11" kindref="member">ss_spi_master_close</ref>(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="ss__spi__master_8h_a3c3d42f357b038f3179f981142821039_1a3c3d42f357b038f3179f981142821039" kindref="member">ss_spi_master_control</ref>(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref><sp/>*ctx,<sp/>uint32_t<sp/>ctrl_cmd,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="ss__spi__master_8h_a40acb04ac1f9c178afe39cc4ff5d4211_1a40acb04ac1f9c178afe39cc4ff5d4211" kindref="member">ss_spi_master_write</ref>(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data,<sp/>uint32_t<sp/>len);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="ss__spi__master_8h_ae133b665fcf40674b3619bff02275338_1ae133b665fcf40674b3619bff02275338" kindref="member">ss_spi_master_read</ref>(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data,<sp/>uint32_t<sp/>len);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="ss__spi__master_8h_a9ab0aca0e7592d98f8b75b1f2eff2a1c_1a9ab0aca0e7592d98f8b75b1f2eff2a1c" kindref="member">ss_spi_master_tx_cb</ref>(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="ss__spi__master_8h_a39afd0698b2cdd3243787cb981e0c806_1a39afd0698b2cdd3243787cb981e0c806" kindref="member">ss_spi_master_rx_cb</ref>(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="ss__spi__master_8h_a5329239bd68ae9552a440cf4c7fe1b11_1a5329239bd68ae9552a440cf4c7fe1b11" kindref="member">ss_spi_master_err_cb</ref>(<ref refid="structss__spi__master__dev__context" kindref="compound">SS_SPI_MASTER_DEV_CONTEXT</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_SS_SPI_MASTER_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/device/ip/subsystem/spi/ss_spi_master.h"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/subsystem/ss_spi_master.h"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="group__DEVICE__HAL__GPIO" kind="group">
+    <compoundname>DEVICE_HAL_GPIO</compoundname>
+    <title>GPIO Device HAL Interface</title>
+    <innerfile refid="dev__gpio_8h">dev_gpio.h</innerfile>
+    <innergroup refid="group__DEVICE__HAL__GPIO__CTRLCMD">GPIO Device Control Commands</innergroup>
+    <innergroup refid="group__DEVICE__HAL__GPIO__PINDEF">GPIO Pin definitions</innergroup>
+    <innergroup refid="group__DEVICE__HAL__GPIO__DEFDIR">GPIO Port Direction Definition</innergroup>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__DEVICE__HAL__GPIO_1gaa3ed54c8ec11f3ae9033d93c86e21c72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__DEVICE__HAL__GPIO__DEVSTRUCT_ga7b3aa4bd54650b0e15f9a84be12ef179_1ga7b3aa4bd54650b0e15f9a84be12ef179" kindref="member">DEV_GPIO_PTR</ref></type>
+        <definition>DEV_GPIO_PTR gpio_get_dev</definition>
+        <argsstring>(int32_t gpio_id)</argsstring>
+        <name>gpio_get_dev</name>
+        <param>
+          <type>int32_t</type>
+          <declname>gpio_id</declname>
+        </param>
+        <briefdescription>
+<para>get an <ref refid="structdev__gpio" kindref="compound">gpio device</ref> by gpio device id. For how to use gpio device hal refer to <ref refid="structdev__gpio" kindref="compound">Functions in gpio device structure</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">gpio_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of gpio, defined by user </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>!NULL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to an <ref refid="structdev__gpio" kindref="compound">gpio device structure</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NULL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>failed to find the gpio device by gpio_id </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>Need to implemented by user in user code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_gpio.h" line="501" column="21" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/axs/drivers/ip/designware/gpio/dw_gpio_obj.c" bodystart="163" bodyend="184" declfile="/home/runner/work/embarc_osp/embarc_osp/include/device/ip_hal/dev_gpio.h" declline="501" declcolumn="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>definitions for gpio device hardware layer (<ref refid="dev__gpio_8h" kindref="compound">dev_gpio.h</ref>) </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Provide interfaces for gpio driver to implement Here is a diagram for the gpio interface.</para>
+<para> </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

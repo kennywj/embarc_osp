@@ -1,90 +1,70 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="iotdk_2drivers_2ntshell_2ntshell__io_8h" kind="file">
-    <compoundname>iotdk/drivers/ntshell/ntshell_io.h</compoundname>
-    <includes refid="iotdk_2drivers_2ntshell_2ntshell__io__uart_8h" local="yes">ntshell_io_uart.h</includes>
-    <includes refid="iotdk_2drivers_2ntshell_2ntshell__io__netconn_8h" local="yes">ntshell_io_netconn.h</includes>
-    <includedby refid="iotdk_2drivers_2ntshell_2ntshell__io_8c" local="yes">ntshell_io.c</includedby>
-    <includedby refid="iotdk_8h" local="yes">iotdk.h</includedby>
-    <incdepgraph>
-      <node id="6299">
-        <label>stdbool.h</label>
-      </node>
-      <node id="6300">
-        <label>ntshell_task.h</label>
-      </node>
-      <node id="6296">
-        <label>stdint.h</label>
-      </node>
-      <node id="6294">
-        <label>ntshell_io_uart.h</label>
-        <link refid="iotdk_2drivers_2ntshell_2ntshell__io__uart_8h_source"/>
-        <childnode refid="6295" relation="include">
-        </childnode>
-        <childnode refid="6300" relation="include">
-        </childnode>
-      </node>
-      <node id="6301">
-        <label>ntshell_io_netconn.h</label>
-        <link refid="iotdk_2drivers_2ntshell_2ntshell__io__netconn_8h_source"/>
-        <childnode refid="6295" relation="include">
-        </childnode>
-        <childnode refid="6300" relation="include">
-        </childnode>
-      </node>
-      <node id="6298">
-        <label>stddef.h</label>
-      </node>
-      <node id="6297">
-        <label>limits.h</label>
-      </node>
-      <node id="6295">
-        <label>embARC_toolchain.h</label>
-        <link refid="emb_a_r_c__toolchain_8h"/>
-        <childnode refid="6296" relation="include">
-        </childnode>
-        <childnode refid="6297" relation="include">
-        </childnode>
-        <childnode refid="6298" relation="include">
-        </childnode>
-        <childnode refid="6299" relation="include">
-        </childnode>
-      </node>
-      <node id="6293">
-        <label>ntshell_io.h</label>
-        <link refid="iotdk/drivers/ntshell/ntshell_io.h"/>
-        <childnode refid="6294" relation="include">
-        </childnode>
-        <childnode refid="6301" relation="include">
-        </childnode>
-      </node>
-    </incdepgraph>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="iotdk_2drivers_2ntshell_2ntshell__io_8h" kind="file" language="C++">
+    <compoundname>ntshell_io.h</compoundname>
+    <includedby refid="iotdk_8h" local="yes">/home/runner/work/embarc_osp/embarc_osp/board/iotdk/iotdk.h</includedby>
     <invincdepgraph>
-      <node id="6304">
-        <label>iotdk.h</label>
-        <link refid="iotdk_8h_source"/>
-        <childnode refid="6305" relation="include">
+      <node id="8">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/subsystem/spi/dfss_spi_obj.c</label>
+        <link refid="iotdk_2drivers_2ip_2subsystem_2spi_2dfss__spi__obj_8c"/>
+      </node>
+      <node id="4">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/pwm_timer/dw_pwm_timer_obj.c</label>
+        <link refid="iotdk_2drivers_2ip_2designware_2pwm__timer_2dw__pwm__timer__obj_8c"/>
+      </node>
+      <node id="3">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.c</label>
+        <link refid="dw__i2s__obj_8c"/>
+      </node>
+      <node id="5">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/designware/sdio/dw_sdio_obj.c</label>
+        <link refid="iotdk_2drivers_2ip_2designware_2sdio_2dw__sdio__obj_8c"/>
+      </node>
+      <node id="9">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.c</label>
+        <link refid="iotdk_2drivers_2ip_2subsystem_2uart_2dfss__uart__obj_8c"/>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ntshell/ntshell_io.h</label>
+        <link refid="iotdk_2drivers_2ntshell_2ntshell__io_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="6305">
-        <label>mux.c</label>
-        <link refid="iotdk_2drivers_2mux_2mux_8c_source"/>
+      <node id="6">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.c</label>
+        <link refid="iotdk_2drivers_2ip_2subsystem_2gpio_2dfss__gpio__obj_8c"/>
       </node>
-      <node id="6303">
-        <label>ntshell_io.c</label>
-        <link refid="iotdk_2drivers_2ntshell_2ntshell__io_8c_source"/>
+      <node id="2">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/iotdk.h</label>
+        <link refid="iotdk_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
       </node>
-      <node id="6302">
-        <label>ntshell_io.h</label>
-        <link refid="iotdk/drivers/ntshell/ntshell_io.h"/>
-        <childnode refid="6303" relation="include">
-        </childnode>
-        <childnode refid="6304" relation="include">
-        </childnode>
+      <node id="7">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ip/subsystem/iic/dfss_iic_obj.c</label>
+        <link refid="iotdk_2drivers_2ip_2subsystem_2iic_2dfss__iic__obj_8c"/>
+      </node>
+      <node id="10">
+        <label>/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/mux/mux.c</label>
+        <link refid="iotdk_2drivers_2mux_2mux_8c"/>
       </node>
     </invincdepgraph>
       <sectiondef kind="define">
-      <memberdef kind="define" id="iotdk_2drivers_2ntshell_2ntshell__io_8h_1a000188cd428c34f9e968dc8fbde11932" prot="public" static="no">
+      <memberdef kind="define" id="iotdk_2drivers_2ntshell_2ntshell__io_8h_a000188cd428c34f9e968dc8fbde11932_1a000188cd428c34f9e968dc8fbde11932" prot="public" static="no">
         <name>IOTDK_NTSHELL_0_ID</name>
         <initializer>0</initializer>
         <briefdescription>
@@ -93,9 +73,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ntshell/ntshell_io.h" line="33" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ntshell/ntshell_io.h" bodystart="33" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ntshell/ntshell_io.h" line="33" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ntshell/ntshell_io.h" bodystart="33" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="iotdk_2drivers_2ntshell_2ntshell__io_8h_1ac52d0c5865377470ff95464f1409c937" prot="public" static="no">
+      <memberdef kind="define" id="iotdk_2drivers_2ntshell_2ntshell__io_8h_ac52d0c5865377470ff95464f1409c937_1ac52d0c5865377470ff95464f1409c937" prot="public" static="no">
         <name>IOTDK_NTSHELL_1_ID</name>
         <initializer>1</initializer>
         <briefdescription>
@@ -104,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ntshell/ntshell_io.h" line="34" column="9" bodyfile="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ntshell/ntshell_io.h" bodystart="34" bodyend="-1"/>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ntshell/ntshell_io.h" line="34" column="9" bodyfile="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ntshell/ntshell_io.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -140,19 +120,19 @@
 <codeline lineno="26"><highlight class="comment"><sp/>*<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS</highlight></codeline>
 <codeline lineno="27"><highlight class="comment"><sp/>*<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
 <codeline lineno="28"><highlight class="comment"><sp/>*</highlight></codeline>
-<codeline lineno="29"><highlight class="comment">---------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_NTSHELL_IO_H_</highlight></codeline>
-<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_NTSHELL_IO_H_</highlight></codeline>
-<codeline lineno="32"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IOTDK_NTSHELL_0_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight></codeline>
-<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>IOTDK_NTSHELL_1_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight></codeline>
-<codeline lineno="35"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>MID_NTSHELL<sp/></highlight><highlight class="comment">/*<sp/>only<sp/>available<sp/>when<sp/>enable<sp/>ntshell<sp/>middleware<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="37"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;ntshell_io_uart.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/>---------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_NTSHELL_IO_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_NTSHELL_IO_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="iotdk_2drivers_2ntshell_2ntshell__io_8h_a000188cd428c34f9e968dc8fbde11932_1a000188cd428c34f9e968dc8fbde11932" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IOTDK_NTSHELL_0_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="iotdk_2drivers_2ntshell_2ntshell__io_8h_ac52d0c5865377470ff95464f1409c937_1ac52d0c5865377470ff95464f1409c937" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IOTDK_NTSHELL_1_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>MID_NTSHELL<sp/></highlight><highlight class="comment">/*<sp/>only<sp/>available<sp/>when<sp/>enable<sp/>ntshell<sp/>middleware<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ntshell_io_uart.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ntshell_io_netconn.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight></codeline>
-<codeline lineno="41"><highlight class="preprocessor">#endif<sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor">#endif<sp/><sp/></highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/foss-for-synopsys-dwc-arc-processors/embarc_osp/board/iotdk/drivers/ntshell/ntshell_io.h"/>
+    <location file="/home/runner/work/embarc_osp/embarc_osp/board/iotdk/drivers/ntshell/ntshell_io.h"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="group__DEVICE__DW__IIC__REGSTRUCT" kind="group">
+    <compoundname>DEVICE_DW_IIC_REGSTRUCT</compoundname>
+    <title>DesignWare IIC Register Structure</title>
+    <innerclass refid="structdw__iic__reg" prot="public">dw_iic_reg</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__DEVICE__DW__IIC__REGSTRUCT_1ga71a1d98e17eea5d50fdea5e0f76a0c89" prot="public" static="no">
+        <type>struct <ref refid="structdw__iic__reg" kindref="compound">dw_iic_reg</ref></type>
+        <definition>typedef volatile struct dw_iic_reg DW_IIC_REG</definition>
+        <argsstring></argsstring>
+        <name>DW_IIC_REG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/designware/dw_iic.h" line="111" column="12"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__DEVICE__DW__IIC__REGSTRUCT_1ga348046f1cefbd235068db4d341602006" prot="public" static="no">
+        <type>struct <ref refid="structdw__iic__reg" kindref="compound">dw_iic_reg</ref> *</type>
+        <definition>typedef volatile struct dw_iic_reg * DW_IIC_REG_PTR</definition>
+        <argsstring></argsstring>
+        <name>DW_IIC_REG_PTR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/embarc_osp/embarc_osp/include/device/designware/dw_iic.h" line="111" column="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure definitions for DesignWare IIC register. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Detailed struct description of DesignWare IIC block register information, implementation of DEV_IIC_INFO::iic_regs </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>
